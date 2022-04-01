@@ -4,7 +4,7 @@
 <br>
 <strong>Date: </strong>  <em>DD.MM.YY</em> 
 <br>
-<strong>Goal: </strong> <em>Do this before session
+<strong>Goal: </strong> <em>Do this before session </em>
 <br>
 <strong>Description: </strong> <em>What happened</em>
 
