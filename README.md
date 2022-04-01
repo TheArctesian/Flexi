@@ -1,7 +1,13 @@
-# { PROJECT NAME } 
+# Flexi  
 
 ## Overview 
 
+A app to org all the flexi info into UF IOS, Android and Web apps. Will have the features of 
+- Finding what you are doing for that day for flexi 
+- Finding flexi groups 
+- searching teacher for extended learning
+- fav teachers 
+- usefuel links
 
 
 ## Info
