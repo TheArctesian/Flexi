@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.flexi">
+    package="com.cisflexi.flexi">
    <application
         android:label="flexi"
         android:name="${applicationName}"
