@@ -10,6 +10,10 @@ A app to org all the flexi info into UF IOS, Android and Web apps. Will have the
 - fav teachers
 - usefuel links
 
+## Contribute 
+
+If you would to contribute to this project please consult Contribute.md. If the database if out of sync and you would like to maintain it please ask lagos.
+
 ## Info
 
 ```
