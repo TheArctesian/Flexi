@@ -13,6 +13,7 @@ A app to org all the flexi info into UF IOS, Android and Web apps. Will have the
 ## Info
 
 ```
+email (school)    : sdo244@student.cis.edu.hk # i probs wont check it
 email (personal)  : stephen.d.okita@gmail.com
 email (business)  : me@danielokita.com
 twitter           : @theArctesian
