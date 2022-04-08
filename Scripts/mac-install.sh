@@ -1,4 +1,6 @@
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+# you should have brew installed alr from contribute 
+# if you dont
+# /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew install nodejs
 brew install npm
 brew install python3
