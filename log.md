@@ -39,3 +39,15 @@ A lot of set up done and ran into a lot of problems like go pkg manager issues.
 <strong>Description: </strong> 
 Set up FB but java is not a good languae. The sdk of kotlin and java and everything is messing with loading the andrioid app, web app is also not working probs will try again in svelte native. 
 
+<strong>Name: </strong> Arctesian 
+<br>
+<strong>Time: </strong> 13:25 - 14:00 
+<br>
+<strong>Date: </strong> 08.04.22 
+<br>
+<strong>Goal: </strong>
+- [x]  init sveltekit
+- [ ]  appendix Speach-t-txt
+<br>
+<strong>Description: </strong> 
+Yay flutter would be to hard for me and for eveyone else. We just PWA with sveltekit. Also im trying to stt my interview cuz uk who like manually transcribing but cant do big files so im probs going to have to manually make an ai to do this and it will take hours but ce la vie. All my homies hate manual labour.
