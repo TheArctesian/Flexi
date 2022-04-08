@@ -2,13 +2,20 @@
 
 Thank you for showing interest. You can skip to how if you don't care about my opions. I am an opensource and free software advoacte and I feel like at this school there is no big opportunities for students to contribute to the community with code. I have opensourced this project and pushed the repo on the site because I feel that CIS needs to cultivate a more open source community and also because I hope for this project to be used after I leave (i graduate 2023). So please make some PR and talk to lagos or a teacher about maintaing the backend so this dosn't day and so we can all contribute to this as a community.
 
+# Quick links
+
+- <a href="#how">How</a>
+- <a href="#git">Git and Setup</a>
+- <a href="#frontend">Frontend</a>
+- <a href="#backend">Backend</a>
+
 # How
 
 _This guide will be for Mac because I expect most people to be on it. I will also not support windows because it disagrees with my moral values_
 
 I want to prefix this with saying that will be hard, even more so if you have never coded before. If you do go through with this and finish reading the contribute guide you will not only be contributing to the CIS community and helping your peers, but also learn the basic of software development and gain the skills to contribute to open source projects.
 
-## Git and Setup
+## Git
 
 I am going to assume you know nothing. Git is a VCS used, created originally because Linus Torvalds hated the other option when creating Linux. Github is a site which hosts repositories (think folders), it is the foundation of software development and open source software. There are github alt like gitlab and bitbucket for those who don't want their data hosted on a microsoft server.
 
@@ -182,4 +189,51 @@ Now check that you are on the right branch with
 git status
 ```
 
+It should output something like
+
+```
+On branch <branch name>
+nothing to commit, working tree clean
+```
+
+If you aren't you can switch branches with
+
+```
+git checkout <branch name>
+```
+
+Now add the remote upstream. Remote upstream's make your branch tracked on a local remote branch. doesn't really matter if you don't get it.
+
+To add a new remote upstream with
+
+```bash
+git remote add upstream https://github.com/<YourUserName>/Flexi
+```
+
+Now you can make your edits to the code please checkout the sections <a href="#frontend">frontend</a> and <a href="#backend">backend</a>.
+
+When you are done add the files you want to add with
+
+```bash
+git add . # or path to single files
+```
+
+Commit the files to github with
+
+```bash
+git commit -am "a description of your commits"
+```
+
+Finally push it to github with
+
+```bash
+git push -u origin <branchName>
+```
+
+Now when you go on github you should see the option create pull request.
+
+TODO: Finish this
+
 ## Frontend
+
+## Backend
