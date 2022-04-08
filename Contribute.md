@@ -8,7 +8,7 @@ _This guide will be for Mac because I expect most people to be on it. I will als
 
 I want to prefix this with saying that will be hard, even more so if you have never coded before. If you do go through with this and finish reading the contribute guide you will not only be contributing to the CIS community and helping your peers, but also learn the basic of software development and gain the skills to contribute to open source projects.
 
-## Git (installing the code)
+## Git and Setup
 
 I am going to assume you know nothing. Git is a VCS used, created originally because Linus Torvalds hated the other option when creating Linux. Github is a site which hosts repositories (think folders), it is the foundation of software development and open source software. There are github alt like gitlab and bitbucket for those who don't want their data hosted on a microsoft server.
 
@@ -47,6 +47,139 @@ After that install/clone this repo using this command
 
 ```bash
 git clone https://github.com/TheArctesian/Flexi.git
+```
+
+You can check the files in this dir using the command
+
+```bash
+cd Flexi # change to flexi dir
+ls #lists the files and folders in dir
+```
+
+Should show something like this:
+
+```bash
+Client        Contribute.md LICENSE       README.md     Scripts       Utils         log.md        test.json     todo.md
+```
+
+_Might not be the exact same, I or someone else might have changed this_
+
+Before doing anything else you should use an IDE (integrated development environment). If you already have one feel free to use that. I personally use neovim but I will be writing this guide with the expectation you will use VScode. To install it run the command:
+
+```bash
+brew install --cask visual-studio-code
+```
+
+From here, given that your are in the right dir check that with:
+
+```bash
+pwd
+```
+
+should output
+
+```bash
+/Users/<youName>/Desktop/Scripts/Flexi
+```
+
+or wherever you put it.
+
+You can open VScode with the comand
+
+```
+code .
+```
+
+The `.` represents the directory you are currently in. It will open VS code with the project on the side. It should look like this:
+
+<img src="Scripts/Assets/code.png" alt="my vs code setup, picture failed to load">
+Note I have customized my vs code with a lot of extensions these can be found in the extensions menu. Yours might look more like:
+
+<img src="https://code.visualstudio.com/assets/docs/getstarted/tips-and-tricks/getstarted_page.png" alt="vs code sample, this img failed to load">
+Spend some time in the extensions menu to personalize your environment.
+<br>
+<br>
+From here you should download the requirements for this project. To do this drag up on on the bottom of your screen or use the terminal in the top bar.
+
+<img src="Scripts/Assets/termHead.png" alt="my vs code setup, picture failed to load">
+This will show something like this
+<img src="Scripts/Assets/intTerm.png" alt="my vs code setup, picture failed to load">
+
+Now go ahead and type these commands in.
+
+```bash
+cd Flexi/Scripts
+sh mac-install.sh #this might take a while
+```
+
+The sh command runs thes shell file I made for mac os, please read through the file if you now what your doing or read the [Readme file](Scripts/README.md) for more info.
+
+If you are on a linux based OS please you the appropriate file.
+
+<hr>
+
+From here you can start editing and playing around.
+
+If you want to actually end up contributing back to the repo you will need a github account.
+
+Go to [github.com](https://github.com/) and sight up for an account.
+
+After go to your settings menu by clicking on your icon then settings
+<img src="Scripts/Assets/githubSettings.png" alt="github settings picture failed to load">
+Then go down to developer settings
+<img src="Scripts/Assets/githubSettings2.png" alt="github settings picture failed to load">
+And then to Personal Access Tokens
+<img src="Scripts/Assets/auth.png" alt="github settings picture failed to load">
+And create a new personal access token
+<img src="Scripts/Assets/newToken.png" alt="github settings picture failed to load">
+Set an expire date for your token (you can set no expiration but this is a vulnerability and is not recommended).
+<img src="Scripts/Assets/exp.png" alt="github settings picture failed to load">
+Then check all the settings
+<img src="Scripts/Assets/checkall.png" alt="github settings picture failed to load">
+Now save your key to a separate location, it should look something like this.
+
+```bash
+ghp_AC0llectionOfLettersAndNumbers000000 #not a real key
+```
+
+<img src="Scripts/Assets/saveCred.png" alt="github settings picture failed to load">
+
+After which go back to your VScode. Config your github using
+
+```bash
+git config --global user.email "{your email}"
+git config --global user.name "{your username}"
+```
+
+Now we are ready for branching. Branching allows for other developers to contribute to a repository while others are still developing on it. It also allows for developing on projects that you don't own. When you create a branch you are creating an offshoot of the project that you can edit on. When you push the code back to the repository it will show up as a pull request, which can be accepted or rejected by the owner of the repository. If you are a more visual learner this might make more sense.
+<img src="https://www.nobledesktop.com/image/gitresources/git-branches-merge.png" alt="branching">
+
+So lets start.
+
+You can see see all the branches open now by doing
+
+```
+git branch
+```
+
+it should output
+
+```bash
+* main # and any other branch
+```
+
+Create a new branch with
+
+```bash
+git checkout -b your_name
+```
+
+Replace your_name with your name or the name of the feature your adding.
+
+Now check that you are on the right branch with
+
+```
+git status
 ```
 
 ## Frontend
