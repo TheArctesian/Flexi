@@ -202,7 +202,7 @@ If you aren't you can switch branches with
 git checkout <branch name>
 ```
 
-Now add the remote upstream. Remote upstream's make your branch tracked on a local remote branch. doesn't really matter if you don't get it.
+<p id="upstream"> Now add the remote upstream. Remote upstream's make your branch tracked on a local remote branch. doesn't really matter if you don't get it.</p>
 
 To add a new remote upstream with
 
@@ -232,7 +232,22 @@ git push -u origin <branchName>
 
 Now when you go on github you should see the option create pull request.
 
-TODO: Finish this
+After this you can see a pop on github page listed in your upstream <a href='#upstream'> path </a>. You will se something like this
+
+<img src="Scripts/Assets/pull.png" alt="pull">
+
+After pressing that button you will see
+
+<img src="Scripts/Assets/createPull.png" alt="create pull">
+
+Leave a comment on what you changed and why it should be accepted.
+
+After which github will check that the code will compile after your change. If this fails please fix your bugs.
+
+After which you can check out yours and other pull request it will look like this.
+<img src="Scripts/Assets/PullReq.png" alt="pull">
+
+Then wait for a admin or me to accept the req and merge it to the master branch.
 
 ## Frontend
 
