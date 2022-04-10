@@ -251,4 +251,37 @@ Then wait for a admin or me to accept the req and merge it to the master branch.
 
 ## Frontend
 
+There is a lot to learn about frontend web development. Bellow are recourses that you can use to learn. For this project I will be using the following front end utils:
+
+- [SvelteKit](https://kit.svelte.dev/docs/introduction)
+- [Tailwind](https://tailwindcss.com/docs/utility-first)
+
+watch this [video](https://www.youtube.com/watch?v=Sxxw3qtb3_g) for more info on tech stacks.
+
+Before messing with anything you will need to know the basic of front end web dev. This is a pretty big topic but luckily me and my friends have curated a couple useful slides to get you caught up.
+
+- [HTML](https://docs.google.com/presentation/d/1zEDUD8xcI1ZWbegZ6kH_R9lgoqPfXKeez7LoMft7I8o/edit)
+- [CSS](https://docs.google.com/presentation/d/1ENWTM1m23CpmUUZWxKtiVRVeheIIzNy8t_V4z7HP3lk/edit)
+- [JS](https://docs.google.com/presentation/d/17JY428t877CWFui2BuKTUr3_4H073bSf2C-WQejw7eQ/edit)
+
+Front end dev is split into three components, I will give a very short introduction to each bellow but please look at the links above for more info.
+
+### 1
+
+HTML which is the mark down language of the web. If you look at the raw file for this MD file you will see some. For example the pictures that I used above are written like this
+
+```html
+<img src="Scripts/Assets/createPull.png" alt="create pull" />
+```
+
+This line of code produces the img
+<img src="Scripts/Assets/createPull.png" alt="create pull">
+
+IT is also
+Please look at the [html slides]() for more info.
+
 ## Backend
+
+Backend work is pretty easy as I am using firebase. Ofc this means that you will need some permissions to edit the backend. For those permission.
+
+Documentation on firebase can be found here. [Firebase](https://firebase.google.com/docs)
