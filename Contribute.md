@@ -1,6 +1,6 @@
 # Contribute
 
-Thank you for showing interest. You can skip to how if you don't care about my opions. I am an opensource and free software advoacte and I feel like at this school there is no big opportunities for students to contribute to the community with code. I have opensourced this project and pushed the repo on the site because I feel that CIS needs to cultivate a more open source community and also because I hope for this project to be used after I leave (i graduate 2023). So please make some PR and talk to lagos or a teacher about maintaing the backend so this dosn't day and so we can all contribute to this as a community.
+Thank you for showing interest. You can skip this section. I am an open source and free software advocate and I feel like at this school there is no big opportunities for students to contribute to the community with code. I have open sourced this project and pushed the repo on the site because I feel that CIS needs to cultivate a more open source community and also because I hope for this project to be used after I leave (i graduate 2023). So please make some PR and talk to lagos or a teacher about maintaining the backend so this doesn't day and so we can all contribute to this as a community.
 
 # Quick links
 
@@ -11,7 +11,7 @@ Thank you for showing interest. You can skip to how if you don't care about my o
 
 # How
 
-_This guide will be for Mac because I expect most people to be on it. I will also not support windows because it disagrees with my moral values_
+_This guide will be for Mac because I expect most people to be on it. I will also not support windows because it disagrees with my moral values. If you really need windows please see the Script folder for a guide on how to install WSL (windows subsystem for linux)_
 
 I want to prefix this with saying that will be hard, even more so if you have never coded before. If you do go through with this and finish reading the contribute guide you will not only be contributing to the CIS community and helping your peers, but also learn the basic of software development and gain the skills to contribute to open source projects.
 
@@ -91,7 +91,7 @@ should output
 
 or wherever you put it.
 
-You can open VScode with the comand
+You can open VScode with the command
 
 ```
 code .
@@ -119,7 +119,7 @@ cd Flexi/Scripts
 sh mac-install.sh #this might take a while
 ```
 
-The sh command runs thes shell file I made for mac os, please read through the file if you now what your doing or read the [Readme file](Scripts/README.md) for more info.
+The sh command runs this shell file I made for mac os, please read through the file if you now what your doing or read the [Readme file](Scripts/README.md) for more info.
 
 If you are on a linux based OS please you the appropriate file.
 
