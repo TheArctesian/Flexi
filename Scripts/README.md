@@ -47,4 +47,4 @@ The OS I support are:
 - Mac (mac-install.sh)
   - Try linux
 - Windows
-  - Figure it out yourself, I refuse to support the disgusting bloatware/malware. If your on windows please just use wsl to do this at least. At rm -rf windows and install a proper OS .
+  - Figure it out yourself, I refuse to support the disgusting bloatware/malware. If your on windows please just use wsl to do this at least. At rm -rf windows and install a proper OS. If your really insist then watch this [video](https://www.windowscentral.com/how-install-wsl2-windows-10) so you can follow on with the guide
