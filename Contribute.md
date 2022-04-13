@@ -27,13 +27,28 @@ If you are on linux or BSD system you should already have git install.
 
 If you are on mac:
 
-First install brew. If you don't have it open the terminal app and run this command. This might take a while.
+First install brew. If you don't have it open the terminal app and run this command. This might take a while. While your waiting for that to install, if you have never used a terminal before this is a package manager. It is like an app store for your cmd line. Pretty much any pkg or app you want to get will be on here. For example if you want to install firefox you can simply do `brew install firefox` or spotify you can use `brew install spotify`. 
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-After you that install the git crate using this command
+After you have brew installed I recomend that you install some things to make your development env nicer. Personally I use fish as my personal shell because is make life easy. Install it with
+
+```bash
+brew install fish
+```
+
+After type the `fish` command to enter the fish shell. This is also not nes but I like it so use this command to install oh-my-fish. (This makes your terminal look pretty. 
+
+```bash
+curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install > install
+fish install --path=~/.local/share/omf --config=~/.config/omf
+```
+
+With that install you can install themes using omf, A complete list of omf themes are [here](https://github.com/oh-my-fish/oh-my-fish/blob/master/docs/Themes.md)
+`
+Okay now lets acctually get started seting up
 
 ```
 brew install git
