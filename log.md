@@ -52,6 +52,48 @@
 - [x] init sveltekit
 - [x] install.sh
 - [ ] appendix Speach-t-txt
-      <br>
-      <strong>Description: </strong>
+<br>
+<strong>Description: </strong>
       Yay flutter would be to hard for me and for eveyone else. We just PWA with sveltekit. Also im trying to stt my interview cuz uk who like manually transcribing but cant do big files so im probs going to have to manually make an ai to do this and it will take hours but ce la vie. All my homies hate manual labour.
+
+<strong>Name: </strong> Arctesian
+<br>
+<strong>Time: </strong> 22:25 - 01:30
+<br>
+<strong>Date: </strong> 10.04.22
+<br>
+<strong>Goal: </strong>
+- [ ] contribe.md
+- [ ] install.sh for all linux 
+- [ ] install.sh for mac
+<br>
+<strong>Description: </strong>
+Started it 
+ 
+<strong>Name: </strong> Arctesian
+<br>
+<strong>Time: </strong> 17:55 - 20:30
+<br>
+<strong>Date: </strong> 12.04.22
+<br>
+<strong>Goal: </strong>
+- [ ] contribe.md
+- [x] install.sh for all linux 
+- [x] install.sh for mac
+<br>
+<strong>Description: </strong>
+Finished the git stuff kinda need to test also finished all the install scripts but still need to test 
+
+<strong>Name: </strong> Arctesian
+<br>
+<strong>Time: </strong> 17:10 - 19:10
+<br>
+<strong>Date: </strong> 14.04.22
+<br>
+<strong>Goal: </strong>
+- [ ] contribe.md
+- [x] install.sh for all linux test
+- [x] install.sh for mac test
+<br>
+<strong>Description: </strong>
+Got my dad to test it so it kinda works but not rly brew was fuked with him but nothing rly went wrong also the gentoo script was fuked cuz u might need to mess with use flags also the arch one didid not work. I will finish the docs when I finish the app
