@@ -11,11 +11,17 @@ if [ $res = "1" ]
 then
     printf '%*s\n' "${COLUMNS:-$(tput cols)}" '' | tr ' ' -
     sudo pacman -Syyu
+    sudo pacman -S git python3 python3-pip nodejs npm
+    sudo npm i -g yarn
+    sudo pacman -Syyu
     
 fi
 if [ $res = "2" ] 
 then 
     printf '%*s\n' "${COLUMNS:-$(tput cols)}" '' | tr ' ' -
+    doas pacman -Syyu
+    doas pacman -S git python3 python3-pip nodejs npm
+    doas npm i -g yarn
     doas pacman -Syyu
 fi 
 if [ $res = "h" ] 
