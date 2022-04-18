@@ -2,10 +2,16 @@
 
 I use a particular set of tools for this project. I have here 3 install scripts for different OS.
 
-For all the command to run is:
+For all the commands replace OS with your OS and run it in the terminal like this:
 
 ```
-sh os_install.sh
+./os_install.sh
+```
+
+if that doesn't work 
+
+```
+bash os_install.sh
 ```
 
 Please read through the sh file to check if you have the pkgs already. For example on mac I will install brew for you and node js which you can comment out with a `#` if your don't need it.
@@ -36,7 +42,7 @@ The OS I support are:
   - funtoo
   - pentoo
   - calculate
-  - ... (but there rly isnt many other usable ones)
+  - ... (but there rly isnt many other usable ones and if you are running these distros you don't really need help)
 - Fedora based distros (redhat-install.sh)
 
   - rocky
@@ -45,6 +51,6 @@ The OS I support are:
   - redhat
 
 - Mac (mac-install.sh)
-  - Try linux
+  - Works on anything but I recommend you try linux
 - Windows
   - Figure it out yourself, I refuse to support the disgusting bloatware/malware. If your on windows please just use wsl to do this at least. At rm -rf windows and install a proper OS. If your really insist then watch this [video](https://www.windowscentral.com/how-install-wsl2-windows-10) so you can follow on with the guide
