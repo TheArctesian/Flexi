@@ -97,3 +97,15 @@ Finished the git stuff kinda need to test also finished all the install scripts 
 <br>
 <strong>Description: </strong>
 Got my dad to test it so it kinda works but not rly brew was fuked with him but nothing rly went wrong also the gentoo script was fuked cuz u might need to mess with use flags also the arch one didid not work. I will finish the docs when I finish the app
+
+<strong>Name: </strong> Arctesian
+<br>
+<strong>Time: </strong> 16:10 - 17:42
+<br>
+<strong>Date: </strong> 18.04.22
+<br>
+<strong>Goal: </strong>
+- [ ] Redo install scripts to be more begginer freindly
+<br>
+<strong>Description: </strong>
+So I decided to redo everything in the install scripts cuz I wanted to and I was bored in the car. Deal with it
