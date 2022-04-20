@@ -108,4 +108,17 @@ Got my dad to test it so it kinda works but not rly brew was fuked with him but 
 - [ ] Redo install scripts to be more begginer freindly
 <br>
 <strong>Description: </strong>
-So I decided to redo everything in the install scripts cuz I wanted to and I was bored in the car. Deal with it
+I decided to redo everything in the install scripts cuz I wanted to and I was bored in the car. Deal with it
+
+<strong>Name: </strong> Arctesian
+<br>
+<strong>Time: </strong> 11:10 - 11:40
+<br>
+<strong>Date: </strong> 20.04.22
+<br>
+<strong>Goal: </strong>
+- [ ] Set up tailwind 
+- [ ] Redo todo 
+<br>
+<strong>Description: </strong>
+Was kinda trying to do this in the in middle of a UC presentation and my git didn't sync right so had to re clone the repo. Will do it at lunch.
