@@ -136,3 +136,19 @@ I decided to redo everything in the install scripts cuz I wanted to and I was bo
 Was kinda trying to do this in the in middle of a UC presentation and my git didn't sync right so had to re clone the repo. Will do it at lunch.
 
 <hr>
+
+
+<strong>Name: </strong> Arctesian
+<br>
+<strong>Time: </strong> 11:50 - 01:40
+<br>
+<strong>Date: </strong> 18.05.22
+<br>
+<strong>Goal: </strong>
+- [x] Set up tailwind 
+- [ ] Redo todo 
+<br>
+<strong>Description: </strong>
+Redo Tailwind
+
+<hr>
