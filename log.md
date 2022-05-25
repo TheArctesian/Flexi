@@ -152,3 +152,16 @@ Was kinda trying to do this in the in middle of a UC presentation and my git did
 Redo Tailwind
 
 <hr>
+<strong>Name: </strong> Arctesian
+<br>
+<strong>Time: </strong> 16:10 - 17:34
+<br>
+<strong>Date: </strong> 25.05.22
+<br>
+<strong>Goal: </strong>
+- [ ] Redo todo 
+- [ ] init go rest api
+<br>
+<strong>Description: </strong>
+So I have set up a semi working rest api in go and will set up a mongo server on linode 
+<br>
