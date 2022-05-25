@@ -2,15 +2,11 @@ package main
 
 import (
 	"github.com/gofiber/fiber/v2"
-	"teacher"
-	"student"
-	"schedule"
-	"event"
 )
-config := fiber.Config{
-  ServerHeader: "Flexi Server", // add custom server header
-}
 
+// config := fiber.Config{
+// ServerHeader: "Flexi Server", // add custom server header
+//}
 
 func setupRoutes(app *fiber.App) {
 	// Schedule Calls
@@ -24,7 +20,7 @@ func setupRoutes(app *fiber.App) {
 	//app.Get("/api/schedule/Year11")
 	//app.Get("/api/schedule/Year12")
 	//app.Get("/api/schedule/Year13")
-	
+
 	// Get Events
 	app.Get("api/event/", getEvent)
 	app.Get("api/event/name", getEventName)
@@ -34,7 +30,7 @@ func setupRoutes(app *fiber.App) {
 	app.Get("api/event/yearGroup", getEventYearGroup)
 	app.Get("api/event/participants", getEventParticipants)
 
-	// Get Teacher 
+	// Get Teacher
 	app.Get("api/teacher", getTeacher)
 	app.Get("api/teacher/description", getTeacherDescription)
 	app.Get("api/teacher/email", getTeacherEmail)
