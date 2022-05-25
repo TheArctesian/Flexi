@@ -15,7 +15,7 @@
 - [ ] Extra DB Page 
 - [ ] Teacher Page 
 - [ ] Account Page 
-- [ ] Admin Pannel 
+- [ ] Admin Panel 
 
 
 #### DB 

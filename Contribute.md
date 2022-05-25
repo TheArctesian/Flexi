@@ -107,7 +107,6 @@ should output
 or wherever you put it.
 
 You can open VScode with the command
-
 ```
 code .
 ```
@@ -298,5 +297,7 @@ Please look at the [html slides]() for more info.
 ## Backend
 
 Backend work is pretty easy as I am using firebase. Ofc this means that you will need some permissions to edit the backend. For those permission.
+
+Asleep&Grass&Stage&Besides&3
 
 Documentation on firebase can be found here. [Firebase](https://firebase.google.com/docs)
