@@ -4,7 +4,7 @@ Student Data Struct
 Name: string;
 Advisory: int;
 Email: string;
-Picture: string; This wll just pont to and endpoint on the server where the img i stored
+Picture: string; // This wll just pont to and endpoint on the server where the img i stored
 FavoriteTeacher: string[];
 
 */
