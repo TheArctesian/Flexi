@@ -2,6 +2,7 @@
 
     import NavDesktop from "../Components/Desktop/NavDesktop.svelte"
     import ScheduleDesktop from "../Components/Desktop/ScheduleDesktop.svelte"    
+	import GithubDesktop from '../Components/Desktop/GithubDesktop.svelte'
 
     import { onMount } from 'svelte';
     let isMobile:boolean = false;
@@ -16,4 +17,5 @@
 
 <NavDesktop/>
 <ScheduleDesktop/>
+<GithubDesktop/>	
 {/if}
