@@ -1,9 +1,7 @@
-
-
-/* 
+/*
 In this situation OOP is a good idea
 
-Schedule Data Struct 
+Schedule Data Struct
 ------------------
 Date: string;
 Week: string;
@@ -15,36 +13,35 @@ Year11Event: flexi[];
 Year12Event: flexi[];
 Year13Event: flexi[];
 */
+package backend
 
 import (
 	"github.com/gofiber/fiber"
 )
 
-
-
-func getFlexiDate(c *fiber.Ctx){
+func getFlexiDate(c *fiber.Ctx) {
 
 	c.Send("This is a big obj")
 }
 
-func getFlexiWeek(c *fiber.Ctx){
+func getFlexiWeek(c *fiber.Ctx) {
 
 	c.Send("This is a big obj")
 }
 
-func getFlexiYr(c *fiber.Ctx){
+func getFlexiYr(c *fiber.Ctx) {
 
 	c.Send("This is a big obj")
 }
-func postFlexiYr(c *fiber.Ctx){
-	
+func postFlexiYr(c *fiber.Ctx) {
+
 	c.Send("Need to set up db")
 }
-func putFlexiYr(c *fiber.Ctx){
-	
+func putFlexiYr(c *fiber.Ctx) {
+
 	c.Send("All Books")
 }
-func deleteFlexiYr(c *fiber.Ctx){
+func deleteFlexiYr(c *fiber.Ctx) {
 
 	c.Send("All Books")
 }

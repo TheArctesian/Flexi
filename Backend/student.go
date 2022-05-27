@@ -18,6 +18,7 @@ import (
 )
 
 
+    
 func getStudent(c *fiber.Ctx) {
 	c.Send("The Arctesian")
 }

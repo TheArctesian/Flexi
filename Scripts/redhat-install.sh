@@ -16,7 +16,7 @@ if [ $res = "1" ]
 then
     printf '%*s\n' "${COLUMNS:-$(tput cols)}" '' | tr ' ' -
     sudo dnf update
-    sudo dnf install git python3 python3-pip nodejs npm
+    sudo dnf install git python3 go python3-pip nodejs npm
     sudo npm i -g yarn
     sudo dnf update
     
@@ -25,7 +25,7 @@ if [ $res = "2" ]
 then 
     printf '%*s\n' "${COLUMNS:-$(tput cols)}" '' | tr ' ' -
     doas dnf update
-    doas dnf install git python3 python3-pip nodejs npm
+    doas dnf install git python3 go python3-pip nodejs npm
     doas npm i -g yarn
     doas dnf update
 fi 

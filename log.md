@@ -160,8 +160,38 @@ Redo Tailwind
 <br>
 <strong>Goal: </strong>
 - [ ] Redo todo 
-- [ ] init go rest api
+- [x] init go rest api
 <br>
 <strong>Description: </strong>
 So I have set up a semi working rest api in go and will set up a mongo server on linode 
+<hr>
+
+<strong>Name: </strong> Arctesian
 <br>
+<strong>Time: </strong> 12:00 - 12:44
+<br>
+<strong>Date: </strong> 26.05.22
+<br>
+<strong>Goal: </strong>
+- [x] Set up front end
+- [ ] Redo todo 
+<br>
+<strong>Description: </strong>
+You know I really hate doing this, setting up the front end before I
+<br>
+
+<strong>Name: </strong> Arctesian
+<br>
+<strong>Time: </strong> kinda the whole day was still in skl so so off for maybe 3 hrs
+<br>
+<strong>Date: </strong> 27.05.22
+<br>
+<strong>Goal: </strong>
+- [ ] RestApi setup
+- [ ] Redo todo 
+<br>
+<strong>Description: </strong>
+A lot of go stuff cuz you know go me 
+<br>
+
+
