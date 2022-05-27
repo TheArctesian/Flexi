@@ -14,6 +14,6 @@ func setupRoutes(app *fiber.App) {
 }
 func main() {
     app := fiber.New()
-    
+    setupRoutes(app)   
     app.Listen(":6000")
 }

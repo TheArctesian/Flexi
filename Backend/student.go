@@ -18,11 +18,11 @@ import (
 )
 
 
-func putStudent(c *fiber.Ctx) {
+func getStudent(c *fiber.Ctx) {
 	c.Send("The Arctesian")
 }
 
-func putStudentName(c *fiber.Ctx) {
+func getStudentName(c *fiber.Ctx) {
 	c.Send("The Arctesian")
 }
 func getStudentAdvisory(c *fiber.Ctx) {
