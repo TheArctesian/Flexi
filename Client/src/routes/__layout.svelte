@@ -11,7 +11,7 @@
 </div>
 
 <slot />
-
+<h1> When you have time this is a really shit way to do it, try do the same on hover but make the hover the distance between chars.
 <style>
 	.logo-comp {
 		position: absolute;
