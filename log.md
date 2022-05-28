@@ -19,9 +19,11 @@
 <strong>Goal: </strong>
 
 - [x] set up todo
-    <br>
-    <strong>Description: </strong>
-    A lot of set up done and ran into a lot of problems like go pkg manager issues.
+      <br>
+
+<strong>Description: </strong>
+A lot of set up done and ran into a lot of problems like go pkg manager issues.
+
 <hr>
 
 <strong>Name: </strong> Arctesian
@@ -38,8 +40,9 @@
 - [ ] set up firebase db for teachers
 - [ ] sheet scrapper
       <br>
-      <strong>Description: </strong>
-      Set up FB but java is not a good languae. The sdk of kotlin and java and everything is messing with loading the andrioid app, web app is also not working probs will try again in svelte native.
+
+<strong>Description: </strong>
+Set up FB but java is not a good languae. The sdk of kotlin and java and everything is messing with loading the andrioid app, web app is also not working probs will try again in svelte native.
 
 <hr>
 
@@ -54,9 +57,10 @@
 - [x] init sveltekit
 - [x] install.sh
 - [ ] appendix Speach-t-txt
-<br>
+      <br>
+
 <strong>Description: </strong>
-      Yay flutter would be to hard for me and for eveyone else. We just PWA with sveltekit. Also im trying to stt my interview cuz uk who like manually transcribing but cant do big files so im probs going to have to manually make an ai to do this and it will take hours but ce la vie. All my homies hate manual labour.
+Yay flutter would be to hard for me and for eveyone else. We just PWA with sveltekit. Also im trying to stt my interview cuz uk who like manually transcribing but cant do big files so im probs going to have to manually make an ai to do this and it will take hours but ce la vie. All my homies hate manual labour.
 
 <hr>
 
@@ -67,13 +71,15 @@
 <strong>Date: </strong> 10.04.22
 <br>
 <strong>Goal: </strong>
+
 - [ ] contribe.md
-- [ ] install.sh for all linux 
+- [ ] install.sh for all linux
 - [ ] install.sh for mac
-<br>
+      <br>
+
 <strong>Description: </strong>
-Started it 
- 
+Started it
+
 <hr>
 
 <strong>Name: </strong> Arctesian
@@ -83,12 +89,14 @@ Started it
 <strong>Date: </strong> 12.04.22
 <br>
 <strong>Goal: </strong>
+
 - [ ] contribe.md
-- [x] install.sh for all linux 
+- [x] install.sh for all linux
 - [x] install.sh for mac
-<br>
+      <br>
+
 <strong>Description: </strong>
-Finished the git stuff kinda need to test also finished all the install scripts but still need to test 
+Finished the git stuff kinda need to test also finished all the install scripts but still need to test
 
 <hr>
 
@@ -99,10 +107,12 @@ Finished the git stuff kinda need to test also finished all the install scripts 
 <strong>Date: </strong> 14.04.22
 <br>
 <strong>Goal: </strong>
+
 - [ ] contribe.md
 - [x] install.sh for all linux test
 - [x] install.sh for mac test
-<br>
+      <br>
+
 <strong>Description: </strong>
 Got my dad to test it so it kinda works but not rly brew was fuked with him but nothing rly went wrong also the gentoo script was fuked cuz u might need to mess with use flags also the arch one didid not work. I will finish the docs when I finish the app
 
@@ -115,8 +125,10 @@ Got my dad to test it so it kinda works but not rly brew was fuked with him but 
 <strong>Date: </strong> 18.04.22
 <br>
 <strong>Goal: </strong>
+
 - [ ] Redo install scripts to be more begginer freindly
-<br>
+      <br>
+
 <strong>Description: </strong>
 I decided to redo everything in the install scripts cuz I wanted to and I was bored in the car. Deal with it
 
@@ -129,14 +141,15 @@ I decided to redo everything in the install scripts cuz I wanted to and I was bo
 <strong>Date: </strong> 20.04.22
 <br>
 <strong>Goal: </strong>
-- [ ] Set up tailwind 
-- [ ] Redo todo 
-<br>
+
+- [ ] Set up tailwind
+- [ ] Redo todo
+      <br>
+
 <strong>Description: </strong>
 Was kinda trying to do this in the in middle of a UC presentation and my git didn't sync right so had to re clone the repo. Will do it at lunch.
 
 <hr>
-
 
 <strong>Name: </strong> Arctesian
 <br>
@@ -145,9 +158,10 @@ Was kinda trying to do this in the in middle of a UC presentation and my git did
 <strong>Date: </strong> 18.05.22
 <br>
 <strong>Goal: </strong>
-- [x] Set up tailwind 
-- [ ] Redo todo 
-<br>
+
+- [x] Set up tailwind
+- [ ] Redo todo
+
 <strong>Description: </strong>
 Redo Tailwind
 
@@ -162,8 +176,10 @@ Redo Tailwind
 - [ ] Redo todo 
 - [x] init go rest api
 <br>
+
 <strong>Description: </strong>
-So I have set up a semi working rest api in go and will set up a mongo server on linode 
+So I have set up a semi working rest api in go and will set up a mongo server on linode
+
 <hr>
 
 <strong>Name: </strong> Arctesian
@@ -173,9 +189,10 @@ So I have set up a semi working rest api in go and will set up a mongo server on
 <strong>Date: </strong> 26.05.22
 <br>
 <strong>Goal: </strong>
+
 - [x] Set up front end
-- [ ] Redo todo 
-<br>
+- [ ] Redo todo
+
 <strong>Description: </strong>
 You know I really hate doing this, setting up the front end before I
 <br>
@@ -187,11 +204,25 @@ You know I really hate doing this, setting up the front end before I
 <strong>Date: </strong> 27.05.22
 <br>
 <strong>Goal: </strong>
-- [ ] RestApi setup
-- [ ] Redo todo 
-<br>
+
+- [x] RestApi setup
+- [ ] Redo todo
+
 <strong>Description: </strong>
-A lot of go stuff cuz you know go me 
+A lot of go stuff cuz you know go me
 <br>
 
+<hr>
+<strong>Name: </strong> Arctesian
+<br>
+<strong>Time: </strong> 12:30 - 18:00 
+<br>
+<strong>Date: </strong> 28.05.22
+<br>
+<strong>Goal: </strong>
+set up nav bar and set up components
 
+<strong>Description: </strong>
+Actually really good work done, got a lot of the structure out will need polishing but uk what good enough
+
+<br>

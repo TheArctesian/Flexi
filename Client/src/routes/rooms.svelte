@@ -1,7 +1,7 @@
 <script lang="ts">
 
     import NavDesktop from "../Components/Desktop/NavDesktop.svelte"
-    import ScheduleDesktop from "../Components/Desktop/ScheduleDesktop.svelte"    
+    import RoomsDesktop from "../Components/Desktop/RoomsDesktop.svelte"    
 
     import { onMount } from 'svelte';
     let isMobile:boolean = false;
@@ -15,5 +15,5 @@
 {:else}
 
 <NavDesktop/>
-<ScheduleDesktop/>
+<RoomsDesktop/>
 {/if}

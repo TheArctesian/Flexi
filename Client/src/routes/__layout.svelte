@@ -1,22 +1,27 @@
 <script>
 	import '../app.css';
+
 </script>
 
+	<a href="https://github.com/TheArctesian/Flexi" target="_blank">
 <div class="logo-comp">
-	<img alt="This is the github logo" src="./github.svg" class="github" />
+	<div id="gap"/>
+
 	<div class="hiden">
-		Check out the source code for the website by clicking here.
-		<br /> Follow the documentation if you would like to learn to code and contribute!
+		Check out the source code for clicking here. <br/>
+		Follow the documentation if you would like <br/> 
+		to learn to code and contribute to this project!
 	</div>
+	<img alt="This is the github logo" src="./github.svg" class="github">
 </div>
 
+</a>
 <slot />
-<h1> When you have time this is a really shit way to do it, try do the same on hover but make the hover the distance between chars.
 <style>
 	.logo-comp {
 		position: absolute;
 		background-color: #f0f0f0;
-		border-radius: 2rem;
+		border-radius: 4rem;
 		width: fit-content;
 		display: flex;
 		flex-direction: row;
@@ -24,17 +29,24 @@
 		margin: 1rem;
 		bottom: 1rem;
 		right: 1rem;
+		margin: auto;
+		padding: .2rem;
+		font-size: 0;
 	}
 
 	.hiden {
-		display: none;
 		justify-content: center;
 		margin: auto;
-		padding: 1rem;
-		transition: all 0.2s ease-in-out;
+		text-align: center;
+		font-weight: 600;
+		
 	}
-	.github:hover + .hiden {
-		transition-duration: 400ms;
-		display: block;
+
+	#gap{
+		width: 1rem;
+	}
+	.logo-comp:hover{
+		display: flex;
+		font-size: .8rem;
 	}
 </style>

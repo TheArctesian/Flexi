@@ -11,7 +11,12 @@ const config = {
 		}),
 	],
 	kit: {
-		adapter: adapter()
+		alias : {
+			$components : 'src/components',
+			$stores : 'src/lib/stores',
+			$assets : 'src/Assets'
+		},
+		adapter: adapter(),
 	}
 };
 
