@@ -225,6 +225,6 @@ A lot of go stuff cuz you know go me
 - [x] finish restApi
 
 <strong>Description: </strong>
-Actually really good work done, got a lot of the structure out will need polishing but uk what good enough
+Actually really good work done, got a lot of the structure out will need polishing but uk what good enough. Go apis are set but they don't return anything will need to set up db next time
 
 <br>

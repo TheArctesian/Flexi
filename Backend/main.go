@@ -1,19 +1,20 @@
 package main
 
 import (
-    "github.com/gofiber/fiber/v2"
+	"github.com/gofiber/fiber/v2"
 )
+
 // Student
 // Teacher
 
 func setupRoutes(app *fiber.App) {
-    app.get("/api/schedule:year")
-    app.get("/api/schedule:week")
-    app.get("/api/schedule:date")
-    app.get("/api/student/:year")
+	app.Get("/api/schedule:year")
+	app.Get("/api/schedule:week")
+	app.Get("/api/schedule:date")
+	app.Get("/api/student/:year")
 }
 func main() {
-    app := fiber.New()
-    setupRoutes(app)   
-    app.Listen(":6000")
+	app := fiber.New()
+	setupRoutes(app)
+	app.Listen(":6000")
 }
