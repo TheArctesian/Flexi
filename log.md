@@ -220,7 +220,9 @@ A lot of go stuff cuz you know go me
 <strong>Date: </strong> 28.05.22
 <br>
 <strong>Goal: </strong>
-set up nav bar and set up components
+
+- [x] set up nav bar and set up components
+- [x] finish restApi
 
 <strong>Description: </strong>
 Actually really good work done, got a lot of the structure out will need polishing but uk what good enough

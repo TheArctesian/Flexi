@@ -1,7 +1,7 @@
-/* 
-Student Data Struct 
+/*
+Student Data Struct
 ------------------
-Name: string; 
+Name: string;
 Advisory: int;
 Email: string;
 Picture: string; This wll just pont to and endpoint on the server where the img i stored
@@ -9,16 +9,21 @@ FavoriteTeacher: string[];
 
 */
 
-
-
 package student
 
 import (
 	"github.com/gofiber/fiber"
 )
 
+type student struct {
+	name      string
+	yearGroup int
+	advisory  string
+	email     string
+	picture   string
+	favoriteTeacher string[]
+}
 
-    
 func getStudent(c *fiber.Ctx) {
 	c.Send("The Arctesian")
 }
@@ -52,7 +57,6 @@ func putStudentPicture(c *fiber.Ctx) {
 func putStudentTeachers(c *fiber.Ctx) {
 	c.Send("The Arctesian")
 }
-
 
 func postStudent(c *fiber.Ctx) {
 	c.Send("The Arctesian")

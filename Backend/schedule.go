@@ -19,6 +19,20 @@ import (
 	"github.com/gofiber/fiber"
 )
 
+type schedule struct {
+	ID primitive.ObjectID
+	Week string
+	Date string
+	Year7Events flexi[]
+	Year8Events flexi[]
+	Year9Events flexi[]
+	Year10Events flexi[]
+	Year11Events flexi[]
+	Year12Events flexi[]
+	Year13Events flexi[]
+}
+
+
 func getFlexiDate(c *fiber.Ctx) {
 
 	c.Send("This is a big obj")
