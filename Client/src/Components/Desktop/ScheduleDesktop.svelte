@@ -33,6 +33,7 @@
 		margin: 1rem;
 	}
 	.day {
+		text-align: center;
 		background-color: #e6931d;
 		padding: 0.5em;
 		border-radius: 0.5em;

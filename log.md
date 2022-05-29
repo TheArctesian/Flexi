@@ -228,3 +228,19 @@ A lot of go stuff cuz you know go me
 Actually really good work done, got a lot of the structure out will need polishing but uk what good enough. Go apis are set but they don't return anything will need to set up db next time
 
 <br>
+<hr>
+<strong>Name: </strong> Arctesian
+<br>
+<strong>Time: </strong> 13:30 - 16:00
+<br>
+<strong>Date: </strong> 29.05.22
+<br>
+<strong>Goal: </strong>
+
+- [x] Set up teacher search
+- [x] Set up Useful links page
+
+<strong>Description: </strong>
+Teacher search page is good puts out some json so once server os setup can do an async await to req that data from server. Useful links pages is done. The whole thing looks ugly but IDC rn cuz lagos is demanding we have a MVP done next week,
+
+<br>

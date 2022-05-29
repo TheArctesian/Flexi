@@ -16,6 +16,11 @@ const config = {
 			$stores : 'src/lib/stores',
 			$assets : 'src/Assets'
 		},
+		vite: {
+		optimizeDeps: {
+    		include: ["fuzzy"],
+    		},
+		},
 		adapter: adapter(),
 	}
 };
