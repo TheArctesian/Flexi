@@ -13,7 +13,7 @@ Year11Event: flexi[];
 Year12Event: flexi[];
 Year13Event: flexi[];
 */
-package backend
+package schedule
 
 import (
 	"github.com/gofiber/fiber"
@@ -50,10 +50,6 @@ func getFlexiYr(c *fiber.Ctx) {
 func postFlexiYr(c *fiber.Ctx) {
 
 	c.Send("Need to set up db")
-}
-func putFlexiYr(c *fiber.Ctx) {
-
-	c.Send("All Books")
 }
 func deleteFlexiYr(c *fiber.Ctx) {
 

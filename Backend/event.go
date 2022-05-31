@@ -9,6 +9,9 @@ Date: string; # unixTime
 YearGroup: string;
 Participants: string[];
 */
+
+package event
+
 import (
 	"github.com/gofiber/fiber"
 )
@@ -22,58 +25,53 @@ type event struct {
 	participants 	string[];
 }
 
-
+func getEvent(c *fiber.Ctx) {
+	c.send("A fucking object man suck my balls")
+}
 func getEventName(c *fiber.Ctx) {
 	c.Send("This is a big obj")
 }
 
 func getEventTeacher(c *fiber.Ctx) {
-	c.Send("Teacher name")
+	c.Send("Edwin Lagos")
 }
 func getEventRoom(c *fiber.Ctx) {
-	c.Send("Teacher room")
+	c.Send("513")
 }
 func getEventZoom(c *fiber.Ctx) {
-	c.Send("Teacher zoom")
+	c.Send("https://zoom.us/j/5384991571#success")
 }
 
 func getEventYearGroup(c *fiber.Ctx) {
-	c.Send("Yr grp")
+	c.Send("7")
 }
 
 func getEventParticipants(c *fiber.Ctx) {
-	c.Send("Some teachers")
-}
-
-
-func putEventName(c *fiber.Ctx) {
-	c.Send("This is a big obj")
-}
-
-func putEventTeacher(c *fiber.Ctx) {
-	c.Send("Teacher name")
-}
-func putEventRoom(c *fiber.Ctx) {
-	c.Send("Teacher room")
-}
-func putEventZoom(c *fiber.Ctx) {
-	c.Send("Teacher zoom")
-}
-
-func putEventYearGroup(c *fiber.Ctx) {
-	c.Send("Yr grp")
-}
-
-func putEventParticipants(c *fiber.Ctx) {
-	c.Send("Some teachers")
+	c.Send("Stephen Okita", "Micheal Kim")
 }
 
 func setEvent(c *fiber.Ctx) {
-	c.Send("The Arctesian")
+	c.send("A fucking object man suck my balls")
 }
-func getEvent(c *fiber.Ctx) {
-	c.Send("etje")
+func setEventName(c *fiber.Ctx) {
+	c.Send("This is a big obj")
 }
-func deleteEvent(c *fiber.Ctx) {
-	c.Send("rm -rdf")
+
+func setEventTeacher(c *fiber.Ctx) {
+	c.Send("Edwin Lagos")
 }
+func setEventRoom(c *fiber.Ctx) {
+	c.Send("513")
+}
+func setEventZoom(c *fiber.Ctx) {
+	c.Send("https://zoom.us/j/5384991571#success")
+}
+
+func setEventYearGroup(c *fiber.Ctx) {
+	c.Send("7")
+}
+
+func setEventParticipants(c *fiber.Ctx) {
+	c.Send("Stephen Okita", "Micheal Kim")
+}
+

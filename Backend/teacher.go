@@ -9,6 +9,8 @@ Zoom: string;
 Description: string;
 */
 
+package teacher
+
 import (
 	"github.com/gofiber/fiber"
 )
@@ -41,28 +43,6 @@ func getTeacherZoom(c *fiber.Ctx) {
 	c.Send("The Arctesian")
 }
 func getTeacherDescription(c *fiber.Ctx) {
-	c.Send("The Arctesian")
-}
-
-func putTeacher(c *fiber.Ctx) {
-	c.Send("The Arctesian")
-}
-func putTeacherName(c *fiber.Ctx) {
-	c.Send("The Arctesian")
-}
-func putTeacherRoom(c *fiber.Ctx) {
-	c.Send("The Arctesian")
-}
-func putTeacherEmail(c *fiber.Ctx) {
-	c.Send("The Arctesian")
-}
-func putTeacherPicture(c *fiber.Ctx) {
-	c.Send("The Arctesian")
-}
-func putTeacherZoom(c *fiber.Ctx) {
-	c.Send("The Arctesian")
-}
-func putTeacherDescription(c *fiber.Ctx) {
 	c.Send("The Arctesian")
 }
 
