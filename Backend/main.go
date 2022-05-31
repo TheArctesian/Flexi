@@ -9,17 +9,29 @@ import (
 //}
 
 func setupRoutes(app *fiber.App) {
-	// Schedule Calls
+	// Get Schedule
 	app.Get("/api/schedule/day", getFlexiDate)
 	app.Get("/api/schedule/week", getFlexiWeek)
 	app.Get("/api/schedule/yr", getFlexiYr)
-	//app.Get("/api/schedule/Year7")
-	//app.Get("/api/schedule/Year8")
-	//app.Get("/api/schedule/Year9")
-	//app.Get("/api/schedule/Year10")
-	//app.Get("/api/schedule/Year11")
-	//app.Get("/api/schedule/Year12")
-	//app.Get("/api/schedule/Year13")
+	app.Get("/api/schedule/Year7")
+	app.Get("/api/schedule/Year8")
+	app.Get("/api/schedule/Year9")
+	app.Get("/api/schedule/Year10")
+	app.Get("/api/schedule/Year11")
+	app.Get("/api/schedule/Year12")
+	app.Get("/api/schedule/Year13")
+
+	// Get Schedule
+	app.Post("/api/schedule/day", setFlexiDate)
+	app.Post("/api/schedule/week", setFlexiWeek)
+	app.Post("/api/schedule/yr", setFlexiYr)
+	app.Post("/api/schedule/Year7")
+	app.Post("/api/schedule/Year8")
+	app.Post("/api/schedule/Year9")
+	app.Post("/api/schedule/Year10")
+	app.Post("/api/schedule/Year11")
+	app.Post("/api/schedule/Year12")
+	app.Post("/api/schedule/Year13")
 
 	// Get Events
 	app.Get("api/event/", getEvent)
@@ -30,6 +42,15 @@ func setupRoutes(app *fiber.App) {
 	app.Get("api/event/yearGroup", getEventYearGroup)
 	app.Get("api/event/participants", getEventParticipants)
 
+	// Set Events
+	app.Post("api/event/", setEvent)
+	app.Post("api/event/name", setEventName)
+	app.Post("api/event/teacher", setEventTeacher)
+	app.Post("api/event/room", setEventRoom)
+	app.Post("api/event/zoom", setEventZoom)
+	app.Post("api/event/yearGroup", setEventYearGroup)
+	app.Post("api/event/participants", setEventParticipants)
+
 	// Get Teacher
 	app.Get("api/teacher", getTeacher)
 	app.Get("api/teacher/description", getTeacherDescription)
@@ -38,6 +59,30 @@ func setupRoutes(app *fiber.App) {
 	app.Get("api/teacher/picture", getTeacherPicture)
 	app.Get("api/teacher/room", getTeacherRoom)
 	app.Get("api/teacher/zoom", getTeacherZoom)
+
+	// Set Teacher
+	app.Post("api/teacher", setTeacher)
+	app.Post("api/teacher/description", setTeacherDescription)
+	app.Post("api/teacher/email", setTeacherEmail)
+	app.Post("api/teacher/name", setTeacherName)
+	app.Post("api/teacher/picture", setTeacherPicture)
+	app.Post("api/teacher/room", setTeacherRoom)
+	app.Post("api/teacher/zoom", setTeacherZoom)
+
+	//Get Student
+	app.Get("api/student", getStudent)
+	app.Get("api/student/advisory", getStudentAdvisory)
+	app.Get("api/student/name", getStudentName)
+	app.Get("api/student/picture", getStudentPicture)
+	app.Get("api/student/teachers", getStudentTeachers)
+
+	// Set Student
+	app.Post("api/student", setStudent)
+	app.Post("api/student/advisory", setStudentAdvisory)
+	app.Post("api/student/name", setStudentName)
+	app.Post("api/student/picture", setStudentPicture)
+	app.Post("api/student/teachers", setStudentTeachers)
+
 }
 func main() {
 	app := fiber.New(config)
