@@ -21,8 +21,7 @@
 				<img src={schoolagy} />
 			</div>
 		</div>
-		<a>
-			href="https://cishk.powerschool.com/">
+		<a href="https://cishk.powerschool.com/">
 			<div class="thing">
 				<h1 class="day">Powerschool</h1>
 				<div class="event">
@@ -61,12 +60,11 @@
 		background-color: #f0f0f0;
 		padding: 0.5em;
 		border-radius: 0.5em;
-		margin: auto;
 		height: 20vw;
 	}
 	img {
 		width: 15vw;
-		justify-content: center;
+		margin: auto;
 	}
 
 	.content {
@@ -74,5 +72,6 @@
 		margin: auto;
 		justify-content: center;
 		flex-direction: row;
+		flex-wrap: wrap;
 	}
 </style>

@@ -35,31 +35,38 @@
 	.icon {
 		background-color: #f0f0f0;
 		border-radius: 1.3rem;
+		box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+	}
+
+	.icon:hover {
+		background-color: #f0f0f09f;
 	}
 
 	img {
-		width: 4vw;
+		width: 6vw;
+		padding: 0.4rem;
 		margin: auto;
 	}
 	.links {
 		display: flex;
 		margin: auto;
 		width: 70vw;
-		height: 4vw;
 		background-color: #9a0a27;
 		border-radius: 1.3rem;
 		justify-content: center;
 		text-align: center;
+		box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+		padding: 1rem;
 	}
 	h1 {
 		background-color: #e6931d;
-		margin-left: 2vw;
-		margin-right: 2vw;
-		margin-top: 0.75vw;
+		margin: auto;
 		width: 20vw;
-		border-radius: 1.3rem;
+		margin-left: 0.25rem;
+		margin-right: 0.25rem;
+		border-radius: 1rem;
 		padding: 0.5rem;
 		color: white;
-		box-shadow: 0 1px 2px 0 rgb(29, 29, 29);
+		box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
 	}
 </style>
