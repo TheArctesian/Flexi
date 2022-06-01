@@ -64,7 +64,7 @@ func getStudent(c *fiber.Ctx) {
 	c.Send(json)
 }
 
-func createteacher(c *fiber.Ctx) {
+func createTeacher(c *fiber.Ctx) {
 	collection, err := getMongoDbCollection(flexiDB, collectionName)
 	if err != nil {
 		c.Status(500).Send(err)
@@ -84,7 +84,7 @@ func createteacher(c *fiber.Ctx) {
 	c.Send(response)
 }
 
-func updateteacher(c *fiber.Ctx) {
+func updateTeacher(c *fiber.Ctx) {
 	collection, err := getMongoDbCollection(flexiDB, collectionName)
 	if err != nil {
 		c.Status(500).Send(err)

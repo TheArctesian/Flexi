@@ -42,7 +42,6 @@
 
 <style>
 	.thing {
-		justify-content: center;
 		margin: 2vw;
 	}
 	.day {
@@ -69,9 +68,7 @@
 
 	.content {
 		display: flex;
-		margin: auto;
 		justify-content: center;
-		flex-direction: row;
-		flex-wrap: wrap;
+		flex-wrap: wrap-reverse;
 	}
 </style>

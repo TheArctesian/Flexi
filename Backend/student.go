@@ -47,10 +47,8 @@ func getStudent(c *fiber.Ctx) {
 	if err != nil {
 		c.Status(500).Send(err)
 		return
-	}
-
+    }
 	cur.All(context.Background(), &results)
-
 	if results == nil {
 		c.SendStatus(404)
 		return

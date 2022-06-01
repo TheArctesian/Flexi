@@ -9,32 +9,57 @@ import (
 //}
 
 func setupRoutes(app *fiber.App) {
-	// Get Schedule
-	app.Get("/api/schedule/day", getFlexiDate)
-	app.Get("/api/schedule/week", getFlexiWeek)
-	app.Get("/api/schedule/yr", getFlexiYr)
-	app.Get("/api/schedule/Year7")
-	app.Get("/api/schedule/Year8")
-	app.Get("/api/schedule/Year9")
-	app.Get("/api/schedule/Year10")
-	app.Get("/api/schedule/Year11")
-	app.Get("/api/schedule/Year12")
-	app.Get("/api/schedule/Year13")
+	// mainCalls
+
+	// Event
+	app.Get("api/event/:id", getEvent)
+	app.Post("apu/event/", createTeacher)
+	app.Put("api/event/:id", updateEvent)
+	app.Delete("api/event/:id", deleteEvent)
+
+	// Teacher
+	app.Get("api/teacher/:id", getTeacher)
+	app.Post("apu/teacher/", createTeacher)
+	app.Put("api/teacher/:id", updateTeacher)
+	app.Delete("api/teacher/:id", deleteTeacher)
+
+	// student
+	app.Get("api/student/:id", getStudent)
+	app.Post("apu/student/", createStudent)
+	app.Put("api/student/:id", updateStudent)
+	app.Delete("api/student/:id", deleteStudent)
+
+	// schedule
+	app.Get("api/schedule/:id", getSchedule)
+	app.Post("apu/schedule/", createSchedule)
+	app.Put("api/schedule/:id", updateSchedule)
+	app.Delete("api/schedule/:id", deleteSchedule)
 
 	// Get Schedule
+	app.Get("/api/schedule/day/:id", getFlexiDate)
+	app.Get("/api/schedule/week/:id", getFlexiWeek)
+	app.Get("/api/schedule/yr/:id", getFlexiYr)
+	// app.Get("/api/schedule/Year7")
+	// appapp.Get("/api/schedule/Year8")
+	// appapp.Get("/api/schedule/Year9")
+	// appapp.Get("/api/schedule/Year10")
+	// appapp.Get("/api/schedule/Year11")
+	// appapp.Get("/api/schedule/Year12")
+	// appapp.Get("/api/schedule/Year13")
+
+	// Set Schedule
 	app.Post("/api/schedule/day", setFlexiDate)
 	app.Post("/api/schedule/week", setFlexiWeek)
 	app.Post("/api/schedule/yr", setFlexiYr)
-	app.Post("/api/schedule/Year7")
-	app.Post("/api/schedule/Year8")
-	app.Post("/api/schedule/Year9")
-	app.Post("/api/schedule/Year10")
-	app.Post("/api/schedule/Year11")
-	app.Post("/api/schedule/Year12")
-	app.Post("/api/schedule/Year13")
+	// app.Post("/api/schedule/Year7")
+	// app.Post("/api/schedule/Year8")
+	// app.Post("/api/schedule/Year9")
+	// app.Post("/api/schedule/Year10")
+	// app.Post("/api/schedule/Year11")
+	// app.Post("/api/schedule/Year12")
+	// app.Post("/api/schedule/Year13")
 
 	// Get Events
-	app.Get("api/event/", getEvent)
 	app.Get("api/event/name", getEventName)
 	app.Get("api/event/teacher", getEventTeacher)
 	app.Get("api/event/room", getEventRoom)
