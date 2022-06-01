@@ -1,18 +1,5 @@
-package functions
-
-import (
-	"github.com/gofiber/fiber"
-	"github.com/gofiber/fiber/v2"
-)
-
-func sortTeacherRooms(c *fiber.Ctx) {
-	// Get all teacher rooms
-	// Check for overlaps
-	// Sort to open rooms
-}
-
-func getFromSheet(c *fiber.Ctx) {
-	// Query Google sheet
-	// Sort Them by rows
-	// Upload thingys
+func main() {
+	var allRooms [63]int
+	allRooms := 221, 222, 223, 224, 225, 226, 301, 302, 311, 401, 402, 411, 412, 413, 421, 422, 423, 424, 501, 503, 611, 507, 511, 512, 513, 514, 521, 522, 523, 524, 525, 526, 601, 603, 604, 605, 607, 505, 612, 613, 614, 615, 616, 617, 618, 619, 621, 622, 623, 624, 625, 626, 701, 703, 705, 707, 708, 711, 712, 713, 714, 722, 724
+	print(allRooms)
 }
