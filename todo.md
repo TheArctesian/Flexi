@@ -1,11 +1,8 @@
 ### Todo
 
 #### Backend 
-- [ ] set up firebase 
-- [ ] set up firebase auth 
-- [ ] set perms 
-- [ ] make extended learning update function 
-- [ ] make google sheets scrapper
+- [ ] Set up mongo DB
+- [ ] Set up api 
 
 #### Svelte 
 - [ ] Set up Login Page 
@@ -28,7 +25,6 @@
 - [ ] make video on how to use app for students
 - [ ] make video on how to use app for teachers
 - [ ] make project arc breakdown for contrib
-- [ ] set up install.sh
 <hr>
 
 ### In Progress 🚧
@@ -38,15 +34,9 @@
 - [ ] sheet scrapper 
 - [ ] teacher db edit go
 
-#### DB 
-- [ ] Set up teacher DB 
-
-#### Admin
-- [ ] set up TODO 
 <hr>
 
 ### Done ✓
 
-
+- [x] set up install.sh
 - [x] set up contribute.md 
-- [x] ~~init github repo~~
