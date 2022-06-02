@@ -262,3 +262,18 @@ Teacher search page is good puts out some json so once server os setup can do an
 Made sorry page while going to school
 
 <br>
+
+<hr>
+<strong>Name: </strong> Arctesian
+<br>
+<strong>Time: </strong> time is human construct I am degenrating into entropy, but I ended at the 15:31 at the 1st.
+<br>
+<strong>Date: </strong> 30.05.22 - 1.06.22
+<br>
+<strong>Goal: </strong>
+
+- [x] Finish enough for crit c 
+
+<strong>Description: </strong>
+The whole thing was a haze I didn't know what was happening, I just was doing this and writing this it happend I didn't really sleep I have a semi MVP but I hate my life this was so much pain thank you lagos for this experience. 
+<br>
