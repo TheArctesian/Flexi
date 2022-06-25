@@ -13,7 +13,7 @@ Thank you for showing interest. You can skip this section. I am an open source a
 
 _This guide will be for Mac because I expect most people to be on it. I will also not support windows because it disagrees with my moral values. If you really need windows please see the Script folder for a guide on how to install WSL (windows subsystem for linux)_
 
-I want to prefix this with saying that will be hard, even more so if you have never coded before. If you do go through with this and finish reading the contribute guide you will not only be contributing to the CIS community and helping your peers, but also learn the basic of software development and gain the skills to contribute to open source projects.
+I want to prefix this with saying that this will be hard, even more so if you have never coded before. If you do go through with this and finish reading the contribute guide you will not only be contributing to the CIS community and helping your peers, but also learn the basic of software development and gain the skills to contribute to open source projects.
 
 ## Git
 
@@ -39,7 +39,7 @@ After you have brew installed I recomend that you install some things to make yo
 brew install fish
 ```
 
-After type the `fish` command to enter the fish shell. This is also not nes but I like it so use this command to install oh-my-fish. (This makes your terminal look pretty. 
+After type the `fish` command to enter the fish shell. This is also not necessary but I like it so use this command to install oh-my-fish. (This makes your terminal look pretty. 
 
 ```bash
 curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install > install
@@ -143,7 +143,7 @@ From here you can start editing and playing around.
 
 If you want to actually end up contributing back to the repo you will need a github account.
 
-Go to [github.com](https://github.com/) and sight up for an account.
+Go to [github.com](https://github.com/) and sign up for an account.
 
 After go to your settings menu by clicking on your icon then settings
 <img src="Scripts/Assets/githubSettings.png" alt="github settings picture failed to load">
@@ -241,7 +241,7 @@ git commit -am "a description of your commits"
 Finally push it to github with
 
 ```bash
-git push -u origin <branchName>
+git push -u origin branchName
 ```
 
 Now when you go on github you should see the option create pull request.
@@ -261,7 +261,7 @@ After which github will check that the code will compile after your change. If t
 After which you can check out yours and other pull request it will look like this.
 <img src="Scripts/Assets/PullReq.png" alt="pull">
 
-Then wait for a admin or me to accept the req and merge it to the master branch.
+Then wait for an admin or me to accept the req and merge it to the master branch.
 
 ## Frontend
 
