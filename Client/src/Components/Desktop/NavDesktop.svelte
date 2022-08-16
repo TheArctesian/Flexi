@@ -1,29 +1,7 @@
 <script lang="ts">
-	import logo from '../../Assets/logoPic.png';
+	import logo from '../../Assets/CIS.png';
 	import act from '../../Assets/ac.png';
 </script>
-
-<div class="header">
-	<div class="icon">
-		<img src={logo} alt="CIS logo" />
-	</div>
-	<div class="links">
-		<a href="/">
-			<h1>Flexi Schedule</h1>
-		</a>
-		<a href="/rooms">
-			<h1>Teacher Rooms</h1>
-		</a>
-		<a href="/links">
-			<h1>Useful Links</h1>
-		</a>
-	</div>
-	<a href="/account">
-		<div class="icon">
-			<img src={act} alt="CIS logo" />
-		</div>
-	</a>
-</div>
 
 <style>
 	.header {
@@ -70,3 +48,25 @@
 		box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
 	}
 </style>
+
+<div class="header">
+	<div class="icon">
+		<img src={logo} alt="CIS logo" />
+	</div>
+	<div class="links">
+		<a href="/">
+			<h1>Flexi Schedule</h1>
+		</a>
+		<a href="/rooms">
+			<h1>Teacher Rooms</h1>
+		</a>
+		<a href="/links">
+			<h1>Useful Links</h1>
+		</a>
+	</div>
+	<a href="/account">
+		<div class="icon">
+			<img src={act} alt="CIS logo" />
+		</div>
+	</a>
+</div>
