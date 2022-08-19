@@ -1,4 +1,5 @@
-import { writable } from "svelte/store";
+import { writable } from 'svelte/store';
 
-export const user = writable(null)
-export const isLoggedIn = writable(false)
+export const yeargroup = writable(1);
+export const advisory = writable('');
+export const userInfo = writable(false);
