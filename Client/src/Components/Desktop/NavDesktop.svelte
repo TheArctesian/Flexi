@@ -1,6 +1,7 @@
 <script lang="ts">
 	import logo from '../../Assets/CIS.png';
-	import act from '../../Assets/ac.png';
+    import act from '../../Assets/ac.png';
+	import { userInfo, advisory, yeargroup } from '$lib/Stores/stores';
 </script>
 
 <style>
@@ -35,7 +36,14 @@
 		text-align: center;
 		box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
 		padding: 1rem;
-	}
+    }
+    .t {
+		background-color: #f0f0f0;
+        color: black;
+        width: auto;
+        padding: 1.5rem;
+		border-radius: 1.3rem;
+    }
 	h1 {
 		background-color: #e6931d;
 		margin: auto;
@@ -65,8 +73,12 @@
 		</a>
 	</div>
 	<a href="/account">
+            {#if $userInfo}
+                <h1 class="text-center t">{$yeargroup}{$advisory}</h1>
+            {:else}
 		<div class="icon">
 			<img src={act} alt="CIS logo" />
 		</div>
+            {/if}
 	</a>
 </div>
