@@ -15,12 +15,17 @@
 		margin: auto;
 		margin-top: 5vh;
 		margin-bottom: 2vh;
+		font-weight: 700;
 		width: 15vw;
 		color: white;
+		transition: all ease-in-out 200ms;
 	}
 
+	.day:hover {
+		background-color:#e6921dab;
+	}
 	.event {
-		background-color: #f0f0f0;
+		background-color: #4e4e4e;
 		padding: 0.5em;
 		border-radius: 0.5em;
 		display: flex;
@@ -32,9 +37,10 @@
 		will-change: filter;
 		transition: all ease-in-out 500ms;
 	}
+	
 	.event:hover {
 		transition: all ease-in-out 200ms;
-		filter: drop-shadow(0 0 1em #e6931d);
+		filter: drop-shadow(0 0 1em #ffffff);
 	}
 	.content {
 		display: flex;
@@ -49,7 +55,7 @@
 		<h1 class="day">Monday</h1>
 		<button>
 			<div class="event">
-				<Chasing size="60" color="#9a0a27" unit="px" duration="1s" />
+				<Chasing size="60" color="#e6931d" unit="px" duration="1s" />
 			</div>
 		</button>
 	</div>
@@ -57,27 +63,27 @@
 	<div class="thing">
 		<h1 class="day">Tuesday</h1>
 		<div class="event">
-			<Chasing size="60" color="#9a0a27" unit="px" duration="1s" />
+			<Chasing size="60" color="#e6931d" unit="px" duration="1s" />
 		</div>
 	</div>
 
 	<div class="thing">
 		<h1 class="day">Wednesday</h1>
 		<div class="event">
-			<Chasing size="60" color="#9a0a27" unit="px" duration="1s" />
+			<Chasing size="60" color="#e6931d" unit="px" duration="1s" />
 		</div>
 	</div>
 
 	<div class="thing">
 		<h1 class="day">Thursday</h1>
 		<div class="event">
-			<Chasing size="60" color="#9a0a27" unit="px" duration="1s" />
+			<Chasing size="60" color="#e6931d" unit="px" duration="1s" />
 		</div>
 	</div>
 	<div class="thing">
 		<h1 class="day">Friday</h1>
 		<div class="event">
-			<Chasing size="60" color="#9a0a27" unit="px" duration="1s" />
+			<Chasing size="60" color="#e6931d" unit="px" duration="1s" />
 		</div>
 	</div>
 </div>

@@ -17,7 +17,7 @@
 <style>
 	form {
 		position: absolute;
-		background-color: #f0f0f0d3;
+		background-color: rgba(32, 35, 37, 0.83);
 		box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -4px rgb(0 0 0 / 10%);
 		border-radius: 1.5rem;
 		padding: 1rem;
@@ -27,6 +27,7 @@
 		z-index: 3;
 	}
 	h1 {
+		color: white;
 		margin: auto;
 	}
 	div {
@@ -44,6 +45,14 @@
 		margin: auto;
 		color: white;
 		text-align: center;
+	}
+	select {
+		border-radius: 1rem;
+		color: white;
+		background-color: rgba(67, 71, 73, 0.83);
+	}
+	option{
+		color: white;
 	}
 </style>
 

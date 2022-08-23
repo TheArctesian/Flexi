@@ -1,6 +1,5 @@
 <script lang="ts">
 	import logo from '../../Assets/CIS.png';
-    import act from '../../Assets/ac.png';
 	import { userInfo, advisory, yeargroup } from '$lib/Stores/stores';
 </script>
 
@@ -8,59 +7,67 @@
 	.header {
 		display: flex;
 		flex-direction: row;
+		justify-content: space-between;
 		margin: 2rem;
 	}
 
 	.icon {
-		background-color: #f0f0f0;
+		display: flex;
+		background-color: #4e4e4e;
+		width: 4rem;
 		border-radius: 1.3rem;
 		box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+		transition: all ease-in-out 500ms;
 	}
 
 	.icon:hover {
-		background-color: #f0f0f09f;
+		background-color: #c9c9c9;
 	}
-
 	img {
-		width: 6vw;
 		padding: 0.4rem;
 		margin: auto;
+		background-color: white;
+	}
+	.side {
 	}
 	.links {
 		display: flex;
-		margin: auto;
-		width: 70vw;
 		background-color: #9a0a27;
 		border-radius: 1.3rem;
 		justify-content: center;
 		text-align: center;
-		box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
 		padding: 1rem;
     }
     .t {
-		background-color: #f0f0f0;
+		background-color: #4e4e4e;
         color: black;
         width: auto;
         padding: 1.5rem;
 		border-radius: 1.3rem;
     }
 	h1 {
+		font-weight: 800;
 		background-color: #e6931d;
 		margin: auto;
 		width: 20vw;
-		margin-left: 0.25rem;
-		margin-right: 0.25rem;
+		margin-left: 0.4rem;
+		margin-right: 0.4rem;
 		border-radius: 1rem;
 		padding: 0.5rem;
+		transition: all ease-in-out 200ms;
 		color: white;
 		box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+	}
+
+	h1:hover {
+		background-color: #e6921d8f;
 	}
 </style>
 
 <div class="header">
-	<div class="icon">
-		<img src={logo} alt="CIS logo" />
-	</div>
+	<a class="side"href="/calandar">
+		<img class="icon"src="https://cdn-icons-png.flaticon.com/512/25/25694.png"alt="CIS logo" />
+</a>
 	<div class="links">
 		<a href="/">
 			<h1>Flexi Schedule</h1>
@@ -72,13 +79,14 @@
 			<h1>Useful Links</h1>
 		</a>
 	</div>
-	<a href="/account">
-            {#if $userInfo}
+	<a class="side"href="/calandar">
+		<img alt="calandar"class="icon"src="https://cdn-icons.flaticon.com/png/512/2886/premium/2886665.png?token=exp=1661235845~hmac=6bee9ae0b951c280bfdfa9bed199fcb1">
+	</a>
+            <!-- {#if $userInfo}
                 <h1 class="text-center t">{$yeargroup}{$advisory}</h1>
             {:else}
 		<div class="icon">
 			<img src={act} alt="CIS logo" />
 		</div>
-            {/if}
-	</a>
+            {/if} -->
 </div>
