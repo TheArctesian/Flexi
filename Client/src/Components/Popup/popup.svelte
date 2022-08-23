@@ -29,6 +29,8 @@
 	h1 {
 		color: white;
 		margin: auto;
+		padding: .7rem;
+		border-radius: 1rem;
 	}
 	div {
 		display: flex;
@@ -46,9 +48,15 @@
 		color: white;
 		text-align: center;
 	}
+	div{
+		display: flex;
+		justify-content:;
+	}
 	select {
-		border-radius: 1rem;
 		color: white;
+		padding: .7rem;
+		border-radius: 1rem;
+		border: #fff solid 1px;
 		background-color: rgba(67, 71, 73, 0.83);
 	}
 	option{

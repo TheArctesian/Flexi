@@ -7,6 +7,7 @@
 	.thing {
 		margin: 1rem;
 	}
+
 	.day {
 		text-align: center;
 		background-color: #e6931d;
@@ -15,7 +16,7 @@
 		margin: auto;
 		margin-top: 5vh;
 		margin-bottom: 2vh;
-		font-weight: 700;
+		font-weight: 500;
 		width: 15vw;
 		color: white;
 		transition: all ease-in-out 200ms;
