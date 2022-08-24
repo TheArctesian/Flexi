@@ -34,6 +34,8 @@
 	}
 	div {
 		display: flex;
+		flex-direction: row;
+		float: left;
 		padding: 1rem;
 	}
 	select {
@@ -50,7 +52,7 @@
 	}
 	div{
 		display: flex;
-		justify-content:;
+		justify-content:space-around;
 	}
 	select {
 		color: white;
@@ -91,5 +93,6 @@
 			<option value="P2">P2</option>
 		</select>
 	</div>
+
 	<button type="submit">Submit</button>
 </form>
