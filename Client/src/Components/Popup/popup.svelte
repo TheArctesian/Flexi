@@ -1,5 +1,5 @@
 <script>
-	import { advisory, yeargroup, userInfo } from '$lib/Stores/stores';
+	import { enabled } from '$lib/Stores/stores';
 	let advis = '';
 	let yrg = '';
 	function handleSubmit() {
@@ -7,8 +7,7 @@
 			advisory.set(advis);
 			yeargroup.set(parseInt(yrg));
 			userInfo.set(true);
-			alert($advisory + $yeargroup + $userInfo);
-		} else {
+	} else {
 			alert('Please select your year group and advisory before submitting');
 		}
 	}
