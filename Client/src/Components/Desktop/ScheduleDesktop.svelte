@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { Chasing } from 'svelte-loading-spinners';
-	console.log('hello desktop');
 </script>
 
 <style>
@@ -53,7 +52,7 @@
 
 <div class="content">
 	<div class="thing">
-		<h1 class="day">Monday</h1>
+        <h1 class="day">Monday <br> 10:45-11:35</h1>
 		<button>
 			<div class="event">
 				<Chasing size="60" color="#e6931d" unit="px" duration="1s" />
@@ -62,27 +61,27 @@
 	</div>
 
 	<div class="thing">
-		<h1 class="day">Tuesday</h1>
+		<h1 class="day">Tuesday <br> 10:45-11:35</h1>
 		<div class="event">
 			<Chasing size="60" color="#e6931d" unit="px" duration="1s" />
 		</div>
 	</div>
 
 	<div class="thing">
-		<h1 class="day">Wednesday</h1>
+		<h1 class="day">Wednesday <br> 10:35-11:45</h1>
 		<div class="event">
 			<Chasing size="60" color="#e6931d" unit="px" duration="1s" />
 		</div>
 	</div>
 
 	<div class="thing">
-		<h1 class="day">Thursday</h1>
+		<h1 class="day">Thursday <br> 10:45-11:35</h1>
 		<div class="event">
 			<Chasing size="60" color="#e6931d" unit="px" duration="1s" />
 		</div>
 	</div>
 	<div class="thing">
-		<h1 class="day">Friday</h1>
+		<h1 class="day">Friday  <br> 10:35-11:45</h1>
 		<div class="event">
 			<Chasing size="60" color="#e6931d" unit="px" duration="1s" />
 		</div>

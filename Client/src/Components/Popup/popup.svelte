@@ -20,11 +20,10 @@
 		background-color: rgba(32, 35, 37, 0.83);
 		box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -4px rgb(0 0 0 / 10%);
 		border-radius: 1.5rem;
-		padding: 1rem;
-		left: 30%;
-		right: 30%;
-		top: 40%;
-		z-index: 3;
+        left: 50%; 
+        transform: translate(-50%,-50%);
+        top:50%;
+        z-index:3; 
 	}
 	h1 {
 		color: white;
@@ -92,7 +91,9 @@
 			<option value="B2">B2</option>
 			<option value="P2">P2</option>
 		</select>
+    </div>
+    <div>
+	<button type="submit">Submit</button>
 	</div>
 
-	<button type="submit">Submit</button>
 </form>

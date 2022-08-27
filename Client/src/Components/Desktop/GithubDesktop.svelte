@@ -1,33 +1,33 @@
 <a href="https://github.com/TheArctesian/Flexi" target="_blank">
 	<div class="logo-comp">
-		<div id="gap" />
 
-		<div class="hiden">
-			Check out the source code for clicking here. <br />
-			Follow the documentation if you would like <br />
-			to learn to code and contribute to this project!
-		</div>
-		<img alt="This is the github logo" src="./github.svg" class="github" />
+		<img alt="This is the github logo" src="https://cdn-icons-png.flaticon.com/512/4926/4926624.png" class="github" />
 	</div>
 </a>
 
 <style>
 	.logo-comp {
-		position: absolute;
-		background-color: #f0f0f0;
-		border-radius: 4rem;
-		width: fit-content;
-		display: flex;
-		flex-direction: row;
-		transition: all 0.2s ease-in-out;
-		margin: 1rem;
-		bottom: 1rem;
-		right: 1rem;
-		margin: auto;
-		padding: 0.2rem;
-		font-size: 0;
-	}
 
+	}
+    
+    img{
+        position:absolute;
+        left: 1.7rem; 
+        bottom: 1.7rem; 
+        padding: 0.4rem;
+        margin: auto;
+        display: flex;
+		background-color: #4e4e4e;
+		width: 4rem;
+		border-radius: 1.3rem;
+		box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+		transition: all ease-in-out 500ms;
+
+    }
+    img:hover{
+
+		background-color: #c9c9c9;
+    }
 	.hiden {
 		justify-content: center;
 		margin: auto;

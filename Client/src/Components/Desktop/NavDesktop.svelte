@@ -80,7 +80,7 @@
 		</a>
 	</div>
 	<a class="side"href="/calandar">
-		<img alt="calandar"class="icon"src="https://cdn-icons.flaticon.com/png/512/2886/premium/2886665.png?token=exp=1661235845~hmac=6bee9ae0b951c280bfdfa9bed199fcb1">
+		<img alt="calandar"class="icon"src="https://img.icons8.com/material-outlined/344/calendar--v1.png">
 	</a>
             <!-- {#if $userInfo}
                 <h1 class="text-center t">{$yeargroup}{$advisory}</h1>
