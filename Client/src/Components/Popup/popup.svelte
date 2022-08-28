@@ -1,5 +1,5 @@
 <script>
-	import { enabled } from '$lib/Stores/stores';
+	import { advisory, yeargroup, userInfo } from '$lib/Stores/stores';
 	let advis = '';
 	let yrg = '';
 	function handleSubmit() {
@@ -7,7 +7,7 @@
 			advisory.set(advis);
 			yeargroup.set(parseInt(yrg));
 			userInfo.set(true);
-	} else {
+		} else {
 			alert('Please select your year group and advisory before submitting');
 		}
 	}
@@ -19,15 +19,15 @@
 		background-color: rgba(32, 35, 37, 0.83);
 		box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -4px rgb(0 0 0 / 10%);
 		border-radius: 1.5rem;
-        left: 50%; 
-        transform: translate(-50%,-50%);
-        top:50%;
-        z-index:3; 
+		left: 50%;
+		transform: translate(-50%, -50%);
+		top: 50%;
+		z-index: 3;
 	}
 	h1 {
 		color: white;
 		margin: auto;
-		padding: .7rem;
+		padding: 0.7rem;
 		border-radius: 1rem;
 	}
 	div {
@@ -48,18 +48,18 @@
 		color: white;
 		text-align: center;
 	}
-	div{
+	div {
 		display: flex;
-		justify-content:space-around;
+		justify-content: space-around;
 	}
 	select {
 		color: white;
-		padding: .7rem;
+		padding: 0.7rem;
 		border-radius: 1rem;
 		border: #fff solid 1px;
 		background-color: rgba(67, 71, 73, 0.83);
 	}
-	option{
+	option {
 		color: white;
 	}
 </style>
@@ -90,9 +90,9 @@
 			<option value="B2">B2</option>
 			<option value="P2">P2</option>
 		</select>
-    </div>
-    <div>
-	<button type="submit">Submit</button>
+	</div>
+	<div>
+		<button type="submit">Submit</button>
 	</div>
 
 </form>

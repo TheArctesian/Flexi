@@ -9,6 +9,7 @@
 	.element {
 		display: flex;
 		margin: 2rem;
+		transition: all ease-in-out 500ms;
 	}
 	.name {
 		text-align: center;
@@ -17,6 +18,7 @@
 		border-radius: 0.5em;
 		margin: auto;
 		color: white;
+		transition: all ease-in-out 500ms;
 	}
 
 	.event {
@@ -24,16 +26,26 @@
 		padding: 0.5em;
 		margin-top: 1rem;
 		border-radius: 0.5em;
+		transition: all ease-in-out 500ms;
+	}
+	.event:hover {
+		background-color: #f0f0f087;
 	}
 	img {
 		margin: auto;
 	}
 
 	.content {
-        display: flex;
-        
+		display: flex;
+
 		flex-wrap: wrap;
 		justify-content: space-around;
+		transition: all ease-in-out 500ms;
+	}
+	@media (max-width: 750px) {
+		.element {
+			width: 30vw;
+		}
 	}
 </style>
 

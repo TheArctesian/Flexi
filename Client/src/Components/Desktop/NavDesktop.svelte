@@ -27,6 +27,7 @@
 		padding: 0.4rem;
 		margin: auto;
 		background-color: white;
+		transition: all ease-in-out 500ms;
 	}
 	.side {
 	}
@@ -37,19 +38,19 @@
 		justify-content: center;
 		text-align: center;
 		padding: 1rem;
-    }
-    .t {
+		transition: all ease-in-out 500ms;
+	}
+	.t {
 		background-color: #4e4e4e;
-        color: black;
-        width: auto;
-        padding: 1.5rem;
+		color: black;
+		width: auto;
+		padding: 1.5rem;
 		border-radius: 1.3rem;
-    }
+	}
 	h1 {
 		font-weight: 800;
 		background-color: #e6931d;
 		margin: auto;
-		width: 20vw;
 		margin-left: 0.4rem;
 		margin-right: 0.4rem;
 		border-radius: 1rem;
@@ -62,12 +63,25 @@
 	h1:hover {
 		background-color: #e6921d8f;
 	}
+	@media (max-width: 750px) {
+		.side {
+			display: none;
+		}
+		.links {
+			margin: auto;
+		}
+		h1 {
+			font-weight: 500;
+
+			transition: all ease-in-out 500ms;
+		}
+	}
 </style>
 
 <div class="header">
-	<a class="side"href="/calandar">
-		<img class="icon"src="https://cdn-icons-png.flaticon.com/512/25/25694.png"alt="CIS logo" />
-</a>
+	<a class="side" href="/calandar">
+		<img class="icon" src="https://cdn-icons-png.flaticon.com/512/25/25694.png" alt="CIS logo" />
+	</a>
 	<div class="links">
 		<a href="/">
 			<h1>Flexi Schedule</h1>
@@ -79,10 +93,13 @@
 			<h1>Useful Links</h1>
 		</a>
 	</div>
-	<a class="side"href="/calandar">
-		<img alt="calandar"class="icon"src="https://img.icons8.com/material-outlined/344/calendar--v1.png">
+	<a class="side" href="/calandar">
+		<img
+			alt="calandar"
+			class="icon"
+			src="https://img.icons8.com/material-outlined/344/calendar--v1.png" />
 	</a>
-            <!-- {#if $userInfo}
+	<!-- {#if $userInfo}
                 <h1 class="text-center t">{$yeargroup}{$advisory}</h1>
             {:else}
 		<div class="icon">

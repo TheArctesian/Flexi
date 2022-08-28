@@ -1,32 +1,47 @@
 <script lang="ts">
 	import data from '../../lib/teachers.json';
-    
-    let name = "";
-    console.log(name)
-    let empty = true;
-    function findTeacher(name){
-        console.log(name);
-    }
-        
+	let name = '';
+	console.log(name);
+	let empty = true;
+	function findTeacher() {
+		console.log(name);
+	}
 </script>
 
-<form
-	class="bg-black-800 flex p-2 my-5 object-contain justify-around rounded-lg "
->
+<style>
+	form {
+		border-radius: 1.3rem;
+		color: white;
+	}
+	input {
+		border: #e6931d solid 0.2rem;
+		background-color: #4e4e4e;
+		outline-width: 0;
+		transition: all ease-in-out 500ms;
+	}
+	input:focus,
+	input:hover {
+		border: #9a0a27 solid 0.2rem;
+	}
+	::placeholder {
+		/* Chrome, Firefox, Opera, Safari 10.1+ */
+		color: rgb(209, 209, 209);
+		opacity: 1; /* Firefox */
+	}
+</style>
+
+<form class="bg-black-800 flex p-2 my-5 object-contain justify-around ">
 	<input
-            class="rounded border bg-aro-900 text-white-50  flex-grow m-10 border-2 px-3 py-2"
-		name="q"
-		placeholder="Enter Teacher Name"
-	>
+		on:change={findTeacher}
+		bind:value={name}
+		on:input={findTeacher}
+		class="rounded flex-grow m-10 px-3 py-2"
+		placeholder="Enter Teacher Name" />
 
 </form>
 
-    {#if empty}
-        <img src="https://img.icons8.com/material-outlined/344/search.png">
-    {:else}
-        <h1>Home</h1>
-    {/if}
+{#if empty}
 
-
-<style>
-</style>
+{:else}
+	<h1>Home</h1>
+{/if}
