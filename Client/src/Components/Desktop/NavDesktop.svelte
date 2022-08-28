@@ -3,6 +3,37 @@
 	import { userInfo, advisory, yeargroup } from '$lib/Stores/stores';
 </script>
 
+<div class="header">
+	<a class="side" href="/">
+		<img class="icon" src="https://cdn-icons-png.flaticon.com/512/25/25694.png" alt="CIS logo" />
+	</a>
+	<div class="links">
+		<a href="/">
+			<h1>Flexi Schedule</h1>
+		</a>
+		<a href="/rooms">
+			<h1>Teacher Rooms</h1>
+		</a>
+		<a href="/links">
+			<h1>Useful Links</h1>
+		</a>
+	</div>
+	<a class="side" target="_blank" href="https://github.com/TheArctesian/Flexi">
+		<img
+			alt="calandar"
+			class="icon"
+			src="https://cdn-icons-png.flaticon.com/512/4926/4926624.png"
+		/>
+	</a>
+	<!-- {#if $userInfo}
+                <h1 class="text-center t">{$yeargroup}{$advisory}</h1>
+            {:else}
+		<div class="icon">
+			<img src={act} alt="CIS logo" />
+		</div>
+            {/if} -->
+</div>
+
 <style>
 	.header {
 		display: flex;
@@ -29,15 +60,13 @@
 		background-color: white;
 		transition: all ease-in-out 500ms;
 	}
-	.side {
-	}
 	.links {
 		display: flex;
 		background-color: #9a0a27;
 		border-radius: 1.3rem;
 		justify-content: center;
 		text-align: center;
-		padding: 1rem;
+		padding: .8rem;
 		transition: all ease-in-out 500ms;
 	}
 	.t {
@@ -48,13 +77,15 @@
 		border-radius: 1.3rem;
 	}
 	h1 {
-		font-weight: 800;
+		font-weight: 500;
 		background-color: #e6931d;
 		margin: auto;
-		margin-left: 0.4rem;
-		margin-right: 0.4rem;
+		margin-left: 2rem;
+		margin-right: 2rem;
 		border-radius: 1rem;
 		padding: 0.5rem;
+		padding-left: 1rem;
+		padding-right: 1rem;
 		transition: all ease-in-out 200ms;
 		color: white;
 		box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
@@ -63,7 +94,7 @@
 	h1:hover {
 		background-color: #e6921d8f;
 	}
-	@media (max-width: 750px) {
+	@media (max-width: 840px) {
 		.side {
 			display: none;
 		}
@@ -72,38 +103,11 @@
 		}
 		h1 {
 			font-weight: 500;
-
+			margin-left: 0.4rem;
+			margin-right: 0.4rem;
+			padding-left: 0.4rem;
+			padding-right: 0.7rem;
 			transition: all ease-in-out 500ms;
 		}
 	}
 </style>
-
-<div class="header">
-	<a class="side" href="/calandar">
-		<img class="icon" src="https://cdn-icons-png.flaticon.com/512/25/25694.png" alt="CIS logo" />
-	</a>
-	<div class="links">
-		<a href="/">
-			<h1>Flexi Schedule</h1>
-		</a>
-		<a href="/rooms">
-			<h1>Teacher Rooms</h1>
-		</a>
-		<a href="/links">
-			<h1>Useful Links</h1>
-		</a>
-	</div>
-	<a class="side" href="/calandar">
-		<img
-			alt="calandar"
-			class="icon"
-			src="https://img.icons8.com/material-outlined/344/calendar--v1.png" />
-	</a>
-	<!-- {#if $userInfo}
-                <h1 class="text-center t">{$yeargroup}{$advisory}</h1>
-            {:else}
-		<div class="icon">
-			<img src={act} alt="CIS logo" />
-		</div>
-            {/if} -->
-</div>

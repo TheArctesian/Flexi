@@ -1,0 +1,178 @@
+[
+ {
+   "firstname": "Christine",
+   "lastname": "Doleman",
+   "title": "Head of Secondary",
+   "advisory": "13B2",
+   "email": "cdoleman@cis.edu.hk",
+   "room": 222,
+   "joined": 2018,
+   "department": "Secondary Office",
+   "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/cdoleman.jpg"
+ },
+ {
+   "firstname": "Chris",
+   "lastname": "Caves",
+   "title": "Director of Academic Affairs",
+   "advisory": "7B1",
+   "email": "ccaves@cis.edu.hk",
+   "room": 322,
+   "joined": 2007,
+   "department": "Individuals and Societies",
+   "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/ccaves.jpg"
+ },
+ {
+   "firstname": "Brian",
+   "lastname": "Mulcahy",
+   "title": "Director of Student Life",
+   "advisory": "9G2",
+   "email": "bmulcahy@cis.edu.hk",
+   "room": 325,
+   "joined": 1995,
+   "department": "English",
+   "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/bmulcahy.jpg"
+ },
+ {
+   "firstname": "Laszlo",
+   "lastname": "Varro",
+   "title": "Director of Administrative Services",
+   "advisory": "10Y3",
+   "email": "lvarro@cis.edu.hk",
+   "room": 422,
+   "joined": 1997,
+   "department": "Secondary Office",
+   "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/lvarro.jpg"
+ },
+ {
+   "firstname": "Yan Sin",
+   "lastname": "Kin",
+   "title": "Head of Year 7",
+   "advisory": "13Y1",
+   "email": "kysin@cis.edu.hk",
+   "room": 425,
+   "joined": 2012,
+   "department": "Chinese",
+   "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/kysin.jpg"
+ },
+ {
+   "firstname": "Robert",
+   "lastname": "Jones",
+   "title": "Head of Year 8",
+   "advisory": "8Y1",
+   "email": "rjones@cis.edu.hk",
+   "room": 522,
+   "joined": 2013,
+   "department": "Mathematics",
+   "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/rjones.jpg"
+ },
+ {
+   "firstname": "Se Mi",
+   "lastname": "Lee",
+   "title": "Head of Year 9",
+   "advisory": "12B2",
+   "email": "smlee@cis.edu.hk",
+   "room": 526,
+   "joined": 2013,
+   "department": "English",
+   "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/smlee.jpg"
+ },
+ {
+   "firstname": "Michaela",
+   "lastname": "Gillespie",
+   "title": "Head of Year 10",
+   "advisory": "7R2",
+   "email": "mgillespie@cis.edu.hk",
+   "room": 622,
+   "joined": 2013,
+   "department": "Product Design",
+   "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/mgillespie.jpg"
+ },
+ {
+   "firstname": "Jennifer",
+   "lastname": "Sutton",
+   "title": "Head of Year 11",
+   "advisory": "9P1",
+   "email": "jsutton@cis.edu.hk",
+   "room": 628,
+   "joined": 2020,
+   "department": "Science",
+   "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/jsutton.jpg"
+ },
+ {
+   "firstname": "Nadina",
+   "lastname": "Schneider",
+   "title": "Head of Year 12",
+   "advisory": "11R2",
+   "email": "nschneider@cis.edu.hk",
+   "room": 303,
+   "joined": 2013,
+   "department": "Product Design",
+   "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/nschneider.jpg"
+ },
+ {
+   "firstname": "Jamie",
+   "lastname": "Hooper",
+   "title": "Head of Year 13",
+   "advisory": "8R2",
+   "email": "jhooper@cis.edu.hk",
+   "room": 523,
+   "joined": 2014,
+   "department": "Physical and Health Education",
+   "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/jhooper.jpg"
+ },
+ {
+   "firstname": "Nitu",
+   "lastname": "Nahar",
+   "title": "Head of Computer Science",
+   "advisory": "13G2",
+   "email": "nnahar@cis.edu.hk",
+   "room": 626,
+   "joined": 2007,
+   "department": "Computer Science",
+   "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/nnahar.jpg"
+ },
+ {
+   "firstname": "Adam",
+   "lastname": "Ewing",
+   "title": "Teacher",
+   "advisory": "13B2",
+   "email": "aewing@cis.edu.hk",
+   "room": 223,
+   "joined": 2022,
+   "department": "Computer Science",
+   "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/aewing.jpg"
+ },
+ {
+   "firstname": "Mark",
+   "lastname": "Hayes",
+   "title": "Teacher",
+   "advisory": "12G1",
+   "email": "mhayes@cis.edu.hk",
+   "room": 224,
+   "joined": 2005,
+   "department": "Computer Science",
+   "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/mhayes.jpg"
+ },
+ {
+   "firstname": "Sanaz",
+   "lastname": "Momeni",
+   "title": "Teacher",
+   "advisory": "8G2",
+   "email": "smomeni@cis.edu.hk",
+   "room": 225,
+   "joined": 2017,
+   "department": "Computer Science",
+   "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/smomeni.jpg"
+ },
+ {
+   "firstname": "Simon",
+   "lastname": "Tam",
+   "title": "Teacher",
+   "advisory": "13R1",
+   "email": "stam@cis.edu.hk",
+   "room": 226,
+   "joined": 2012,
+   "department": "Computer Science",
+   "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/stam.jpg"
+ }
+]

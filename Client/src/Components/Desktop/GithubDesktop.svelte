@@ -1,5 +1,16 @@
+<a href="https://github.com/TheArctesian/Flexi" target="_blank">
+	<div class="logo-comp">
+		<img
+			alt="This is the github logo"
+			src="https://cdn-icons-png.flaticon.com/512/4926/4926624.png"
+			class="github"
+		/>
+	</div>
+</a>
+
 <style>
 	.logo-comp {
+		display: none;
 	}
 
 	img {
@@ -33,6 +44,10 @@
 		font-size: 0.8rem;
 	}
 	@media (max-width: 750px) {
+		.logo-comp {
+			display: flex;
+		}
+
 		img {
 			position: relative;
 			left: 0;
@@ -41,13 +56,3 @@
 		}
 	}
 </style>
-
-<a href="https://github.com/TheArctesian/Flexi" target="_blank">
-	<div class="logo-comp">
-
-		<img
-			alt="This is the github logo"
-			src="https://cdn-icons-png.flaticon.com/512/4926/4926624.png"
-			class="github" />
-	</div>
-</a>
