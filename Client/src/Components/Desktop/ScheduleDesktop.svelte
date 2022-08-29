@@ -11,6 +11,7 @@
 		if (data[i].dayint == day) {
 			daydata = data[i];
 		}
+		console.log(data[i].Y7);
 	}
 </script>
 
@@ -89,9 +90,9 @@
 							<Chasing size="60" color="#e6931d" unit="px" duration="1s" />
 						</div>
 					</button>
-				{:else}
-					<!-- <h1>Event: {day.{$yeargroup}.Event}</h1>
-					<h1>Place: {day.{$yeargroup}.Place}</h1> -->
+				{:else if !userInfo}
+					<h1>Event: {day.Y7.Event}</h1>
+					<h1>Place: {day.Y7.Place}</h1>
 				{/if}
 
 			</div>

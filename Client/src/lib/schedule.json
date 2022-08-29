@@ -1,7 +1,6 @@
 [
 	{
 		"day": "Monday",
-		"dayint": "1",
 		"time": "10:45-11:35",
 		"Y7": {
 			"Event": "Assembly",
@@ -70,25 +69,32 @@
 		"dayint": "3",
 		"time": "10:35-11:45",
 		"Y7": {
-			"Event": "Advisory"
+			"Event": "Advisory",
+			"place": "check email"
 		},
 		"Y8": {
-			"Event": "Advisory"
+			"Event": "Advisory",
+			"place": "check email"
 		},
 		"Y9": {
-			"Event": "Advisory"
+			"Event": "Advisory",
+			"place": "check email"
 		},
 		"Y10": {
-			"Event": "Advisory"
+			"Event": "Advisory",
+			"place": "check email"
 		},
 		"Y11": {
-			"Event": "Advisory"
+			"Event": "Advisory",
+			"place": "check email"
 		},
 		"Y12": {
-			"Event": "Advisory"
+			"Event": "Advisory",
+			"place": "check email"
 		},
 		"Y13": {
-			"Event": "Advisory"
+			"Event": "Advisory",
+			"place": "check email"
 		}
 	},
 	{
@@ -129,25 +135,32 @@
 		"dayint": "5",
 		"time": "10:45-11:35",
 		"Y7": {
-			"Event": "Advisory"
+			"Event": "Advisory",
+			"place": "check email"
 		},
 		"Y8": {
-			"Event": "Advisory"
+			"Event": "Advisory",
+			"place": "check email"
 		},
 		"Y9": {
-			"Event": "Advisory"
+			"Event": "Advisory",
+			"place": "check email"
 		},
 		"Y10": {
-			"Event": "Advisory"
+			"Event": "Advisory",
+			"place": "check email"
 		},
 		"Y11": {
-			"Event": "Advisory"
+			"Event": "Advisory",
+			"place": "check email"
 		},
 		"Y12": {
-			"Event": "Advisory"
+			"Event": "Advisory",
+			"place": "check email"
 		},
 		"Y13": {
-			"Event": "Advisory"
+			"Event": "Advisory",
+			"place": "check email"
 		}
 	}
 ]

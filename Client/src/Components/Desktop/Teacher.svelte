@@ -22,6 +22,18 @@
 		width: fit-content;
 		will-change: filter;
 	}
+	@media (max-width: 750px) {
+		.content {
+			display: block;
+		}
+		.image {
+			margin: auto;
+			text-align: center;
+		}
+		img {
+			margin: auto;
+		}
+	}
 	.content:hover {
 		transition: all ease-in-out 200ms;
 		filter: drop-shadow(0 0 1em #ffffff);
@@ -33,7 +45,6 @@
 		padding: 1rem;
 		display: flex;
 		width: 15rem;
-
 		background-color: #4e4e4e;
 	}
 	.tent {
@@ -60,9 +71,9 @@
 	<div class="text">
 		<div class="tent">
 			<h1>{Firstname} {Lastname}</h1>
-			<p>{Title}</p>
+			<p class="text-center text-xs">Title: {Title}</p>
 			<p>Department: {Department}</p>
-			<p>Joined:{Yearjoined}</p>
+			<p>Joined: {Yearjoined}</p>
 			<p>Advisory: {Advisory}</p>
 			<p>Room: {Room}</p>
 			<p>Email: {Email}</p>

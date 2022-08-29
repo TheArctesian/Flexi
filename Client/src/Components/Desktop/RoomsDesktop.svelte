@@ -15,8 +15,8 @@
 	}
 	function findTeacher() {
 		list.length = 0;
-		let s = name.charAt(0);
-		clearList();
+		let s = name;
+		list = [];
 		for (let i = 0; i < data.length; i++) {
 			let fname = data[i].firstname;
 			let lname = data[i].lastname;
@@ -63,7 +63,7 @@
 <form class="bg-black-800 flex p-2 my-5 object-contain justify-around ">
 	<input
 		bind:value={name}
-		on:change={findTeacher}
+		on:input={findTeacher}
 		class="rounded flex-grow m-10 px-3 py-2"
 		placeholder="Enter Teacher Name" />
 </form>
