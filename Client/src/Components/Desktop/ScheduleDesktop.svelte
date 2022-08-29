@@ -2,9 +2,10 @@
 	import { Chasing } from 'svelte-loading-spinners';
 	import { yeargroup, advisory, userInfo } from '$lib/Stores/stores';
 	import data from '$lib/schedule.json';
-	let innerWidth: number;
+	let w: number;
 	const d = new Date();
 	let day = d.getDay();
+
 	let daydata: any;
 	for (let i = 0; i < data.length; i++) {
 		if (data[i].dayint == day) {
@@ -14,49 +15,11 @@
 
 		console.log(data[i][$yeargroup] + 'should not be undified');
 	}
+	function handClick() {
+		alert(w);
+		console.log('asjkdaksjdk');
+	}
 </script>
-
-<svelte:window bind:innerWidth />
-<div class="content">
-	{#if innerWidth > 750}
-		{#each data as day}
-			<div class="thing">
-				<h1 class="day">
-					{day.day}
-					<br />
-					{day.time}
-				</h1>
-				{#if $userInfo == 'flase'}
-					<button>
-						<div class="event">
-							<Chasing size="60" color="#e6931d" unit="px" duration="1s" />
-						</div>
-					</button>
-				{:else}
-					<h1>Event: {day.Y7}</h1>
-					<!-- <h1>Place: {d}</h1> -->
-				{/if}
-			</div>
-		{/each}
-	{:else}
-		<div class="thing">
-			<h1 class="day">
-				{daydata.day}
-				<br />
-				{daydata.time}
-			</h1>
-			{#if $userInfo == 'false'}
-				<div class="event">
-					<Chasing size="60" color="#e6931d" unit="px" duration="1s" />
-				</div>
-			{:else}
-				<div class="event">
-					<h1>{daydata.$yeargroup}</h1>
-				</div>
-			{/if}
-		</div>
-	{/if}
-</div>
 
 <style>
 	.thing {
@@ -117,3 +80,47 @@
 		}
 	}
 </style>
+
+<div class="content" bind:clientWidth={w}>
+	{#if w > 750}
+		{#each data as day}
+			<div class="thing">
+				<h1 class="day">
+					{day.day}
+					<br />
+					{day.time}
+				</h1>
+				{#if ($userInfo = false)}
+					<button>
+						<div class="event">
+							<Chasing size="60" color="#e6931d" unit="px" duration="1s" />
+						</div>
+					</button>
+				{:else}
+					<div class="event">
+						<h1>Event: {day.Y7}</h1>
+						<!-- <h1>Place: {d}</h1> -->
+					</div>
+				{/if}
+			</div>
+		{/each}
+	{:else}
+		<div class="thing">
+			<h1 class="day">
+				{daydata.day}
+				<br />
+				{daydata.time}
+			</h1>
+			{#if $userInfo == false}
+				<div class="event">
+					<Chasing size="60" color="#e6931d" unit="px" duration="1s" />
+				</div>
+			{:else}
+				<div class="event">
+					<button on:click={handClick}>Click</button>
+					<h1>{daydata.$yeargroup}</h1>
+				</div>
+			{/if}
+		</div>
+	{/if}
+</div>

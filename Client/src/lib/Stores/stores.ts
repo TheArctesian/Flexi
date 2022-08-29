@@ -2,7 +2,7 @@ import { writable } from 'svelte/store';
 if (typeof window !== 'undefined') {
 	var storedYearGroup = localStorage.getItem('Yeargroup');
 	var storedAdvisory = localStorage.getItem('Advisory');
-	var storedUserInfo = localStorage.getItem('UserInfo');
+	var storedUserInfo: boolean = localStorage.getItem('UserInfo');
 }
 if (typeof window !== 'undefined') {
 	yeargroup.subscribe((value) => {
@@ -12,10 +12,9 @@ if (typeof window !== 'undefined') {
 		localStorage.setItem('Advisory', value);
 	});
 	userInfo.subscribe((value) => {
-		localStorage.setItem('Userinfo', value.toString());
+		localStorage.setItem('Userinfo', value);
 	});
 }
 export const yeargroup = writable(storedYearGroup);
 export const advisory = writable(storedAdvisory);
 export const userInfo = writable(storedUserInfo);
-

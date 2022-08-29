@@ -5,7 +5,7 @@
 	function handleSubmit() {
 		if (advis != '' && yrg != '') {
 			advisory.set(advis);
-			yeargroup.set(parseInt(yrg));
+			yeargroup.set(yrg);
 			userInfo.set(true);
 		} else {
 			alert('Please select your year group and advisory before submitting');
