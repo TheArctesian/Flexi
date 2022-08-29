@@ -1,6 +1,7 @@
 [
 	{
 		"day": "Monday",
+		"dayint": "1",
 		"time": "10:45-11:35",
 		"Y7": {
 			"Event": "Assembly",

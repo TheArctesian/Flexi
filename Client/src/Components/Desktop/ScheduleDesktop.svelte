@@ -2,8 +2,7 @@
 	import { Chasing } from 'svelte-loading-spinners';
 	import { yeargroup, advisory, userInfo } from '$lib/Stores/stores';
 	import data from '$lib/schedule.json';
-	let w;
-	let yg = $yeargroup;
+	let innerWidth: number;
 	const d = new Date();
 	let day = d.getDay();
 	let daydata: any;
@@ -11,9 +10,53 @@
 		if (data[i].dayint == day) {
 			daydata = data[i];
 		}
-		console.log(data[i].Y7);
+		console.log('Year group', $yeargroup);
+
+		console.log(data[i][$yeargroup] + 'should not be undified');
 	}
 </script>
+
+<svelte:window bind:innerWidth />
+<div class="content">
+	{#if innerWidth > 750}
+		{#each data as day}
+			<div class="thing">
+				<h1 class="day">
+					{day.day}
+					<br />
+					{day.time}
+				</h1>
+				{#if $userInfo == 'flase'}
+					<button>
+						<div class="event">
+							<Chasing size="60" color="#e6931d" unit="px" duration="1s" />
+						</div>
+					</button>
+				{:else}
+					<h1>Event: {day.Y7}</h1>
+					<!-- <h1>Place: {d}</h1> -->
+				{/if}
+			</div>
+		{/each}
+	{:else}
+		<div class="thing">
+			<h1 class="day">
+				{daydata.day}
+				<br />
+				{daydata.time}
+			</h1>
+			{#if $userInfo == 'false'}
+				<div class="event">
+					<Chasing size="60" color="#e6931d" unit="px" duration="1s" />
+				</div>
+			{:else}
+				<div class="event">
+					<h1>{daydata.$yeargroup}</h1>
+				</div>
+			{/if}
+		</div>
+	{/if}
+</div>
 
 <style>
 	.thing {
@@ -74,39 +117,3 @@
 		}
 	}
 </style>
-
-<div class="content" bind:clientWidth={w}>
-	{#if w >= 750}
-		{#each data as day}
-			<div class="thing">
-				<h1 class="day">
-					{day.day}
-					<br />
-					{day.time}
-				</h1>
-				{#if userInfo}
-					<button>
-						<div class="event">
-							<Chasing size="60" color="#e6931d" unit="px" duration="1s" />
-						</div>
-					</button>
-				{:else if !userInfo}
-					<h1>Event: {day.Y7.Event}</h1>
-					<h1>Place: {day.Y7.Place}</h1>
-				{/if}
-
-			</div>
-		{/each}
-	{:else}
-		<div class="thing">
-			<h1 class="day">
-				{daydata.day}
-				<br />
-				{daydata.time}
-			</h1>
-			<div class="event">
-				<Chasing size="60" color="#e6931d" unit="px" duration="1s" />
-			</div>
-		</div>
-	{/if}
-</div>
