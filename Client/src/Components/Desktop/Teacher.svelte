@@ -11,6 +11,48 @@
 	export let Image: string;
 </script>
 
+<style>
+	.content {
+		color: white;
+		padding: 1rem;
+		border-radius: 1.3rem;
+		margin: 1rem;
+		display: flex;
+		background-color: #4e4e4e;
+		width: fit-content;
+		will-change: filter;
+	}
+	.content:hover {
+		transition: all ease-in-out 200ms;
+		filter: drop-shadow(0 0 1em #ffffff);
+	}
+	.text {
+		padding: 1rem;
+	}
+	.image {
+		padding: 1rem;
+		display: flex;
+		width: 15rem;
+
+		background-color: #4e4e4e;
+	}
+	.tent {
+		background-color: #272727;
+		border-radius: 1rem;
+		padding: 1rem;
+	}
+	img {
+		border-radius: 1rem;
+		border: #e6931d 0.2rem solid;
+	}
+	h1 {
+		text-align: center;
+	}
+	p {
+		font-size: 1rem;
+	}
+</style>
+
 <div class="content">
 	<div class="image">
 		<img src={Image} />
@@ -27,42 +69,3 @@
 		</div>
 	</div>
 </div>
-
-<style>
-	.content {
-		color: white;
-		padding: 1rem;
-		border-radius: 1.3rem;
-		margin: 1rem;
-		display: flex;
-		background-color: #4e4e4e;
-		border: #9a0a27 0.2rem solid;
-		width: fit-content;
-	}
-	.text {
-		padding: 1rem;
-	}
-	.image {
-		padding: 1rem;
-		display: flex;
-		width: 15rem;
-
-		background-color: #4e4e4e;
-	}
-	.tent {
-		background-color: #272727;
-		border: #e6931d 0.2rem solid;
-		border-radius: 1rem;
-		padding: 1rem;
-	}
-	img {
-		border-radius: 1rem;
-		border: #e6931d 0.2rem solid;
-	}
-	h1 {
-		text-align: center;
-	}
-	p {
-		font-size: 1rem;
-	}
-</style>

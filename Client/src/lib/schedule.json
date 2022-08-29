@@ -1,0 +1,153 @@
+[
+	{
+		"day": "Monday",
+		"dayint": "1",
+		"time": "10:45-11:35",
+		"Y7": {
+			"Event": "Assembly",
+			"Place": "Lower Gym"
+		},
+		"Y8": {
+			"Event": "Assembly",
+			"Place": "Auditorium"
+		},
+		"Y9": {
+			"Event": "Wellbeing",
+			"Place": "Check email"
+		},
+		"Y10": {
+			"Event": "Wellbeing",
+			"Place": "Check email"
+		},
+		"Y11": {
+			"Event": "Assembly",
+			"Place": "Check email"
+		},
+		"Y12": {
+			"Event": "Assembly",
+			"Place": "Check email"
+		},
+		"Y13": {
+			"Event": "Assembly",
+			"Place": "Check email"
+		}
+	},
+	{
+		"day": "Tuesday",
+		"dayint": "2",
+		"time": "10:45-11:35",
+		"y7": {
+			"event": "Games",
+			"place": "lower gym"
+		},
+		"y8": {
+			"event": "assembly",
+			"place": "auditorium"
+		},
+		"y9": {
+			"event": "PBL",
+			"place": "check email"
+		},
+		"y10": {
+			"event": "Autonomy",
+			"place": "N/A"
+		},
+		"y11": {
+			"event": "assembly",
+			"place": "check email"
+		},
+		"y12": {
+			"event": "assembly",
+			"place": "check email"
+		},
+		"y13": {
+			"event": "assembly",
+			"place": "check email"
+		}
+	},
+	{
+		"day": "Wednesday",
+		"dayint": "3",
+		"time": "10:35-11:45",
+		"Y7": {
+			"Event": "Advisory"
+		},
+		"Y8": {
+			"Event": "Advisory"
+		},
+		"Y9": {
+			"Event": "Advisory"
+		},
+		"Y10": {
+			"Event": "Advisory"
+		},
+		"Y11": {
+			"Event": "Advisory"
+		},
+		"Y12": {
+			"Event": "Advisory"
+		},
+		"Y13": {
+			"Event": "Advisory"
+		}
+	},
+	{
+		"day": "Thursday",
+		"dayint": "4",
+		"time": "10:45-11:35",
+		"Y7": {
+			"Event": "Wellbeing",
+			"place": "check email"
+		},
+		"Y8": {
+			"Event": "Wellbeing",
+			"place": "check email"
+		},
+		"Y9": {
+			"Event": "Wellbeing",
+			"place": "check email"
+		},
+		"Y10": {
+			"Event": "Wellbeing",
+			"place": "check email"
+		},
+		"Y11": {
+			"Event": "Wellbeing",
+			"place": "check email"
+		},
+		"Y12": {
+			"Event": "Wellbeing",
+			"place": "check email"
+		},
+		"Y13": {
+			"Event": "Wellbeing",
+			"place": "check email"
+		}
+	},
+	{
+		"day": "Friday",
+		"dayint": "5",
+		"time": "10:45-11:35",
+		"Y7": {
+			"Event": "Advisory"
+		},
+		"Y8": {
+			"Event": "Advisory"
+		},
+		"Y9": {
+			"Event": "Advisory"
+		},
+		"Y10": {
+			"Event": "Advisory"
+		},
+		"Y11": {
+			"Event": "Advisory"
+		},
+		"Y12": {
+			"Event": "Advisory"
+		},
+		"Y13": {
+			"Event": "Advisory"
+		}
+	}
+]

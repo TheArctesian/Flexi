@@ -1,0 +1,98 @@
+[
+  {
+    "ID": 1,
+    "Week #": 1,
+    "Day": "Monday",
+    "YYYYMMDD": "20220815",
+    "Y7": "no school",
+    "Y8": "no school",
+    "Y9": "no school",
+    "Y10": "no school",
+    "Y11": "no school",
+    "Y12": "no school",
+    "Y13": "no school"
+  },
+  {
+    "ID": 10,
+    "Week #": 2,
+    "Day": "Wednesday",
+    "YYYYMMDD": "20220824",
+    "Y7": {
+      "Name": "Extended Learning",
+      "Teacher": "GetUserTeacher",
+      "Link": "/extendedLearning",
+      "Place": "",
+      "Extra_info": ""
+    },
+    "Y8": {
+      "Name": "Extended Learning",
+      "Teacher": "GetUserTeacher",
+      "Link": "/extendedLearning",
+      "Place": "",
+      "Extra_info": ""
+    },
+    "Y9": {
+      "Name": "Extended Learning",
+      "Teacher": "GetUserTeacher",
+      "Link": "/extendedLearning",
+      "Place": "",
+      "Extra_info": ""
+    },
+    "Y10": {
+      "Name": "Assembely",
+      "Teacher": "Jamie",
+      "Link": "zoomLink",
+      "Place": "501",
+      "Extra_info": ""
+    },
+    "Y11": {
+      "Name": "Assembely",
+      "Teacher": "Jamie",
+      "Link": "zoomLink",
+      "Place": "501",
+      "Extra_info": ""
+    },
+    "Y12": {
+      "Name": "Selected well being",
+      "Link": "openDB", //this would be an action to open the file display the following groups and their options
+      "Place": "null",
+      "Extra_info": [
+        {
+          "Name": "Selected well being",
+          "Teacher": "Name",
+          "Link": "zoomlink",
+          "Place": "1st floor gym",
+          "Participants": ["小明", "Alex Okita", "Jamie Hooper"]
+        },
+        {
+          "Name": "Selected well being",
+          "Teacher": "Name",
+          "Link": "zoomlink",
+          "Place": "1st floor gym",
+          "Participants": ["小明", "Alex Okita", "Jamie Hooper"]
+        }
+      ]
+    },
+    "Y13": {
+      "Name": "Selected well being",
+      "Link": "openDB", //this would be an action to open the file display the following groups and their options
+      "Place": "null",
+      "Extra_info": [
+        {
+          "Name": "Selected well being",
+          "Teacher": "Name",
+          "Link": "zoomlink",
+          "Place": "1st floor gym",
+          "Participants": ["小明", "Alex Okita", "Jamie Hooper"]
+        },
+        {
+          "Name": "Selected well being",
+          "Teacher": "Name",
+          "Link": "zoomlink",
+          "Place": "1st floor gym",
+          "Participants": ["小明", "Alex Okita", "Jamie Hooper"]
+        }
+      ]
+    }
+  }
+]

@@ -1,6 +1,17 @@
 <script lang="ts">
 	import { Chasing } from 'svelte-loading-spinners';
+	import { yeargroup, advisory, userInfo } from '$lib/Stores/stores';
+	import data from '$lib/schedule.json';
 	let w;
+	let yg = $yeargroup;
+	const d = new Date();
+	let day = d.getDay();
+	let daydata: any;
+	for (let i = 0; i < data.length; i++) {
+		if (data[i].dayint == day) {
+			daydata = data[i];
+		}
+	}
 </script>
 
 <style>
@@ -65,67 +76,32 @@
 
 <div class="content" bind:clientWidth={w}>
 	{#if w >= 750}
-		<div class="thing">
-			<h1 class="day">
-				Monday
-				<br />
-				10:45-11:35
-			</h1>
-			<button>
-				<div class="event">
-					<Chasing size="60" color="#e6931d" unit="px" duration="1s" />
-				</div>
-			</button>
-		</div>
+		{#each data as day}
+			<div class="thing">
+				<h1 class="day">
+					{day.day}
+					<br />
+					{day.time}
+				</h1>
+				{#if userInfo}
+					<button>
+						<div class="event">
+							<Chasing size="60" color="#e6931d" unit="px" duration="1s" />
+						</div>
+					</button>
+				{:else}
+					<!-- <h1>Event: {day.{$yeargroup}.Event}</h1>
+					<h1>Place: {day.{$yeargroup}.Place}</h1> -->
+				{/if}
 
-		<div class="thing">
-			<h1 class="day">
-				Tuesday
-				<br />
-				10:45-11:35
-			</h1>
-			<div class="event">
-				<Chasing size="60" color="#e6931d" unit="px" duration="1s" />
 			</div>
-		</div>
-
-		<div class="thing">
-			<h1 class="day">
-				Wednesday
-				<br />
-				10:35-11:45
-			</h1>
-			<div class="event">
-				<Chasing size="60" color="#e6931d" unit="px" duration="1s" />
-			</div>
-		</div>
-
-		<div class="thing">
-			<h1 class="day">
-				Thursday
-				<br />
-				10:45-11:35
-			</h1>
-			<div class="event">
-				<Chasing size="60" color="#e6931d" unit="px" duration="1s" />
-			</div>
-		</div>
-		<div class="thing">
-			<h1 class="day">
-				Friday
-				<br />
-				10:35-11:45
-			</h1>
-			<div class="event">
-				<Chasing size="60" color="#e6931d" unit="px" duration="1s" />
-			</div>
-		</div>
+		{/each}
 	{:else}
 		<div class="thing">
 			<h1 class="day">
-				Friday
+				{daydata.day}
 				<br />
-				10:35-11:45
+				{daydata.time}
 			</h1>
 			<div class="event">
 				<Chasing size="60" color="#e6931d" unit="px" duration="1s" />
