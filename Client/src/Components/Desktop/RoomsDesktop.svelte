@@ -31,6 +31,33 @@
 	}
 </script>
 
+<form class="bg-black-800 flex p-2 my-5 object-contain justify-around ">
+	<input
+		bind:value={name}
+		on:input={findTeacher}
+		class="rounded flex-grow m-10 px-3 py-2"
+		placeholder="Enter Teacher Name"
+	/>
+</form>
+
+<div class="res">
+	{#each list as user}
+		<Teacher
+			Title={user.title}
+			Department={user.department}
+			Room={user.room}
+			Firstname={user.firstname}
+			Lastname={user.lastname}
+			Yearjoined={user.joined}
+			Email={user.email}
+			Advisory={user.advisory}
+			Image={user.image}
+		/>
+		<!-- {#each list as user}
+	<h1 class="text-white">{user.title}</h1> -->
+	{/each}
+</div>
+
 <style>
 	.res {
 		width: 100vw;
@@ -59,28 +86,3 @@
 		opacity: 1; /* Firefox */
 	}
 </style>
-
-<form class="bg-black-800 flex p-2 my-5 object-contain justify-around ">
-	<input
-		bind:value={name}
-		on:input={findTeacher}
-		class="rounded flex-grow m-10 px-3 py-2"
-		placeholder="Enter Teacher Name" />
-</form>
-
-<div class="res">
-	{#each list as user}
-		<Teacher
-			Title={user.title}
-			Department={user.department}
-			Room={user.room}
-			Firstname={user.firstname}
-			Lastname={user.lastname}
-			Yearjoined={user.joined}
-			Email={user.email}
-			Advisory={user.advisory}
-			Image={user.image} />
-		<!-- {#each list as user}
-	<h1 class="text-white">{user.title}</h1> -->
-	{/each}
-</div>

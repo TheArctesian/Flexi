@@ -11,6 +11,23 @@
 	export let Image: string;
 </script>
 
+<div class="content">
+	<div class="image">
+		<img src={Image} />
+	</div>
+	<div class="text">
+		<div class="tent">
+			<h1>{Firstname} {Lastname}</h1>
+			<p class="text-center text-xs">Title: {Title}</p>
+			<p>Department: {Department}</p>
+			<p>Joined: {Yearjoined}</p>
+			<p>Advisory: {Advisory}</p>
+			<p>Room: {Room}</p>
+			<p>Email: {Email}</p>
+		</div>
+	</div>
+</div>
+
 <style>
 	.content {
 		color: white;
@@ -63,20 +80,3 @@
 		font-size: 1rem;
 	}
 </style>
-
-<div class="content">
-	<div class="image">
-		<img src={Image} />
-	</div>
-	<div class="text">
-		<div class="tent">
-			<h1>{Firstname} {Lastname}</h1>
-			<p class="text-center text-xs">Title: {Title}</p>
-			<p>Department: {Department}</p>
-			<p>Joined: {Yearjoined}</p>
-			<p>Advisory: {Advisory}</p>
-			<p>Room: {Room}</p>
-			<p>Email: {Email}</p>
-		</div>
-	</div>
-</div>

@@ -24,10 +24,7 @@
 <div class="content" bind:clientWidth={w}>
 	{#if w > 750}
 		<div class="thing">
-			<h1 class="day">
-				Monday
-				<br />10:45-11:35
-			</h1>
+			<h1 class="day">Monday 10:45-11:35</h1>
 			{#if $userInfo == false}
 				<button>
 					<div class="event flex">
@@ -36,19 +33,17 @@
 				</button>
 			{:else}
 				<div class="event">
-					<h1><strong>Event</strong>: Time Managment Meeting</h1>
-					<br />
+					<h1><strong>Event</strong>: TIme Managment Meeting</h1>
+					<input />
 					<h1><strong>Location</strong>: Lower Gym</h1>
-					<br />
+					<input />
 					<h1><strong>Notes</strong>: Bring Pen</h1>
+					<input />
 				</div>
 			{/if}
 		</div>
 		<div class="thing">
-			<h1 class="day">
-				Tuesday
-				<br />10:45-11:35
-			</h1>
+			<h1 class="day">Tuesday 10:45-11:35</h1>
 			{#if $userInfo == false}
 				<button>
 					<div class="event flex">
@@ -58,18 +53,16 @@
 			{:else}
 				<div class="event">
 					<h1><strong>Event</strong>: UC Meeting</h1>
-					<br />
+					<input />
 					<h1><strong>Location</strong>: Auditorium</h1>
-					<br />
+					<input />
 					<h1><strong>Notes</strong>: Bring a device</h1>
+					<input />
 				</div>
 			{/if}
 		</div>
 		<div class="thing">
-			<h1 class="day">
-				Wednesday
-				<br />10:35-11:45
-			</h1>
+			<h1 class="day">Wednesday 10:35-11:45</h1>
 			{#if $userInfo == false}
 				<button>
 					<div class="event flex">
@@ -79,18 +72,15 @@
 			{:else}
 				<div class="event">
 					<h1><strong>Event</strong>: Advisory 13B1 & Flexi</h1>
-					<br />
+					<input />
 					<h1><strong>Location</strong>: 513</h1>
-					<br />
+					<input />
 					<h1><strong>Notes</strong>: <a class="text-green-500" href="/rooms"><u>Rooms</u></a></h1>
 				</div>
 			{/if}
 		</div>
 		<div class="thing">
-			<h1 class="day">
-				Thursday
-				<br />10:45-11:35
-			</h1>
+			<h1 class="day">Thursday 10:45-11:35</h1>
 			{#if $userInfo == false}
 				<button>
 					<div class="event flex">
@@ -100,18 +90,16 @@
 			{:else}
 				<div class="event">
 					<h1><strong>Event</strong>: Assembley</h1>
-					<br />
+					<input />
 					<h1><strong>Location</strong>: Auditorium</h1>
-					<br />
+					<input />
 					<h1><strong>Notes</strong>:</h1>
+					<input />
 				</div>
 			{/if}
 		</div>
 		<div class="thing">
-			<h1 class="day">
-				Friday
-				<br />10:35-11:45
-			</h1>
+			<h1 class="day">Friday 10:35-11:45</h1>
 			{#if $userInfo == false}
 				<button>
 					<div class="event flex">
@@ -121,19 +109,16 @@
 			{:else}
 				<div class="event">
 					<h1><strong>Event</strong>: Advisory 13B1 & Flexi</h1>
-					<br />
+					<input />
 					<h1><strong>Location</strong>: 513</h1>
-					<br />
+					<input />
 					<h1><strong>Notes</strong>: <a class="text-green-500" href="/rooms"><u>Rooms</u></a></h1>
 				</div>
 			{/if}
 		</div>
 	{:else}
 		<div class="thing">
-			<h1 class="day">
-				Monday
-				<br />10:45-11:35
-			</h1>
+			<h1 class="day">Monday 10:45-11:35</h1>
 			{#if $userInfo == false}
 				<button>
 					<div class="event flex">
@@ -143,9 +128,9 @@
 			{:else}
 				<div class="event">
 					<h1><strong>Event</strong>: Time Managment Meeting</h1>
-					<br />
+					<input />
 					<h1><strong>Location</strong>: Lower Gym</h1>
-					<br />
+					<input />
 					<h1><strong>Notes</strong>: Bring Pen</h1>
 				</div>
 			{/if}
@@ -156,6 +141,9 @@
 <style>
 	.thing {
 		margin: 1rem;
+	}
+	input {
+		border-radius: 1rem;
 	}
 	h1 {
 		color: white;
