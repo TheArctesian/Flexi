@@ -2,10 +2,17 @@
 	import { Chasing } from 'svelte-loading-spinners';
 	import { yeargroup, advisory, userInfo } from '$lib/Stores/stores';
 	import data from '$lib/schedule.json';
+	import { weeks, getWeek } from '$lib/weeklookup';
+	console.log(weeks[0]);
 	let w: number;
 	const d = new Date();
-	let day = d.getDay();
-
+	let year = d.getUTCFullYear();
+	let month = d.getUTCMonth() + 1;
+	let day = d.getUTCDate();
+	// let date = [day, month, year];
+	let date = [10, 9, 2022];
+	let weekDates: string[] | undefined = getWeek(date);
+	console.log('Week Dates' + weekDates);
 	let daydata: any;
 	for (let i = 0; i < data.length; i++) {
 		if (data[i].dayint == day) {
