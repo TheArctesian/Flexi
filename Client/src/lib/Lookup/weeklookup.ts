@@ -38,7 +38,7 @@ export const weeks: string[][] = [
 	['15-05-23', '16-05-23', '17-05-23', '18-05-23', '19-05-23']
 ];
 
-function convertDateToString(date: number[]) {
+export function convertDateToString(date: number[]) {
 	let dateString = '';
 	for (let val in date) {
 		if (date[val].toString().length == 1) {
@@ -62,6 +62,26 @@ function convertDateToString(date: number[]) {
 	if (splitter[splitter.length - 1] == '-') splitter.pop();
 	dateString = splitter.join('');
 	return dateString;
+}
+
+export function convertDateToNearestString(date: number[]) {
+	let stringDate = convertDateToString(date);
+	let res = searchForDate(stringDate);
+	if (checkNull(res)) {
+		return stringDate;
+	}
+	date[0] = date[0] + 1;
+	stringDate = convertDateToString(date);
+	res = searchForDate(stringDate);
+	if (checkNull(res)) {
+		return stringDate;
+	}
+	date[0] = date[0] - 2;
+	stringDate = convertDateToString(date);
+	res = searchForDate(stringDate);
+	if (checkNull(res)) {
+		return stringDate;
+	}
 }
 function searchForDate(date: string) {
 	for (let i in weeks) {

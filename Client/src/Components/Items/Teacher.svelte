@@ -1,5 +1,7 @@
 <script lang="ts">
 	import type { teacher } from '$lib/Types/teacher';
+	import { scale } from 'svelte/transition';
+	import { quintOut } from 'svelte/easing';
 	export let Title: string;
 	export let Department: string;
 	export let Room: string;
@@ -10,7 +12,7 @@
 	export let Image: string;
 </script>
 
-<div class="content">
+<div class="content" transition:scale={{ delay: 100, duration: 500, easing: quintOut }}>
 	<div class="image">
 		<img src={Image} />
 	</div>

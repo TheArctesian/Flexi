@@ -14,12 +14,11 @@
 	let date = [day, month, year];
 	//let date = [10, 9, 2022];
 	let weekdates: string[] | undefined = getWeek(date);
-
+	let days: Schedule[] | undefined = [];
 	$: if ($userInfo == 'true') {
 		console.log($userInfo);
-		getYearGroupSchedule($yeargroup, weekdates);
+		days = getYearGroupSchedule($yeargroup, weekdates);
 	}
-	console.log('week dates' + weekdates);
 </script>
 
 <div class="content" bind:clientWidth={w}>
@@ -29,13 +28,13 @@
 				Monday
 				<br />10:45-11:35
 			</h1>
-			{#if $userInfo == 'false'}
+			{#if $userInfo != 'true'}
 				<button>
 					<div class="event flex">
 						<Chasing size="60" color="#e6931d" unit="px" duration="1s" />
 					</div>
 				</button>
-			{:else}
+			{:else if $userInfo == 'true'}
 				<div class="event">
 					<h1><strong>Event</strong>: Time Managment Meeting</h1>
 					<br />
@@ -50,7 +49,7 @@
 				Tuesday
 				<br />10:45-11:35
 			</h1>
-			{#if $userInfo == 'false'}
+			{#if $userInfo != 'true'}
 				<button>
 					<div class="event flex">
 						<Chasing size="60" color="#e6931d" unit="px" duration="1s" />
@@ -71,7 +70,7 @@
 				Wednesday
 				<br />10:35-11:45
 			</h1>
-			{#if $userInfo == 'false'}
+			{#if $userInfo != 'true'}
 				<button>
 					<div class="event flex">
 						<Chasing size="60" color="#e6931d" unit="px" duration="1s" />
@@ -92,7 +91,7 @@
 				Thursday
 				<br />10:45-11:35
 			</h1>
-			{#if $userInfo == 'false'}
+			{#if $userInfo != 'true'}
 				<button>
 					<div class="event flex">
 						<Chasing size="60" color="#e6931d" unit="px" duration="1s" />
@@ -113,7 +112,7 @@
 				Friday
 				<br />10:35-11:45
 			</h1>
-			{#if $userInfo == 'false'}
+			{#if $userInfo != 'true'}
 				<button>
 					<div class="event flex">
 						<Chasing size="60" color="#e6931d" unit="px" duration="1s" />
@@ -135,7 +134,7 @@
 				Monday
 				<br />10:45-11:35
 			</h1>
-			{#if $userInfo == 'false'}
+			{#if $userInfo != 'true'}
 				<button>
 					<div class="event flex">
 						<Chasing size="60" color="#e6931d" unit="px" duration="1s" />

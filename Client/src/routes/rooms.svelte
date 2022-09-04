@@ -1,8 +1,8 @@
 <script lang="ts">
-	import NavDesktop from '../Components/Desktop/NavDesktop.svelte';
-	import RoomsDesktop from '../Components/Desktop/RoomsDesktop.svelte';
-	import GithubDesktop from '../Components/Desktop/GithubDesktop.svelte';
+	import Nav from '../Components/Items/Nav.svelte';
+	import Rooms from '../Components/Pages/Rooms.svelte';
+	import Github from '../Components/Items/Github.svelte';
 </script>
-	<NavDesktop />
-	<RoomsDesktop />
-	<GithubDesktop />
+	<Nav />
+	<Rooms />
+	<Github />

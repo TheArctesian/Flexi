@@ -28,7 +28,7 @@
 	.data {
 		margin: auto;
 		background-color: #e6931d;
-		padding: 8rem;
+		padding: 5rem;
 		border-radius: 1rem;
 		margin-top: 5rem;
 		color: white;

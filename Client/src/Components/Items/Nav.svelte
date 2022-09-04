@@ -18,6 +18,7 @@
 			<h1>Useful Links</h1>
 		</a>
 	</div>
+
 	<a class="side" target="_blank" href="https://github.com/TheArctesian/Flexi">
 		<img
 			alt="calandar"
@@ -25,6 +26,7 @@
 			src="https://cdn-icons-png.flaticon.com/512/4926/4926624.png"
 		/>
 	</a>
+
 	<!-- {#if $userInfo}
                 <h1 class="text-center t">{$yeargroup}{$advisory}</h1>
             {:else}
@@ -66,7 +68,7 @@
 		border-radius: 1.3rem;
 		justify-content: center;
 		text-align: center;
-		padding: .8rem;
+		padding: 0.8rem;
 		transition: all ease-in-out 500ms;
 	}
 	.t {
@@ -105,8 +107,6 @@
 			font-weight: 500;
 			margin-left: 0.4rem;
 			margin-right: 0.4rem;
-			padding-left: 0.4rem;
-			padding-right: 0.7rem;
 			transition: all ease-in-out 500ms;
 		}
 	}

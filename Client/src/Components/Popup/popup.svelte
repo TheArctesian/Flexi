@@ -1,12 +1,23 @@
 <script>
 	import { advisory, yeargroup, userInfo } from '$lib/Stores/stores';
+
+	import { browser } from '$app/env';
+	import { onMount } from 'svelte';
 	let advis = '';
 	let yrg = '';
+	onMount(function () {
+		yeargroup.set(localStorage.getItem('yeargroup'));
+		advisory.set(localStorage.getItem('advisory'));
+		userInfo.set(localStorage.getItem('userInfo'));
+	});
 	function handleSubmit() {
 		if (advis != '' && yrg != '') {
 			advisory.set(advis);
 			yeargroup.set(yrg);
 			userInfo.set('true');
+			userInfo.subscribe((val) => browser && localStorage.setItem('userInfo', val));
+			yeargroup.subscribe((val) => browser && localStorage.setItem('yeargroup', val));
+			advisory.subscribe((val) => browser && localStorage.setItem('advisory', val));
 		} else {
 			alert('Please select your year group and advisory before submitting');
 		}

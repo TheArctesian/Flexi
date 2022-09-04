@@ -1,7 +1,7 @@
 <script lang="ts">
 	import type { teacher } from '$lib/Types/teacher';
 	import data from '$lib/Data/teachers.json';
-	import Teacher from './Teacher.svelte';
+	import Teacher from '../Items/Teacher.svelte';
 	import { each } from 'svelte/internal';
 	import { userInfo } from '$lib/Stores/stores';
 	let name = '';
