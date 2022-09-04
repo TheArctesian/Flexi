@@ -7,7 +7,6 @@
 	export let Lastname: string;
 	export let Advisory: string;
 	export let Yearjoined: string;
-	export let Email: string;
 	export let Image: string;
 </script>
 
@@ -23,7 +22,6 @@
 			<p>Joined: {Yearjoined}</p>
 			<p>Advisory: {Advisory}</p>
 			<p>Room: {Room}</p>
-			<p>Email: {Email}</p>
 		</div>
 	</div>
 </div>
@@ -38,6 +36,7 @@
 		background-color: #4e4e4e;
 		width: fit-content;
 		will-change: filter;
+		transition: all ease-in-out 500ms;
 	}
 	@media (max-width: 750px) {
 		.content {
@@ -63,6 +62,7 @@
 		display: flex;
 		width: 15rem;
 		background-color: #4e4e4e;
+		transition: all ease-in-out 500ms;
 	}
 	.tent {
 		background-color: #272727;

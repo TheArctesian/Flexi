@@ -1,20 +1,9 @@
 import { writable } from 'svelte/store';
-// if (typeof window !== 'undefined') {
-// 	var storedYearGroup = localStorage.getItem('Yeargroup');
-// 	var storedAdvisory = localStorage.getItem('Advisory');
-// 	var storedUserInfo: boolean = localStorage.getItem('UserInfo');
-// }
-// if (typeof window !== 'undefined') {
-// 	yeargroup.subscribe((value) => {
-// 		localStorage.setItem('Yeargroup', value);
-// 	});
-// 	advisory.subscribe((value) => {
-// 		localStorage.setItem('Advisory', value);
-// 	});
-// 	userInfo.subscribe((value) => {
-// 		localStorage.setItem('Userinfo', value);
-// 	});
-// }
+import { browser } from '$app/env';
 export const yeargroup = writable('');
 export const advisory = writable('');
-export const userInfo = writable(false);
+export const userInfo = writable('false');
+
+yeargroup.subscribe((val) => browser && localStorage.setItem('yeargroup', val));
+advisory.subscribe((val) => browser && localStorage.setItem('advisory', val));
+userInfo.subscribe((val) => browser && localStorage.setItem('userInfo', val));

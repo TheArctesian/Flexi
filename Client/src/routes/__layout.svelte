@@ -10,7 +10,7 @@
 	}
 </style>
 
-{#if $userInfo}
+{#if $userInfo == "true" }
 	<slot />
 {:else}
 	<Popup />

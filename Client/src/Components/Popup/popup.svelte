@@ -6,12 +6,46 @@
 		if (advis != '' && yrg != '') {
 			advisory.set(advis);
 			yeargroup.set(yrg);
-			userInfo.set(true);
+			userInfo.set('true');
 		} else {
 			alert('Please select your year group and advisory before submitting');
 		}
 	}
 </script>
+
+<form on:submit|preventDefault={handleSubmit}>
+	<div>
+		<h1>Input year group:</h1>
+		<select bind:value={yrg} name="yeargroup">
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+			<option value="10">10</option>
+			<option value="11">11</option>
+			<option value="12">12</option>
+			<option value="13">13</option>
+		</select>
+	</div>
+	<div>
+		<h1>Advisory:</h1>
+		<select bind:value={advis} name="Advisory">
+			<option value="R1">R1</option>
+			<option value="R2">R2</option>
+			<option value="Y1">Y1</option>
+			<option value="Y2">Y2</option>
+			<option value="G1">G1</option>
+			<option value="G2">G2</option>
+			<option value="B1">B1</option>
+			<option value="B2">B2</option>
+			<option value="JSH">JSH</option>
+			<option value="AH">AH</option>
+			<option value="JM">JM</option>
+		</select>
+	</div>
+	<div>
+		<button type="submit">Submit</button>
+	</div>
+</form>
 
 <style>
 	form {
@@ -23,6 +57,7 @@
 		transform: translate(-50%, -50%);
 		top: 50%;
 		z-index: 3;
+		transition: all ease-in-out 500ms;
 	}
 	h1 {
 		color: white;
@@ -63,36 +98,3 @@
 		color: white;
 	}
 </style>
-
-<form on:submit|preventDefault={handleSubmit}>
-	<div>
-		<h1>Input year group:</h1>
-		<select bind:value={yrg} name="yeargroup">
-			<option value="7">07</option>
-			<option value="8">08</option>
-			<option value="9">09</option>
-			<option value="10">10</option>
-			<option value="11">11</option>
-			<option value="12">12</option>
-			<option value="13">13</option>
-		</select>
-	</div>
-	<div>
-		<h1>Advisory:</h1>
-		<select bind:value={advis} name="Advisory">
-			<option value="R1">R1</option>
-			<option value="R2">R2</option>
-			<option value="Y1">Y1</option>
-			<option value="Y2">Y2</option>
-			<option value="G1">G1</option>
-			<option value="G2">G2</option>
-			<option value="B1">B1</option>
-			<option value="B2">B2</option>
-			<option value="P2">P2</option>
-		</select>
-	</div>
-	<div>
-		<button type="submit">Submit</button>
-	</div>
-
-</form>

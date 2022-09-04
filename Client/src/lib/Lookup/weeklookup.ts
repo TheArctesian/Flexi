@@ -47,6 +47,11 @@ function convertDateToString(date: number[]) {
 			temp = temp.replaceAll(',', '');
 			temp += '-';
 			dateString += temp;
+		} else if (date[val].toString().length == 4) {
+			let temp = date[val].toString();
+			temp = temp.replace('20', '');
+			temp += '-';
+			dateString += temp;
 		} else {
 			let temp = date[val].toString();
 			temp += '-';
@@ -81,11 +86,13 @@ export function getWeek(date: number[]) {
 		return res;
 	}
 	date[0] = date[0] + 1;
+	stringDate = convertDateToString(date);
 	res = searchForDate(stringDate);
 	if (checkNull(res)) {
 		return res;
 	}
 	date[0] = date[0] - 2;
+	stringDate = convertDateToString(date);
 	res = searchForDate(stringDate);
 	if (checkNull(res)) {
 		return res;

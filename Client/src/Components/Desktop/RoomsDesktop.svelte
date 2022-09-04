@@ -1,13 +1,10 @@
 <script lang="ts">
 	import type { teacher } from '$lib/Types/teacher';
-	import data from '$lib/Teachers.json';
+	import data from '$lib/Data/teachers.json';
 	import Teacher from './Teacher.svelte';
-	import teachers from '$lib/teacherLookup';
 	import { each } from 'svelte/internal';
-	import rooms from '$lib/allRooms';
 	import { userInfo } from '$lib/Stores/stores';
 	let name = '';
-	console.log(name);
 	let empty = true;
 	let list: any = [];
 	function clearList() {
@@ -16,16 +13,18 @@
 	function findTeacher() {
 		list.length = 0;
 		let s = name;
-		list = [];
+		if (s == '') {
+			list = [];
+		}
 		for (let i = 0; i < data.length; i++) {
-			let fname = data[i].firstname;
-			let lname = data[i].lastname;
+			let fname = data[i].firstName;
+			let lname = data[i].lastName;
 			if (
 				fname.substring(0, s.length).toLowerCase() == s ||
 				lname.substring(0, s.length).toLowerCase() == s
 			) {
 				list.push(data[i]);
-				console.log(data[i].firstname);
+				console.log(data[i].firstName);
 			}
 		}
 	}
@@ -46,10 +45,9 @@
 			Title={user.title}
 			Department={user.department}
 			Room={user.room}
-			Firstname={user.firstname}
-			Lastname={user.lastname}
+			Firstname={user.firstName}
+			Lastname={user.lastName}
 			Yearjoined={user.joined}
-			Email={user.email}
 			Advisory={user.advisory}
 			Image={user.image}
 		/>
@@ -62,9 +60,9 @@
 	.res {
 		width: 100vw;
 		display: flex;
-		transition: all ease-in-out 500ms;
 		flex-wrap: wrap;
 		justify-content: space-around;
+		transition: all ease-in-out 500ms;
 	}
 	form {
 		border-radius: 1.3rem;
