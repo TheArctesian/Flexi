@@ -42,6 +42,8 @@
 		<select bind:value={advis} name="Advisory">
 			<option value="R1">R1</option>
 			<option value="R2">R2</option>
+			<option value="P1">P1</option>
+			<option value="P2">P2</option>
 			<option value="Y1">Y1</option>
 			<option value="Y2">Y2</option>
 			<option value="G1">G1</option>

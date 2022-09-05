@@ -20,8 +20,8 @@
 			let fname = data[i].firstName;
 			let lname = data[i].lastName;
 			if (
-				fname.substring(0, s.length).toLowerCase() == s ||
-				lname.substring(0, s.length).toLowerCase() == s
+				fname.substring(0, s.length).toLowerCase() == s.toLocaleLowerCase() ||
+				lname.substring(0, s.length).toLowerCase() == s.toLocaleLowerCase()
 			) {
 				list.push(data[i]);
 				console.log(data[i].firstName);

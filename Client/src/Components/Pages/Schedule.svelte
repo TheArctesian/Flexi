@@ -13,7 +13,6 @@
 	let month = d.getUTCMonth() + 1;
 	let day = d.getUTCDate();
 	let date = [day, month, year];
-	//let date = [10, 9, 2022];
 	let today = convertDateToNearestString(date);
 	let weekdates: string[] | undefined = getWeek(date);
 	let days: Schedule[] | undefined = [];
@@ -85,7 +84,7 @@
 						<br />{z.Time}
 					</h1>
 
-					<div class="event ">
+					<div class="event text-wrap">
 						<h1 class="text-center"><strong>{z.Activity}</strong></h1>
 						<br />
 						<h1><strong>Location</strong>:<br /> {z.Location}</h1>
