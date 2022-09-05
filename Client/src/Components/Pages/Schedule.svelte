@@ -129,6 +129,8 @@
 	}
 	h1 {
 		color: white;
+		word-wrap: break-word;
+	
 	}
 	.day {
 		text-align: center;

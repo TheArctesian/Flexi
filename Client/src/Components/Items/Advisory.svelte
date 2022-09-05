@@ -2,23 +2,63 @@
 	import type { advis } from '$lib/advisory';
 	import { getAdvisory } from '$lib/advisory';
 
+	import { browser } from '$app/env';
 	import { yeargroup, advisory, userInfo } from '$lib/Stores/stores';
 	import Teacher from './Teacher.svelte';
 	let adv: advis;
 	$: if ($userInfo == 'true') {
 		adv = getAdvisory($yeargroup, $advisory);
 	}
+
+	function logout() {
+		yeargroup.set(localStorage.getItem(''));
+		advisory.set(localStorage.getItem(''));
+		userInfo.set(localStorage.getItem(''));
+			userInfo.subscribe((val) => browser && localStorage.setItem('userInfo', val));
+			yeargroup.subscribe((val) => browser && localStorage.setItem('yeargroup', val));
+			advisory.subscribe((val) => browser && localStorage.setItem('advisory', val));
+
+	}
 </script>
 
 <br />
-<div>
+<div class ="bg">
+<div class ="d">
+<div class="item">
 	<h1><strong>Advisory: </strong>&nbsp; {$yeargroup}{$advisory}</h1>
 	<h1><strong>Teacher: </strong>&nbsp; {adv.Teacher}</h1>
 	<h1><strong>Room: </strong>&nbsp; {adv.Room}</h1>
 </div>
+<div class="butt item">
+	<button on:click={logout}>Log Out</button>
+</div>
+</div>
+</div>
+
 
 <style>
-	div {
+	item{
+		flex-direction: row;
+	}
+	.d{
+		display: flex;
+	}
+	button{
+		margin: 0.4rem;
+		background-color: #e6931d;
+		padding: .4rem;
+		border-radius: 1rem;
+		transition: all ease-in-out 500ms;
+	}
+	button:hover{
+
+		background-color: #e6921d5b;
+	}
+	.butt{
+		text-align: center;
+		margin: auto;
+	}
+	.bg {
 		position: relative;
 		padding: 0.4rem;
 		color: white;
@@ -32,7 +72,7 @@
 		will-change: filter;
 		transition: all ease-in-out 500ms;
 	}
-	div:hover {
+	.bg:hover {
 		filter: drop-shadow(0 0 1em #ffffff);
 	}
 	h1 {
