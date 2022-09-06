@@ -245,7 +245,6 @@ Teacher search page is good puts out some json so once server os setup can do an
 
 <br>
 
-
 <br>
 <hr>
 <strong>Name: </strong> Arctesian
@@ -266,14 +265,29 @@ Made sorry page while going to school
 <hr>
 <strong>Name: </strong> Arctesian
 <br>
-<strong>Time: </strong> time is human construct I am degenrating into entropy, but I ended at the 15:31 at the 1st.
+<strong>Time: </strong> time is human construct I am degenerating into entropy, but I ended at the 15:31 at the 1st.
 <br>
 <strong>Date: </strong> 30.05.22 - 1.06.22
 <br>
 <strong>Goal: </strong>
 
-- [x] Finish enough for crit c 
+- [x] Finish enough for crit c
 
 <strong>Description: </strong>
-The whole thing was a haze I didn't know what was happening, I just was doing this and writing this it happend I didn't really sleep I have a semi MVP but I hate my life this was so much pain thank you lagos for this experience. 
+The whole thing was a haze I didn't know what was happening, I just was doing this and writing this it happened I didn't really sleep I have a semi MVP but I hate my life this was so much pain thank you lagos for this experience.
+<br>
+
+<hr>
+<strong>Name: </strong> Arctesian
+<br>
+<strong>Time: </strong>  3:10
+<br>
+<strong>Date: </strong>  1.06.22 - 06.09.22
+<br>
+<strong>Goal: </strong>
+
+- [x] Finish all of this shit
+
+<strong>Description: </strong>
+A lot of work was done a lot of pain a lot of suffering but it is kinda done. I didn't update this because I forgot to but please everyone else do
 <br>

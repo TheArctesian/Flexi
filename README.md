@@ -2,17 +2,27 @@
 
 ## Overview
 
-A app to org all the flexi info into UF IOS, Android and Web apps. Will have the features of
+A more user friendly front end for CIS's flexi system.
 
-- Finding what you are doing for that day for flexi
-- Finding flexi groups
-- searching teacher for extended learning
-- fav teachers
-- usefuel links
+## Stack
 
-## Contribute 
+A tec stack is the list of technologies used to make the product
 
-If you would to contribute to this project please consult Contribute.md. If the database if out of sync and you would like to maintain it please ask lagos.
+### Front End
+
+- Sveltekit (web framework)
+- Tailwind (CSS framework)
+
+### Backend
+
+- Linode (Cloud Service)
+- Arch (OS)
+- nginx
+- epik (domain service)
+
+## Contribute
+
+If you would to contribute to this project please consult Contribute.md.
 
 ## Info
 

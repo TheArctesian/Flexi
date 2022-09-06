@@ -27,19 +27,19 @@ If you are on linux or BSD system you should already have git install.
 
 If you are on mac:
 
-First install brew. If you don't have it open the terminal app and run this command. This might take a while. While your waiting for that to install, if you have never used a terminal before this is a package manager. It is like an app store for your cmd line. Pretty much any pkg or app you want to get will be on here. For example if you want to install firefox you can simply do `brew install firefox` or spotify you can use `brew install spotify`. 
+First install brew. If you don't have it open the terminal app and run this command. This might take a while. While your waiting for that to install, if you have never used a terminal before this is a package manager. It is like an app store for your cmd line. Pretty much any pkg or app you want to get will be on here. For example if you want to install firefox you can simply do `brew install firefox` or spotify you can use `brew install spotify`.
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-After you have brew installed I recomend that you install some things to make your development env nicer. Personally I use fish as my personal shell because is make life easy. Install it with
+After you have brew installed I recommend that you install some things to make your development env nicer. Personally I use fish as my personal shell because is make life easy. Install it with
 
 ```bash
 brew install fish
 ```
 
-After type the `fish` command to enter the fish shell. This is also not necessary but I like it so use this command to install oh-my-fish. (This makes your terminal look pretty. 
+After type the `fish` command to enter the fish shell. This is also not necessary but I like it so use this command to install oh-my-fish. (This makes your terminal look pretty.
 
 ```bash
 curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install > install
@@ -47,7 +47,7 @@ fish install --path=~/.local/share/omf --config=~/.config/omf
 ```
 
 With that install you can install themes using omf, A complete list of omf themes are [here](https://github.com/oh-my-fish/oh-my-fish/blob/master/docs/Themes.md)
-`
+
 Okay now lets acctually get started seting up
 
 ```
@@ -107,6 +107,7 @@ should output
 or wherever you put it.
 
 You can open VScode with the command
+
 ```
 code .
 ```
@@ -280,24 +281,6 @@ Before messing with anything you will need to know the basic of front end web de
 
 Front end dev is split into three components, I will give a very short introduction to each bellow but please look at the links above for more info.
 
-### 1
-
-HTML which is the mark down language of the web. If you look at the raw file for this MD file you will see some. For example the pictures that I used above are written like this
-
-```html
-<img src="Scripts/Assets/createPull.png" alt="create pull" />
-```
-
-This line of code produces the img
-<img src="Scripts/Assets/createPull.png" alt="create pull">
-
-IT is also
-Please look at the [html slides]() for more info.
-
 ## Backend
 
-Backend work is pretty easy as I am using firebase. Ofc this means that you will need some permissions to edit the backend. For those permission.
-
-Asleep&Grass&Stage&Besides&3
-
-Documentation on firebase can be found here. [Firebase](https://firebase.google.com/docs)
+Check the readme in the backend folder for more info.

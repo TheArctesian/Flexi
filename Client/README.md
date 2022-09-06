@@ -1,38 +1,44 @@
-# create-svelte
+# Svelte
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Welcome to front end development, Svelte it the one of the most modern web frameworks and I personally love it. I also think it is very beginner friendly and fun to write in.
 
-## Creating a project
+consult the svelte docs for more info.
 
-If you're seeing this, you've probably already done this step. Congrats!
+To run it on a dev server go into this folder on your terminal
 
-```bash
-# create a new project in the current directory
-npm init svelte
-
-# create a new project in my-app
-npm init svelte my-app
+```
+cd Client
 ```
 
-## Developing
+Then install the pkgs with
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+```
+yarn install
 ```
 
-## Building
+Build the file with
 
-To create a production version of your app:
-
-```bash
-npm run build
+```
+yarn run build
 ```
 
-You can preview the production build with `npm run preview`.
+and finally fun it with
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+```
+yarn run dev --open
+```
+
+It will then show a page in your browser. When you edit the code and save you will see the updates show up live on your localhost:3000 site.
+
+## Project structure
+
+In the src folder:
+
+- Routes
+  contains the files for each page
+
+- Components
+  Contains all the other svelte components
+
+- Lib
+  Contains all the extra code and data needed to handle the website
