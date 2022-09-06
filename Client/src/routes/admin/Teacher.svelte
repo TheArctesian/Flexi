@@ -4,7 +4,7 @@
 	import Github from '../../Components/Items/Github.svelte';
 	import teachers from '../../lib/Data/teachers';
 	import type { teacher } from '$lib/Types/teacher';
-	import * as fs from 'fs';
+//	import * as fs from 'fs';
 	let TeacherList: teacher[] = teachers;
 	let TeacherSave: teacher[] = teachers;
 	function revert() {
@@ -18,12 +18,12 @@
 		save(json);
 	}
 	function save(content: any) {
-		fs.renameSync('../../lib/Data/teachers.json', '../../lib/Data/teachers.json.bak');
+//		fs.renameSync('../../lib/Data/teachers.json', '../../lib/Data/teachers.json.bak');
 		alert('written');
 		const callback = (err) => {
 			alert('write failed ' + err);
 		};
-		fs.writeFile('../../lib/Data/teachers.json', content, callback);
+//		fs.writeFile('../../lib/Data/teachers.json', content, callback);
 	}
 </script>
 
