@@ -1,40 +1,7 @@
 <script lang="ts">
-	import logo from '../../Assets/CIS.png';
-	import { userInfo, advisory, yeargroup } from '$lib/Stores/stores';
+	import Modetoggle from './modetoggle.svelte';
+	let w;
 </script>
-
-<div class="header">
-	<a class="side" href="/">
-		<img class="icon" src="https://cdn-icons-png.flaticon.com/512/25/25694.png" alt="CIS logo" />
-	</a>
-	<div class="links">
-		<a href="/">
-			<h1>Flexi Schedule</h1>
-		</a>
-		<a href="/rooms">
-			<h1>Teacher Rooms</h1>
-		</a>
-		<a href="/links">
-			<h1>Useful Links</h1>
-		</a>
-	</div>
-
-	<a class="side" target="_blank" href="https://github.com/TheArctesian/Flexi">
-		<img
-			alt="calandar"
-			class="icon"
-			src="https://cdn-icons-png.flaticon.com/512/4926/4926624.png"
-		/>
-	</a>
-
-	<!-- {#if $userInfo}
-                <h1 class="text-center t">{$yeargroup}{$advisory}</h1>
-            {:else}
-		<div class="icon">
-			<img src={act} alt="CIS logo" />
-		</div>
-            {/if} -->
-</div>
 
 <style>
 	.header {
@@ -52,6 +19,13 @@
 		box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
 		transition: all ease-in-out 500ms;
 	}
+	:global(body.light) .icon {
+		background-color: #f0f0f0;
+	}
+
+	:global(body.light) .icon:hover {
+		background-color: #f0f0f085;
+	}
 
 	.icon:hover {
 		background-color: #c9c9c9;
@@ -59,7 +33,6 @@
 	img {
 		padding: 0.4rem;
 		margin: auto;
-		background-color: white;
 		transition: all ease-in-out 500ms;
 	}
 	.links {
@@ -111,3 +84,35 @@
 		}
 	}
 </style>
+
+<div class="header" bind:clientWidth={w}>
+	{#if w > 750}
+		<Modetoggle />
+	{/if}
+	<div class="links">
+		<a href="/">
+			<h1>Flexi Schedule</h1>
+		</a>
+		<a href="/rooms">
+			<h1>Teacher Rooms</h1>
+		</a>
+		<a href="/links">
+			<h1>Useful Links</h1>
+		</a>
+	</div>
+
+	<a class="side" target="_blank" href="https://github.com/TheArctesian/Flexi">
+		<img
+			alt="calandar"
+			class="icon"
+			src="https://cdn-icons-png.flaticon.com/512/4926/4926624.png" />
+	</a>
+
+	<!-- {#if $userInfo}
+                <h1 class="text-center t">{$yeargroup}{$advisory}</h1>
+            {:else}
+		<div class="icon">
+			<img src={act} alt="CIS logo" />
+		</div>
+            {/if} -->
+</div>

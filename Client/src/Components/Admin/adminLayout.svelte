@@ -1,12 +1,3 @@
-<div>
-	<h1>Which datasheet would you like to edit</h1>
-	<div class="options">
-		<a href="/admin/Teacher"><div class="data">Teacher Data</div></a>
-		<a href="/admin/Advisory"><div class="data">Advisory Data</div></a>
-		<a href="/admin/Schedule"><div class="data">Schedule Data</div></a>
-	</div>
-</div>
-
 <style>
 	h1 {
 		color: white;
@@ -17,6 +8,11 @@
 		border-radius: 1rem;
 		width: fit-content;
 		padding: 1rem;
+	}
+	:global(body.light) h1 {
+		background-color: #f0f0f0;
+		color: black;
+		box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
 	}
 	.options {
 		display: flex;
@@ -38,3 +34,18 @@
 		margin: auto;
 	}
 </style>
+
+<div>
+	<h1>Which datasheet would you like to edit</h1>
+	<div class="options">
+		<a href="/admin/Teacher">
+			<div class="data">Teacher Data</div>
+		</a>
+		<a href="/admin/Advisory">
+			<div class="data">Advisory Data</div>
+		</a>
+		<a href="/admin/Schedule">
+			<div class="data">Schedule Data</div>
+		</a>
+	</div>
+</div>

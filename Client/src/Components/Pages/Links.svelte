@@ -27,6 +27,7 @@
 		margin-top: 1rem;
 		border-radius: 0.5em;
 		transition: all ease-in-out 500ms;
+		box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
 	}
 	.event:hover {
 		background-color: #f0f0f087;

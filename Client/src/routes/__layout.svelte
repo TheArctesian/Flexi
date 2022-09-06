@@ -7,6 +7,15 @@
 	import { browser } from '$app/env';
 </script>
 
+<style>
+	:global(body) {
+		background-color: #272727;
+	}
+	:global(body.light) {
+		background-color: white;
+	}
+</style>
+
 {#if $userInfo == 'true'}
 	<slot />
 	<Advisory />
@@ -14,9 +23,3 @@
 	<Popup />
 	<slot />
 {/if}
-
-<style>
-	:global(body) {
-		background-color: #272727;
-	}
-</style>

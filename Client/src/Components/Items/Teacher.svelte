@@ -12,22 +12,6 @@
 	export let Image: string;
 </script>
 
-<div class="content" transition:scale={{ delay: 100, duration: 500, easing: quintOut }}>
-	<div class="image">
-		<img src={Image} />
-	</div>
-	<div class="text">
-		<div class="tent">
-			<h1>{Firstname} {Lastname}</h1>
-			<p class="text-center text-xs">Title: {Title}</p>
-			<p>Department: {Department}</p>
-			<p>Joined: {Yearjoined}</p>
-			<p>Advisory: {Advisory}</p>
-			<p>Room: {Room}</p>
-		</div>
-	</div>
-</div>
-
 <style>
 	.content {
 		color: white;
@@ -39,6 +23,9 @@
 		width: fit-content;
 		will-change: filter;
 		transition: all ease-in-out 500ms;
+	}
+	:global(body.light) .content {
+		background-color: #f0f0f0;
 	}
 	@media (max-width: 750px) {
 		.content {
@@ -63,13 +50,17 @@
 		padding: 1rem;
 		display: flex;
 		width: 15rem;
-		background-color: #4e4e4e;
 		transition: all ease-in-out 500ms;
 	}
+
 	.tent {
 		background-color: #272727;
 		border-radius: 1rem;
 		padding: 1rem;
+	}
+	:global(body.light) .tent {
+		background-color: #d6d6d6;
+		color: black;
 	}
 	img {
 		border-radius: 1rem;
@@ -77,8 +68,29 @@
 	}
 	h1 {
 		text-align: center;
+		font-weight: 600;
+		color: white;
+	}
+	:global(body.light) h1 {
+		color: black;
 	}
 	p {
 		font-size: 1rem;
 	}
 </style>
+
+<div class="content" transition:scale={{ delay: 100, duration: 500, easing: quintOut }}>
+	<div class="image">
+		<img src={Image} />
+	</div>
+	<div class="text">
+		<div class="tent">
+			<h1>{Firstname} {Lastname}</h1>
+			<p class="">Title: {Title}</p>
+			<p>Department: {Department}</p>
+			<p>Joined: {Yearjoined}</p>
+			<p>Advisory: {Advisory}</p>
+			<p>Room: {Room}</p>
+		</div>
+	</div>
+</div>
