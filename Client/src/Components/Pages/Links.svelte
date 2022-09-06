@@ -60,7 +60,7 @@
 	</div>
 	<div class="element">
 		<a href="https://cishk.schoology.com/home/">
-			<h1 class="name">Schoolagy</h1>
+			<h1 class="name">Schoology</h1>
 			<div class="event">
 				<img src={schoolagy} />
 			</div>
