@@ -3,6 +3,7 @@
 	import AdminLayout from '../../Components/Admin/adminLayout.svelte';
 	import Github from '../../Components/Items/Github.svelte';
 	import Advisory from '$lib/Data/Advisory';
+	import { readFileSync } from 'fs';
 	import { advis } from '$lib/advisory';
 	let AdvisoryList: advis[] = Advisory;
 	let AdvisorySave: advis[] = Advisory;
