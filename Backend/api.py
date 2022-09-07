@@ -28,10 +28,10 @@ def Advisory():
         advisory = json.load(open('static/Advisory.json', 'r'))
         # Make copy and save as backup (redundancy)
         with open('static/Advisory.bak.json', 'w') as f:
-            json.dump(advisory, f, ensure_ascii=False, indent=4)  # Write
+            json.dump(advisory, f, ensure_ascii=False, indent=2)  # Write
         with open('static/Advisory.json', 'w') as f:
             # Re write file with updates
-            json.dump(res, f, ensure_ascii=False, indent=4)
+            json.dump(res, f, ensure_ascii=False, indent=2)
         return "200"
     else:
         try:
@@ -59,9 +59,9 @@ def Teacher():
         teacher = json.load(open('static/teachers.json', 'r'))
         # Make copy and save as backup (redundancy)
         with open('static/teachers.bak.json', 'w') as f:
-            json.dump(teacher, f, ensure_ascii=False, indent=4)
+            json.dump(teacher, f, ensure_ascii=False, indent=2)
         with open('static/teachers.json', 'w') as f:
-            json.dump(res, f, ensure_ascii=False, indent=4)
+            json.dump(res, f, ensure_ascii=False, indent=2)
         return "200"
     else:
         try:
@@ -87,14 +87,14 @@ def Y13():
         Y13 = json.load(open('static/YearGroups/Y13.json', 'r'))
         # Make copy and save as backup (redundancy)
         with open('static/YearGroups/Y13.bak.json', 'w') as f:
-            json.dump(Y13, f, ensure_ascii=False, indent=4)
+            json.dump(Y13, f, ensure_ascii=False, indent=2)
         with open('static/YearGroups/Y13.json', 'w') as f:
-            json.dump(res, f, ensure_ascii=False, indent=4)
+            json.dump(res, f, ensure_ascii=False, indent=2)
         return "200"
     else:
         try:
             Y13 = json.load(open('static/YearGroups/Y13.json', 'r'))
-            return jsoninfy(Y13)
+            return Y13s
         except Exception as e:
             return str(e)
 

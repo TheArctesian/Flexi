@@ -1,1142 +1,1142 @@
 [
-    {
-        "lastName": "Dai",
-        "firstName": "Lingzhi",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/ldai.jpg",
-        "title": "Teacher",
-        "department": "Chinese",
-        "joined": 1994,
-        "advisory": "7R2",
-        "room": 221
-    },
-    {
-        "lastName": "Huo",
-        "firstName": "Qian",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/qhuo.jpg",
-        "title": "Head of Chinese Program for Year 10-13",
-        "department": "Chinese",
-        "joined": 2013,
-        "advisory": "7P1",
-        "room": 222
-    },
-    {
-        "lastName": "Hamlin",
-        "firstName": "Eric",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/ehamlin.jpg",
-        "title": "Teacher",
-        "department": "Individuals and Societies",
-        "joined": 2018,
-        "advisory": "7G2",
-        "room": 223
-    },
-    {
-        "lastName": "Vincendeau",
-        "firstName": "Elodie",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/evincendeau.jpg",
-        "title": "Teacher",
-        "department": "Individuals and Societies",
-        "joined": 2020,
-        "advisory": "7G1",
-        "room": 224
-    },
-    {
-        "lastName": "Lau",
-        "firstName": "Sam",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/slau.jpg",
-        "title": "Teacher",
-        "department": "Muisc",
-        "joined": 1996,
-        "advisory": "7P2",
-        "room": 411
-    },
-    {
-        "lastName": "Jin",
-        "firstName": "Lifan",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/ljin.jpg",
-        "title": "Teacher",
-        "department": "Chinese",
-        "joined": 2018,
-        "advisory": "7Y2",
-        "room": 226
-    },
-    {
-        "lastName": "Li",
-        "firstName": "Suling",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/sli.jpg",
-        "title": "Teacher",
-        "department": "Chinese",
-        "joined": 1994,
-        "advisory": "13R1",
-        "room": 301
-    },
-    {
-        "lastName": "Yip",
-        "firstName": "Serene",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/syip.jpg",
-        "title": "Teacher",
-        "department": "Mathematics",
-        "joined": 2016,
-        "advisory": "13R2",
-        "room": 302
-    },
-    {
-        "lastName": "Price",
-        "firstName": "Rebecca",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/rprice.jpg",
-        "title": "Learning Enhancement Teacher",
-        "department": "Learning Enhancement",
-        "joined": 1993,
-        "advisory": "8R2",
-        "room": 311
-    },
-    {
-        "lastName": "Beattie",
-        "firstName": "Alex",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/abeattie.jpg",
-        "title": "Head of Learning Enhancement and CEP Work (Extra Year 7 HoY)",
-        "department": "Learning Enhancement",
-        "joined": 2022,
-        "advisory": "9R2",
-        "room": 312
-    },
-    {
-        "lastName": "Jang",
-        "firstName": "Sooyeon",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/syjang.jpg",
-        "title": "Teacher",
-        "department": "Mathematics",
-        "joined": 2021,
-        "advisory": "13Y1",
-        "room": 401
-    },
-    {
-        "lastName": "King",
-        "firstName": "John",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/jking.jpg",
-        "title": "Teacher",
-        "department": "Mathematics",
-        "joined": 1992,
-        "advisory": "13Y2",
-        "room": 402
-    },
-    {
-        "lastName": "Osborne",
-        "firstName": "Nicholas",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/nosborne.jpg",
-        "title": "CEP Work",
-        "department": "Individuals and Societies",
-        "joined": 2012,
-        "advisory": "12G2",
-        "room": 422
-    },
-    {
-        "lastName": "Ignacio",
-        "firstName": "Jaime",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/jignacio.jpg",
-        "title": "Preforming Arts Tech",
-        "department": "Drama and Music",
-        "joined": 2012,
-        "advisory": "13P2",
-        "room": 412
-    },
-    {
-        "lastName": "Wong",
-        "firstName": "Alison",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/awong.jpg",
-        "title": "Head of Arts Head of Subject (Film & Media Studies)",
-        "department": "Film and Media",
-        "joined": 2007,
-        "advisory": "13P1",
-        "room": 413
-    },
-    {
-        "lastName": "Ward",
-        "firstName": "Janine",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/jward.jpg",
-        "title": "Teacher",
-        "department": "Film and Media",
-        "joined": 2015,
-        "advisory": "8G2",
-        "room": 421
-    },
-    {
-        "lastName": "Adair",
-        "firstName": "Andrea",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/aadair.jpg",
-        "title": "CEP Work (PBL Support)",
-        "department": "Mathematics",
-        "joined": 2019,
-        "advisory": "12P1",
-        "room": 225
-    },
-    {
-        "lastName": "Zhang",
-        "firstName": "Jing",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/jzhang.jpg",
-        "title": "Teacher",
-        "department": "Chinese",
-        "joined": 2012,
-        "advisory": "9Y2",
-        "room": 423
-    },
-    {
-        "lastName": "Coyle",
-        "firstName": "Anthony",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/acoyle.jpg",
-        "title": "Teacher",
-        "department": "Individulas and Societies",
-        "joined": 2012,
-        "advisory": "9Y1",
-        "room": 424
-    },
-    {
-        "lastName": "Motta",
-        "firstName": "Danny",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/dmotta.jpg",
-        "title": "Teacher",
-        "department": "Science",
-        "joined": 2020,
-        "advisory": "8Y1",
-        "room": 501
-    },
-    {
-        "lastName": "Lee",
-        "firstName": "John",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/jlee.jpg",
-        "title": "Teacher",
-        "department": "Science",
-        "joined": 1997,
-        "advisory": "8P2",
-        "room": 503
-    },
-    {
-        "lastName": "Kalsi",
-        "firstName": "Maninder",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/mkalsi.jpg",
-        "title": "TOK Coordinator",
-        "department": "Science",
-        "joined": 1999,
-        "advisory": "7R1",
-        "room": 505
-    },
-    {
-        "lastName": "Mumm",
-        "firstName": "Andrew",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/amumm.jpg",
-        "title": "Teacher",
-        "department": "Science",
-        "joined": 2009,
-        "advisory": "11B2",
-        "room": 507
-    },
-    {
-        "lastName": "Keeping",
-        "firstName": "Louise",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/lkeeping.jpg",
-        "title": "Asst to HOD (English)",
-        "department": "English",
-        "joined": 2018,
-        "advisory": "13B1",
-        "room": 511
-    },
-    {
-        "lastName": "Hayes",
-        "firstName": "Mark",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/mhayes.jpg",
-        "title": "Teacher",
-        "department": "Computer Science",
-        "joined": 2005,
-        "advisory": "13G1",
-        "room": 513
-    },
-    {
-        "lastName": "Lau",
-        "firstName": "Kathy",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/klau.jpg",
-        "title": "Teacher",
-        "department": "Individuals and Societies",
-        "joined": 2009,
-        "advisory": "13G2",
-        "room": 514
-    },
-    {
-        "lastName": "Munoz",
-        "firstName": "Anne Mar",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/amunoz.jpg",
-        "title": "Teacher",
-        "department": "French and Spanish",
-        "joined": 2016,
-        "advisory": "8R1",
-        "room": 521
-    },
-    {
-        "lastName": "Niu",
-        "firstName": "Peter",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/pniu.jpg",
-        "title": "Teacher",
-        "department": "Chinese",
-        "joined": 2010,
-        "advisory": "8Y2",
-        "room": 522
-    },
-    {
-        "lastName": "Lugg",
-        "firstName": "Rebecca",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/rlugg.jpg",
-        "title": "Teacher",
-        "department": "English",
-        "joined": 2022,
-        "advisory": "8G1",
-        "room": 523
-    },
-    {
-        "lastName": "Lin",
-        "firstName": "Eunice",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/elin.jpg",
-        "title": "Teacher",
-        "department": "Chinese",
-        "joined": 2021,
-        "advisory": "8B2",
-        "room": 524
-    },
-    {
-        "lastName": "Barnaby",
-        "firstName": "David",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/dbarnaby.jpg",
-        "title": "Head of Physical Health Education",
-        "department": "Physical and Health Education",
-        "joined": 2018,
-        "advisory": "8B1",
-        "room": 525
-    },
-    {
-        "lastName": "Casselman",
-        "firstName": "Kate",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/kcasselman.jpg",
-        "title": "Teacher",
-        "department": "English",
-        "joined": 2022,
-        "advisory": "8P1",
-        "room": 526
-    },
-    {
-        "lastName": "Dhaki",
-        "firstName": "Suvash",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/sdhakal.jpg",
-        "title": "Teacher",
-        "department": "Individuals and Societies",
-        "joined": 2022,
-        "advisory": "11R1",
-        "room": 601
-    },
-    {
-        "lastName": "Bacon",
-        "firstName": "Helen",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/hbacon.jpg",
-        "title": "Teacher",
-        "department": "English",
-        "joined": 2019,
-        "advisory": "11P1",
-        "room": 603
-    },
-    {
-        "lastName": "Carson",
-        "firstName": "Peter",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/pcarson.jpg",
-        "title": "Teacher",
-        "department": "Science",
-        "joined": 2011,
-        "advisory": "9R1",
-        "room": 605
-    },
-    {
-        "lastName": "Ng",
-        "firstName": "Alan",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/alng.jpg",
-        "title": "Teacher",
-        "department": "Science",
-        "joined": 2022,
-        "advisory": "11B1",
-        "room": 607
-    },
-    {
-        "lastName": "Clouting",
-        "firstName": "Ross",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/rclouting.jpg",
-        "title": "Head of Science and Assistant to the Director of Administrative Services",
-        "department": "Science",
-        "joined": 2018,
-        "advisory": "11P2",
-        "room": 611
-    },
-    {
-        "lastName": "Bullock",
-        "firstName": "Jessica",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/jbullock.jpg",
-        "title": "Asst to HOD Individuals & Soc.(Yr 11-13) and Well-Being Integrator",
-        "department": "Individuals and Societies",
-        "joined": 2015,
-        "advisory": "11G1",
-        "room": 612
-    },
-    {
-        "lastName": "Fenton",
-        "firstName": "Ryan",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/rfenton.jpg",
-        "title": "Teacher",
-        "department": "English",
-        "joined": 2018,
-        "advisory": "11G2",
-        "room": 613
-    },
-    {
-        "lastName": "Keeman",
-        "firstName": "Kitty",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/kkeeman.jpg",
-        "title": "EE Coord. & Yr 11 Research Facilitator",
-        "department": "Individuals and Societies",
-        "joined": 2018,
-        "advisory": "11Y1",
-        "room": 614
-    },
-    {
-        "lastName": "Psillides",
-        "firstName": "John",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/jpsillides.jpg",
-        "title": "Teacher",
-        "department": "Science",
-        "joined": 2012,
-        "advisory": "11R2",
-        "room": 615
-    },
-    {
-        "lastName": "Motta",
-        "firstName": "Stacy",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/smotta.jpg",
-        "title": "Teacher",
-        "department": "Mathematics",
-        "joined": 2022,
-        "advisory": "11Y2",
-        "room": 616
-    },
-    {
-        "lastName": "Malone",
-        "firstName": "Jeff",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/jmalone.jpg",
-        "title": "Teacher",
-        "department": "English",
-        "joined": 2022,
-        "advisory": "10JM",
-        "room": 622
-    },
-    {
-        "lastName": "Ewing",
-        "firstName": "Adam",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/aewing.jpg",
-        "title": "Teacher",
-        "department": "Computer Science",
-        "joined": 2022,
-        "advisory": "13B2",
-        "room": 512
-    },
-    {
-        "lastName": "Zimmermann",
-        "firstName": "Greg",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/gzimmermann.jpg",
-        "title": "Assistant to HoD English",
-        "department": "English",
-        "joined": 2020,
-        "advisory": "9P2",
-        "room": 618
-    },
-    {
-        "lastName": "May",
-        "firstName": "Stephen",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/smay.jpg",
-        "title": "Teacher",
-        "department": "Physical and Health Education",
-        "joined": 2002,
-        "advisory": "9G2",
-        "room": 619
-    },
-    {
-        "lastName": "Halliday",
-        "firstName": "Jennifer Sohn",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/jsohn.jpg",
-        "title": "Head of English",
-        "department": "English",
-        "joined": 2019,
-        "advisory": "10JSH",
-        "room": 621
-    },
-    {
-        "lastName": "Harrington",
-        "firstName": "Alicia",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/aharrington.jpg",
-        "title": "Head of Drama",
-        "department": "Drama",
-        "joined": 2019,
-        "advisory": "10AH",
-        "room": 210
-    },
-    {
-        "lastName": "O’Reilly",
-        "firstName": "Josie",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/joreilly.jpg",
-        "title": "Teacher",
-        "department": "Physical and Health Education",
-        "joined": 2020,
-        "advisory": "9B2",
-        "room": 623
-    },
-    {
-        "lastName": "Jacobsen",
-        "firstName": "Jake (Paul)",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/pjacobsen.jpg",
-        "title": "Teacher",
-        "department": "Individuals and Societies",
-        "joined": 2020,
-        "advisory": "9B1",
-        "room": 624
-    },
-    {
-        "lastName": "Hay",
-        "firstName": "Tiffany",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/tihay.jpg",
-        "title": "MYP Coordinator",
-        "department": "Individuals and Societies",
-        "joined": 2019,
-        "advisory": "9G1",
-        "room": 625
-    },
-    {
-        "lastName": "Melling",
-        "firstName": "Bruna",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/bmelling.jpg",
-        "title": "Teacher",
-        "department": "Mathematics",
-        "joined": 2008,
-        "advisory": "12Y1",
-        "room": 626
-    },
-    {
-        "lastName": "Zhou",
-        "firstName": "Faith Cong",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/czhou.jpg",
-        "title": "Teacher",
-        "department": "Chinese",
-        "joined": 2019,
-        "advisory": "12Y2",
-        "room": 701
-    },
-    {
-        "lastName": "Kwan",
-        "firstName": "Le-Shan",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/lskwan.jpg",
-        "title": "Teacher",
-        "department": "English",
-        "joined": 2009,
-        "advisory": "9P1",
-        "room": 703
-    },
-    {
-        "lastName": "Vitzikam",
-        "firstName": "Aline",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/avitzikam.jpg",
-        "title": "Head of World Language",
-        "department": "French and Spanish",
-        "joined": 2017,
-        "advisory": "12R2",
-        "room": 704
-    },
-    {
-        "lastName": "Dickie",
-        "firstName": "Robert",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/rdickie.jpg",
-        "title": "Head of Product Design",
-        "department": "Product Design",
-        "joined": 2013,
-        "advisory": "9R2",
-        "room": 705
-    },
-    {
-        "lastName": "Ward",
-        "firstName": "Karen",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/kward.jpg",
-        "title": "Teacher",
-        "department": "Product Design",
-        "joined": 2004,
-        "advisory": "12P2",
-        "room": 707
-    },
-    {
-        "lastName": "Qian",
-        "firstName": "Qian",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/qqian.jpg",
-        "title": "Teacher",
-        "department": "Chinese",
-        "joined": 2011,
-        "advisory": "12R1",
-        "room": 708
-    },
-    {
-        "lastName": "Li",
-        "firstName": "Lynn",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/lli.jpg",
-        "title": "TOK Chinese Integrator",
-        "department": "Chinese",
-        "joined": 2011,
-        "advisory": "12G1",
-        "room": 711
-    },
-    {
-        "lastName": "Bacon",
-        "firstName": "Lisa",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/lbacon.jpg",
-        "title": "Teacher",
-        "department": "Visual Arts",
-        "joined": 2022,
-        "advisory": "7Y1",
-        "room": 712
-    },
-    {
-        "lastName": "Porter",
-        "firstName": "Emma",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/eporter.jpg",
-        "title": "Teacher",
-        "department": "Visual Arts",
-        "joined": 2022,
-        "advisory": "7B2",
-        "room": 713
-    },
-    {
-        "lastName": "Martignago",
-        "firstName": "Georgina",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/gmart.jpg",
-        "title": "Head of VA",
-        "department": "Visual Arts",
-        "joined": 2007,
-        "advisory": "No Advisory",
-        "room": 714
-    },
-    {
-        "lastName": "Halliday",
-        "firstName": "Simon",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/shalliday.jpg",
-        "title": "Head of Mathematics",
-        "department": "Mathematics",
-        "joined": 2019,
-        "advisory": "12B2",
-        "room": 722
-    },
-    {
-        "lastName": "Varro",
-        "firstName": "David",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/dvarro.jpg",
-        "title": "Teacher",
-        "department": "Mathematics",
-        "joined": 2021,
-        "advisory": "12B1",
-        "room": 724
-    },
-    {
-        "lastName": "Bolton",
-        "firstName": "Annie",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/abolton.jpg",
-        "title": "Asst to HOD Physical Health Education",
-        "department": "Physical and Health Education",
-        "joined": 2006,
-        "advisory": "No Advisory",
-        "room": "Upper Gym"
-    },
-    {
-        "lastName": "Juan",
-        "firstName": "Ferron",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/jferron.jpg",
-        "title": "Teacher",
-        "department": "Physical and Health Education",
-        "joined": 2018,
-        "advisory": "No Advisory",
-        "room": "Upper Gym"
-    },
-    {
-        "lastName": "Hooper",
-        "firstName": "Jamie",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/jhooper.jpg",
-        "title": "Head of Year 13 Well Being Integrator",
-        "department": "Physical and Health Education",
-        "joined": 2014,
-        "advisory": "No Advisory",
-        "room": "Upper Gym"
-    },
-    {
-        "lastName": "Wan",
-        "firstName": "Eddie",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/ewan.jpg",
-        "title": "PE Admin Assistant",
-        "department": "Physical and Health Education",
-        "joined": 2017,
-        "advisory": "No Advisory",
-        "room": "Upper Gym"
-    },
-    {
-        "lastName": "Dias",
-        "firstName": "Celine",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/cdias.jpg",
-        "title": "Teacher",
-        "department": "French and Spanish",
-        "joined": 2022,
-        "advisory": "7R2",
-        "room": 221
-    },
-    {
-        "lastName": "Qu",
-        "firstName": "Rita",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/rqu.jpg",
-        "title": "Teaching Fellow",
-        "department": "Chinese",
-        "joined": 2022,
-        "advisory": "7P1",
-        "room": 222
-    },
-    {
-        "lastName": "Chan",
-        "firstName": "Anna",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/achan.jpg",
-        "title": "Teacher",
-        "department": "Individuals and Societies",
-        "joined": 2013,
-        "advisory": "7G2",
-        "room": 223
-    },
-    {
-        "lastName": "Momeni",
-        "firstName": "Sanaz",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/smomeni.jpg",
-        "title": "Teacher",
-        "department": "Computer Science",
-        "joined": 2017,
-        "advisory": "7G1",
-        "room": 224
-    },
-    {
-        "lastName": "Liu",
-        "firstName": "Yuheng Ann",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/anliu.jpg",
-        "title": "Teaching Fellow",
-        "department": "Chinese",
-        "joined": 2021,
-        "advisory": "7P2",
-        "room": 411
-    },
-    {
-        "lastName": "Cheung",
-        "firstName": "Rit",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/rcheung.jpg",
-        "title": "Teaching Fellow",
-        "department": "Chinese",
-        "joined": 2022,
-        "advisory": "7Y2",
-        "room": 226
-    },
-    {
-        "lastName": "Thrush",
-        "firstName": "Keena",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/kthrush.jpg",
-        "title": "Head of China Programs and Project Week Coordinator",
-        "department": "French and Spanish",
-        "joined": 2014,
-        "advisory": "13R1",
-        "room": 301
-    },
-    {
-        "lastName": "Tam",
-        "firstName": "Simon",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/stam.jpg",
-        "title": "Teacher",
-        "department": "Computer Science",
-        "joined": 2012,
-        "advisory": "13R2",
-        "room": 302
-    },
-    {
-        "lastName": "Nahar",
-        "firstName": "Nitu",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/nnahar.jpg",
-        "title": "Head of Computer Science",
-        "department": "Computer Science",
-        "joined": 2007,
-        "advisory": "8R2",
-        "room": 311
-    },
-    {
-        "lastName": "Odunlami",
-        "firstName": "Deji",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/aodunlami.jpg",
-        "title": "Teacher",
-        "department": "Mathematics",
-        "joined": 2018,
-        "advisory": "13Y1",
-        "room": 401
-    },
-    {
-        "lastName": "Coco",
-        "firstName": "Marin",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/mbustamante.jpg",
-        "title": "Teacher",
-        "department": "French and Spanish",
-        "joined": 2022,
-        "advisory": "No Advisory",
-        "room": 402
-    },
-    {
-        "lastName": "Purvis",
-        "firstName": "Hunter",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/hpurvis.jpg",
-        "title": "Teaching Fellow",
-        "department": "Individuals and Societies",
-        "joined": 2022,
-        "advisory": "12G2",
-        "room": 422
-    },
-    {
-        "lastName": "Karena",
-        "firstName": "Tama",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/tkarena.jpg",
-        "title": "Head of Music",
-        "department": "Music",
-        "joined": 2013,
-        "advisory": "13P2",
-        "room": 412
-    },
-    {
-        "lastName": "Al-Sherif",
-        "firstName": "Amira",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/aalsherif.jpg",
-        "title": "Teacher",
-        "department": "Mathematics",
-        "joined": 2022,
-        "advisory": "8G2",
-        "room": 421
-    },
-    {
-        "lastName": "Cao",
-        "firstName": "Anna",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/acao.jpg",
-        "title": "Teaching Assistant",
-        "department": "Chinese",
-        "joined": 2022,
-        "advisory": "",
-        "room": "Library"
-    },
-    {
-        "lastName": "Tomochko",
-        "firstName": "Nathan",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/ntomochko.jpg",
-        "title": "Teacher",
-        "department": "Individuals and Societies",
-        "joined": 2021,
-        "advisory": "9Y2",
-        "room": 423
-    },
-    {
-        "lastName": "Naughton",
-        "firstName": "Helen",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/hnaughton.jpg",
-        "title": "Teacher",
-        "department": "French and Spanish",
-        "joined": 2019,
-        "advisory": "9Y1",
-        "room": 424
-    },
-    {
-        "lastName": "Lui",
-        "firstName": "Bonnie",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/blui.jpg",
-        "title": "Assistant to HOD Individuals & Societies CEP Work (PBL Support)",
-        "department": "Individuals and Societies",
-        "joined": 2021,
-        "advisory": "8Y1",
-        "room": 501
-    },
-    {
-        "lastName": "O'Donnell",
-        "firstName": "Jackie",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/jodonnell.jpg",
-        "title": "Assistant to HOD Science (Year 7-10)",
-        "department": "Science",
-        "joined": 2020,
-        "advisory": "8P2",
-        "room": 503
-    },
-    {
-        "lastName": "Sin",
-        "firstName": "Kin Yan",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/kysin.jpg",
-        "title": "Head of Year 7",
-        "department": "Chinese",
-        "joined": 2012,
-        "advisory": "7R1",
-        "room": 505
-    },
-    {
-        "lastName": "Sutton",
-        "firstName": "Jennifer",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/jsutton.jpg",
-        "title": "Head of Year 11",
-        "department": "Science",
-        "joined": 2020,
-        "advisory": "11B2",
-        "room": 507
-    },
-    {
-        "lastName": "Wilson",
-        "firstName": "James",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/jwilson.jpg",
-        "title": "Head of Individuals and Societies",
-        "department": "Individuals and Societies",
-        "joined": 2017,
-        "advisory": "13G1",
-        "room": 513
-    },
-    {
-        "lastName": "Suen",
-        "firstName": "Betty",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/bsun.jpg",
-        "title": "Student Teacher",
-        "department": "Mathematics",
-        "joined": 2022,
-        "advisory": "13G2",
-        "room": 514
-    },
-    {
-        "lastName": "Chan-Lui",
-        "firstName": "Caroline",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/clui.jpg",
-        "title": "Asst to HOD Maths & Flexi Coordinator",
-        "department": "Mathematics",
-        "joined": 2013,
-        "advisory": "8R1",
-        "room": 521
-    },
-    {
-        "lastName": "Fosseprez",
-        "firstName": "Virginie",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/vfosseprez.jpg",
-        "title": "Teacher",
-        "department": "French",
-        "joined": 2021,
-        "advisory": "8Y2",
-        "room": 522
-    },
-    {
-        "lastName": "Jones",
-        "firstName": "Robert (Bobby)",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/ljin.jpg",
-        "title": "Head of Year 8",
-        "department": "Mathematics",
-        "joined": 2013,
-        "advisory": "8G1",
-        "room": 523
-    },
-    {
-        "lastName": "Town",
-        "firstName": "Janice",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/jtown.jpg",
-        "title": "Teacher",
-        "department": "Physical and Health Education",
-        "joined": 2022,
-        "advisory": "8B2",
-        "room": 524
-    },
-    {
-        "lastName": "Huang",
-        "firstName": "Yuwei",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/yuhuang.jpg",
-        "title": "Teacher",
-        "department": "Chinese",
-        "joined": 2020,
-        "advisory": "8B1",
-        "room": 525
-    },
-    {
-        "lastName": "Ma",
-        "firstName": "Irina",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/ima.jpg",
-        "title": "Teacher",
-        "department": "Chinese",
-        "joined": 2021,
-        "advisory": "8P1",
-        "room": 526
-    },
-    {
-        "lastName": "Walsh",
-        "firstName": "Patrick",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/pwalsh.jpg",
-        "title": "Assistant to HOD Science (Year 11-13)",
-        "department": "Science",
-        "joined": 2020,
-        "advisory": "11R1",
-        "room": 601
-    },
-    {
-        "lastName": "Etheridge",
-        "firstName": "Michael",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/metheridge.jpg",
-        "title": "Teacher",
-        "department": "Science",
-        "joined": 1994,
-        "advisory": "11P1",
-        "room": 603
-    },
-    {
-        "lastName": "Chen",
-        "firstName": "Bingmei",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/bchen.jpg",
-        "title": "Teacher",
-        "department": "Chinese",
-        "joined": 2001,
-        "advisory": "9R1",
-        "room": 605
-    },
-    {
-        "lastName": "Codrington",
-        "firstName": "Janelle",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/jcodrington.jpg",
-        "title": "DP Coordinator",
-        "department": "Secondary",
-        "joined": 2019,
-        "advisory": "11B1",
-        "room": 607
-    },
-    {
-        "lastName": "Chugani",
-        "firstName": "Rajee",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/rchugani.jpg",
-        "title": "Teaching Fellow",
-        "department": "Science",
-        "joined": 2022,
-        "advisory": "11P2",
-        "room": 611
-    },
-    {
-        "lastName": "Tu",
-        "firstName": "Teddy",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/ttu.jpg",
-        "title": "Teacher",
-        "department": "English",
-        "joined": 2019,
-        "advisory": "10JM",
-        "room": 622
-    },
-    {
-        "lastName": "Luo",
-        "firstName": "Sha",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/sluo.jpg",
-        "title": "Head of Chinese Program for Year 7-9",
-        "department": "Chinese",
-        "joined": 2011,
-        "advisory": "9P2",
-        "room": 618
-    },
-    {
-        "lastName": "Goldstein",
-        "firstName": "Molly",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/mgoldstein.jpg",
-        "title": "Teacher",
-        "department": "Science",
-        "joined": 2019,
-        "advisory": "9G2",
-        "room": 619
-    },
-    {
-        "lastName": "Goldstein",
-        "firstName": "Andrew",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/agoldstein.jpg",
-        "title": "Coordinator of Project Based Learning",
-        "department": "Individuals and Societies",
-        "joined": 2019,
-        "advisory": "10JSH",
-        "room": 621
-    },
-    {
-        "lastName": "Stevenson",
-        "firstName": "Andrew",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/astevenson.jpg",
-        "title": "Teacher",
-        "department": "Drama",
-        "joined": 2021,
-        "advisory": "10AH",
-        "room": 210
-    },
-    {
-        "lastName": "Monahan",
-        "firstName": "Stephen",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/smonahan.jpg",
-        "title": "Teacher",
-        "department": "Individuals and Societies",
-        "joined": 2018,
-        "advisory": "9B2",
-        "room": 623
-    },
-    {
-        "lastName": "Taubner",
-        "firstName": "Candice",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/ctaubner.jpg",
-        "title": "PBL Year 9 Teacher",
-        "department": "English",
-        "joined": 2022,
-        "advisory": "9B1",
-        "room": 624
-    },
-    {
-        "lastName": "Lee",
-        "firstName": "Se Me",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/smlee.jpg",
-        "title": "Head of Year 9",
-        "department": "English",
-        "joined": 2013,
-        "advisory": "12Y1",
-        "room": 626
-    },
-    {
-        "lastName": "Michaela",
-        "firstName": "Gillespie",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/mgillespie.jpg",
-        "title": "Head of Year 10",
-        "department": "Product Design",
-        "joined": 2013,
-        "advisory": "12Y2",
-        "room": 701
-    },
-    {
-        "lastName": "Schneider",
-        "firstName": "Nadina",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/nschneider.jpg",
-        "title": "Head of Year 12",
-        "department": "Product Design",
-        "joined": 2013,
-        "advisory": "9P1",
-        "room": 703
-    },
-    {
-        "lastName": "Liu",
-        "firstName": "Ellie",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/eliu.jpg",
-        "title": "Teacher",
-        "department": "Chinese",
-        "joined": 2020,
-        "advisory": "7Y1",
-        "room": 712
-    },
-    {
-        "lastName": "Yeung",
-        "firstName": "Mandy",
-        "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/myeung.jpg",
-        "title": "CEP Chinese Coordinator",
-        "department": "Chinese",
-        "joined": 2010,
-        "advisory": "7B2",
-        "room": 713
-    }
+  {
+    "lastName": "Dai",
+    "firstName": "Lingzhi",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/ldai.jpg",
+    "title": "Teacher",
+    "department": "Chinese",
+    "joined": 1994,
+    "advisory": "7R2",
+    "room": 221
+  },
+  {
+    "lastName": "Huo",
+    "firstName": "Qian",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/qhuo.jpg",
+    "title": "Head of Chinese Program for Year 10-13",
+    "department": "Chinese",
+    "joined": 2013,
+    "advisory": "7P1",
+    "room": 222
+  },
+  {
+    "lastName": "Hamlin",
+    "firstName": "Eric",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/ehamlin.jpg",
+    "title": "Teacher",
+    "department": "Individuals and Societies",
+    "joined": 2018,
+    "advisory": "7G2",
+    "room": 223
+  },
+  {
+    "lastName": "Vincendeau",
+    "firstName": "Elodie",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/evincendeau.jpg",
+    "title": "Teacher",
+    "department": "Individuals and Societies",
+    "joined": 2020,
+    "advisory": "7G1",
+    "room": 224
+  },
+  {
+    "lastName": "Lau",
+    "firstName": "Sam",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/slau.jpg",
+    "title": "Teacher",
+    "department": "Muisc",
+    "joined": 1996,
+    "advisory": "7P2",
+    "room": 411
+  },
+  {
+    "lastName": "Jin",
+    "firstName": "Lifan",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/ljin.jpg",
+    "title": "Teacher",
+    "department": "Chinese",
+    "joined": 2018,
+    "advisory": "7Y2",
+    "room": 226
+  },
+  {
+    "lastName": "Li",
+    "firstName": "Suling",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/sli.jpg",
+    "title": "Teacher",
+    "department": "Chinese",
+    "joined": 1994,
+    "advisory": "13R1",
+    "room": 301
+  },
+  {
+    "lastName": "Yip",
+    "firstName": "Serene",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/syip.jpg",
+    "title": "Teacher",
+    "department": "Mathematics",
+    "joined": 2016,
+    "advisory": "13R2",
+    "room": 302
+  },
+  {
+    "lastName": "Price",
+    "firstName": "Rebecca",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/rprice.jpg",
+    "title": "Learning Enhancement Teacher",
+    "department": "Learning Enhancement",
+    "joined": 1993,
+    "advisory": "8R2",
+    "room": 311
+  },
+  {
+    "lastName": "Beattie",
+    "firstName": "Alex",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/abeattie.jpg",
+    "title": "Head of Learning Enhancement and CEP Work (Extra Year 7 HoY)",
+    "department": "Learning Enhancement",
+    "joined": 2022,
+    "advisory": "9R2",
+    "room": 312
+  },
+  {
+    "lastName": "Jang",
+    "firstName": "Sooyeon",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/syjang.jpg",
+    "title": "Teacher",
+    "department": "Mathematics",
+    "joined": 2021,
+    "advisory": "13Y1",
+    "room": 401
+  },
+  {
+    "lastName": "King",
+    "firstName": "John",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/jking.jpg",
+    "title": "Teacher",
+    "department": "Mathematics",
+    "joined": 1992,
+    "advisory": "13Y2",
+    "room": 402
+  },
+  {
+    "lastName": "Osborne",
+    "firstName": "Nicholas",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/nosborne.jpg",
+    "title": "CEP Work",
+    "department": "Individuals and Societies",
+    "joined": 2012,
+    "advisory": "12G2",
+    "room": 422
+  },
+  {
+    "lastName": "Ignacio",
+    "firstName": "Jaime",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/jignacio.jpg",
+    "title": "Preforming Arts Tech",
+    "department": "Drama and Music",
+    "joined": 2012,
+    "advisory": "13P2",
+    "room": 412
+  },
+  {
+    "lastName": "Wong",
+    "firstName": "Alison",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/awong.jpg",
+    "title": "Head of Arts Head of Subject (Film & Media Studies)",
+    "department": "Film and Media",
+    "joined": 2007,
+    "advisory": "13P1",
+    "room": 413
+  },
+  {
+    "lastName": "Ward",
+    "firstName": "Janine",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/jward.jpg",
+    "title": "Teacher",
+    "department": "Film and Media",
+    "joined": 2015,
+    "advisory": "8G2",
+    "room": 421
+  },
+  {
+    "lastName": "Adair",
+    "firstName": "Andrea",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/aadair.jpg",
+    "title": "CEP Work (PBL Support)",
+    "department": "Mathematics",
+    "joined": 2019,
+    "advisory": "12P1",
+    "room": 225
+  },
+  {
+    "lastName": "Zhang",
+    "firstName": "Jing",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/jzhang.jpg",
+    "title": "Teacher",
+    "department": "Chinese",
+    "joined": 2012,
+    "advisory": "9Y2",
+    "room": 423
+  },
+  {
+    "lastName": "Coyle",
+    "firstName": "Anthony",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/acoyle.jpg",
+    "title": "Teacher",
+    "department": "Individulas and Societies",
+    "joined": 2012,
+    "advisory": "9Y1",
+    "room": 424
+  },
+  {
+    "lastName": "Motta",
+    "firstName": "Danny",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/dmotta.jpg",
+    "title": "Teacher",
+    "department": "Science",
+    "joined": 2020,
+    "advisory": "8Y1",
+    "room": 501
+  },
+  {
+    "lastName": "Lee",
+    "firstName": "John",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/jlee.jpg",
+    "title": "Teacher",
+    "department": "Science",
+    "joined": 1997,
+    "advisory": "8P2",
+    "room": 503
+  },
+  {
+    "lastName": "Kalsi",
+    "firstName": "Maninder",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/mkalsi.jpg",
+    "title": "TOK Coordinator",
+    "department": "Science",
+    "joined": 1999,
+    "advisory": "7R1",
+    "room": 505
+  },
+  {
+    "lastName": "Mumm",
+    "firstName": "Andrew",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/amumm.jpg",
+    "title": "Teacher",
+    "department": "Science",
+    "joined": 2009,
+    "advisory": "11B2",
+    "room": 507
+  },
+  {
+    "lastName": "Keeping",
+    "firstName": "Louise",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/lkeeping.jpg",
+    "title": "Asst to HOD (English)",
+    "department": "English",
+    "joined": 2018,
+    "advisory": "13B1",
+    "room": 511
+  },
+  {
+    "lastName": "Hayes",
+    "firstName": "Mark",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/mhayes.jpg",
+    "title": "Teacher",
+    "department": "Computer Science",
+    "joined": 2005,
+    "advisory": "13G1",
+    "room": 513
+  },
+  {
+    "lastName": "Lau",
+    "firstName": "Kathy",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/klau.jpg",
+    "title": "Teacher",
+    "department": "Individuals and Societies",
+    "joined": 2009,
+    "advisory": "13G2",
+    "room": 514
+  },
+  {
+    "lastName": "Munoz",
+    "firstName": "Anne Mar",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/amunoz.jpg",
+    "title": "Teacher",
+    "department": "French and Spanish",
+    "joined": 2016,
+    "advisory": "8R1",
+    "room": 521
+  },
+  {
+    "lastName": "Niu",
+    "firstName": "Peter",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/pniu.jpg",
+    "title": "Teacher",
+    "department": "Chinese",
+    "joined": 2010,
+    "advisory": "8Y2",
+    "room": 522
+  },
+  {
+    "lastName": "Lugg",
+    "firstName": "Rebecca",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/rlugg.jpg",
+    "title": "Teacher",
+    "department": "English",
+    "joined": 2022,
+    "advisory": "8G1",
+    "room": 523
+  },
+  {
+    "lastName": "Lin",
+    "firstName": "Eunice",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/elin.jpg",
+    "title": "Teacher",
+    "department": "Chinese",
+    "joined": 2021,
+    "advisory": "8B2",
+    "room": 524
+  },
+  {
+    "lastName": "Barnaby",
+    "firstName": "David",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/dbarnaby.jpg",
+    "title": "Head of Physical Health Education",
+    "department": "Physical and Health Education",
+    "joined": 2018,
+    "advisory": "8B1",
+    "room": 525
+  },
+  {
+    "lastName": "Casselman",
+    "firstName": "Kate",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/kcasselman.jpg",
+    "title": "Teacher",
+    "department": "English",
+    "joined": 2022,
+    "advisory": "8P1",
+    "room": 526
+  },
+  {
+    "lastName": "Dhaki",
+    "firstName": "Suvash",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/sdhakal.jpg",
+    "title": "Teacher",
+    "department": "Individuals and Societies",
+    "joined": 2022,
+    "advisory": "11R1",
+    "room": 601
+  },
+  {
+    "lastName": "Bacon",
+    "firstName": "Helen",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/hbacon.jpg",
+    "title": "Teacher",
+    "department": "English",
+    "joined": 2019,
+    "advisory": "11P1",
+    "room": 603
+  },
+  {
+    "lastName": "Carson",
+    "firstName": "Peter",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/pcarson.jpg",
+    "title": "Teacher",
+    "department": "Science",
+    "joined": 2011,
+    "advisory": "9R1",
+    "room": 605
+  },
+  {
+    "lastName": "Ng",
+    "firstName": "Alan",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/alng.jpg",
+    "title": "Teacher",
+    "department": "Science",
+    "joined": 2022,
+    "advisory": "11B1",
+    "room": 607
+  },
+  {
+    "lastName": "Clouting",
+    "firstName": "Ross",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/rclouting.jpg",
+    "title": "Head of Science and Assistant to the Director of Administrative Services",
+    "department": "Science",
+    "joined": 2018,
+    "advisory": "11P2",
+    "room": 611
+  },
+  {
+    "lastName": "Bullock",
+    "firstName": "Jessica",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/jbullock.jpg",
+    "title": "Asst to HOD Individuals & Soc.(Yr 11-13) and Well-Being Integrator",
+    "department": "Individuals and Societies",
+    "joined": 2015,
+    "advisory": "11G1",
+    "room": 612
+  },
+  {
+    "lastName": "Fenton",
+    "firstName": "Ryan",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/rfenton.jpg",
+    "title": "Teacher",
+    "department": "English",
+    "joined": 2018,
+    "advisory": "11G2",
+    "room": 613
+  },
+  {
+    "lastName": "Keeman",
+    "firstName": "Kitty",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/kkeeman.jpg",
+    "title": "EE Coord. & Yr 11 Research Facilitator",
+    "department": "Individuals and Societies",
+    "joined": 2018,
+    "advisory": "11Y1",
+    "room": 614
+  },
+  {
+    "lastName": "Psillides",
+    "firstName": "John",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/jpsillides.jpg",
+    "title": "Teacher",
+    "department": "Science",
+    "joined": 2012,
+    "advisory": "11R2",
+    "room": 615
+  },
+  {
+    "lastName": "Motta",
+    "firstName": "Stacy",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/smotta.jpg",
+    "title": "Teacher",
+    "department": "Mathematics",
+    "joined": 2022,
+    "advisory": "11Y2",
+    "room": 616
+  },
+  {
+    "lastName": "Malone",
+    "firstName": "Jeff",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/jmalone.jpg",
+    "title": "Teacher",
+    "department": "English",
+    "joined": 2022,
+    "advisory": "10JM",
+    "room": 622
+  },
+  {
+    "lastName": "Ewing",
+    "firstName": "Adam",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/aewing.jpg",
+    "title": "Teacher",
+    "department": "Computer Science",
+    "joined": 2022,
+    "advisory": "13B2",
+    "room": 512
+  },
+  {
+    "lastName": "Zimmermann",
+    "firstName": "Greg",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/gzimmermann.jpg",
+    "title": "Assistant to HoD English",
+    "department": "English",
+    "joined": 2020,
+    "advisory": "9P2",
+    "room": 618
+  },
+  {
+    "lastName": "May",
+    "firstName": "Stephen",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/smay.jpg",
+    "title": "Teacher",
+    "department": "Physical and Health Education",
+    "joined": 2002,
+    "advisory": "9G2",
+    "room": 619
+  },
+  {
+    "lastName": "Halliday",
+    "firstName": "Jennifer Sohn",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/jsohn.jpg",
+    "title": "Head of English",
+    "department": "English",
+    "joined": 2019,
+    "advisory": "10JSH",
+    "room": 621
+  },
+  {
+    "lastName": "Harrington",
+    "firstName": "Alicia",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/aharrington.jpg",
+    "title": "Head of Drama",
+    "department": "Drama",
+    "joined": 2019,
+    "advisory": "10AH",
+    "room": 210
+  },
+  {
+    "lastName": "O’Reilly",
+    "firstName": "Josie",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/joreilly.jpg",
+    "title": "Teacher",
+    "department": "Physical and Health Education",
+    "joined": 2020,
+    "advisory": "9B2",
+    "room": 623
+  },
+  {
+    "lastName": "Jacobsen",
+    "firstName": "Jake (Paul)",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/pjacobsen.jpg",
+    "title": "Teacher",
+    "department": "Individuals and Societies",
+    "joined": 2020,
+    "advisory": "9B1",
+    "room": 624
+  },
+  {
+    "lastName": "Hay",
+    "firstName": "Tiffany",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/tihay.jpg",
+    "title": "MYP Coordinator",
+    "department": "Individuals and Societies",
+    "joined": 2019,
+    "advisory": "9G1",
+    "room": 625
+  },
+  {
+    "lastName": "Melling",
+    "firstName": "Bruna",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/bmelling.jpg",
+    "title": "Teacher",
+    "department": "Mathematics",
+    "joined": 2008,
+    "advisory": "12Y1",
+    "room": 626
+  },
+  {
+    "lastName": "Zhou",
+    "firstName": "Faith Cong",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/czhou.jpg",
+    "title": "Teacher",
+    "department": "Chinese",
+    "joined": 2019,
+    "advisory": "12Y2",
+    "room": 701
+  },
+  {
+    "lastName": "Kwan",
+    "firstName": "Le-Shan",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/lskwan.jpg",
+    "title": "Teacher",
+    "department": "English",
+    "joined": 2009,
+    "advisory": "9P1",
+    "room": 703
+  },
+  {
+    "lastName": "Vitzikam",
+    "firstName": "Aline",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/avitzikam.jpg",
+    "title": "Head of World Language",
+    "department": "French and Spanish",
+    "joined": 2017,
+    "advisory": "12R2",
+    "room": 704
+  },
+  {
+    "lastName": "Dickie",
+    "firstName": "Robert",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/rdickie.jpg",
+    "title": "Head of Product Design",
+    "department": "Product Design",
+    "joined": 2013,
+    "advisory": "9R2",
+    "room": 705
+  },
+  {
+    "lastName": "Ward",
+    "firstName": "Karen",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/kward.jpg",
+    "title": "Teacher",
+    "department": "Product Design",
+    "joined": 2004,
+    "advisory": "12P2",
+    "room": 707
+  },
+  {
+    "lastName": "Qian",
+    "firstName": "Qian",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/qqian.jpg",
+    "title": "Teacher",
+    "department": "Chinese",
+    "joined": 2011,
+    "advisory": "12R1",
+    "room": 708
+  },
+  {
+    "lastName": "Li",
+    "firstName": "Lynn",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/lli.jpg",
+    "title": "TOK Chinese Integrator",
+    "department": "Chinese",
+    "joined": 2011,
+    "advisory": "12G1",
+    "room": 711
+  },
+  {
+    "lastName": "Bacon",
+    "firstName": "Lisa",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/lbacon.jpg",
+    "title": "Teacher",
+    "department": "Visual Arts",
+    "joined": 2022,
+    "advisory": "7Y1",
+    "room": 712
+  },
+  {
+    "lastName": "Porter",
+    "firstName": "Emma",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/eporter.jpg",
+    "title": "Teacher",
+    "department": "Visual Arts",
+    "joined": 2022,
+    "advisory": "7B2",
+    "room": 713
+  },
+  {
+    "lastName": "Martignago",
+    "firstName": "Georgina",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/gmart.jpg",
+    "title": "Head of VA",
+    "department": "Visual Arts",
+    "joined": 2007,
+    "advisory": "No Advisory",
+    "room": 714
+  },
+  {
+    "lastName": "Halliday",
+    "firstName": "Simon",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/shalliday.jpg",
+    "title": "Head of Mathematics",
+    "department": "Mathematics",
+    "joined": 2019,
+    "advisory": "12B2",
+    "room": 722
+  },
+  {
+    "lastName": "Varro",
+    "firstName": "David",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/dvarro.jpg",
+    "title": "Teacher",
+    "department": "Mathematics",
+    "joined": 2021,
+    "advisory": "12B1",
+    "room": 724
+  },
+  {
+    "lastName": "Bolton",
+    "firstName": "Annie",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/abolton.jpg",
+    "title": "Asst to HOD Physical Health Education",
+    "department": "Physical and Health Education",
+    "joined": 2006,
+    "advisory": "No Advisory",
+    "room": "Upper Gym"
+  },
+  {
+    "lastName": "Juan",
+    "firstName": "Ferron",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/jferron.jpg",
+    "title": "Teacher",
+    "department": "Physical and Health Education",
+    "joined": 2018,
+    "advisory": "No Advisory",
+    "room": "Upper Gym"
+  },
+  {
+    "lastName": "Hooper",
+    "firstName": "Jamie",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/jhooper.jpg",
+    "title": "Head of Year 13 Well Being Integrator",
+    "department": "Physical and Health Education",
+    "joined": 2014,
+    "advisory": "No Advisory",
+    "room": "Upper Gym"
+  },
+  {
+    "lastName": "Wan",
+    "firstName": "Eddie",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/ewan.jpg",
+    "title": "PE Admin Assistant",
+    "department": "Physical and Health Education",
+    "joined": 2017,
+    "advisory": "No Advisory",
+    "room": "Upper Gym"
+  },
+  {
+    "lastName": "Dias",
+    "firstName": "Celine",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/cdias.jpg",
+    "title": "Teacher",
+    "department": "French and Spanish",
+    "joined": 2022,
+    "advisory": "7R2",
+    "room": 221
+  },
+  {
+    "lastName": "Qu",
+    "firstName": "Rita",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/rqu.jpg",
+    "title": "Teaching Fellow",
+    "department": "Chinese",
+    "joined": 2022,
+    "advisory": "7P1",
+    "room": 222
+  },
+  {
+    "lastName": "Chan",
+    "firstName": "Anna",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/achan.jpg",
+    "title": "Teacher",
+    "department": "Individuals and Societies",
+    "joined": 2013,
+    "advisory": "7G2",
+    "room": 223
+  },
+  {
+    "lastName": "Momeni",
+    "firstName": "Sanaz",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/smomeni.jpg",
+    "title": "Teacher",
+    "department": "Computer Science",
+    "joined": 2017,
+    "advisory": "7G1",
+    "room": 224
+  },
+  {
+    "lastName": "Liu",
+    "firstName": "Yuheng Ann",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/anliu.jpg",
+    "title": "Teaching Fellow",
+    "department": "Chinese",
+    "joined": 2021,
+    "advisory": "7P2",
+    "room": 411
+  },
+  {
+    "lastName": "Cheung",
+    "firstName": "Rit",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/rcheung.jpg",
+    "title": "Teaching Fellow",
+    "department": "Chinese",
+    "joined": 2022,
+    "advisory": "7Y2",
+    "room": 226
+  },
+  {
+    "lastName": "Thrush",
+    "firstName": "Keena",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/kthrush.jpg",
+    "title": "Head of China Programs and Project Week Coordinator",
+    "department": "French and Spanish",
+    "joined": 2014,
+    "advisory": "13R1",
+    "room": 301
+  },
+  {
+    "lastName": "Tam",
+    "firstName": "Simon",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/stam.jpg",
+    "title": "Teacher",
+    "department": "Computer Science",
+    "joined": 2012,
+    "advisory": "13R2",
+    "room": 302
+  },
+  {
+    "lastName": "Nahar",
+    "firstName": "Nitu",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/nnahar.jpg",
+    "title": "Head of Computer Science",
+    "department": "Computer Science",
+    "joined": 2007,
+    "advisory": "8R2",
+    "room": 311
+  },
+  {
+    "lastName": "Odunlami",
+    "firstName": "Deji",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/aodunlami.jpg",
+    "title": "Teacher",
+    "department": "Mathematics",
+    "joined": 2018,
+    "advisory": "13Y1",
+    "room": 401
+  },
+  {
+    "lastName": "Coco",
+    "firstName": "Marin",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/mbustamante.jpg",
+    "title": "Teacher",
+    "department": "French and Spanish",
+    "joined": 2022,
+    "advisory": "No Advisory",
+    "room": 402
+  },
+  {
+    "lastName": "Purvis",
+    "firstName": "Hunter",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/hpurvis.jpg",
+    "title": "Teaching Fellow",
+    "department": "Individuals and Societies",
+    "joined": 2022,
+    "advisory": "12G2",
+    "room": 422
+  },
+  {
+    "lastName": "Karena",
+    "firstName": "Tama",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/tkarena.jpg",
+    "title": "Head of Music",
+    "department": "Music",
+    "joined": 2013,
+    "advisory": "13P2",
+    "room": 412
+  },
+  {
+    "lastName": "Al-Sherif",
+    "firstName": "Amira",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/aalsherif.jpg",
+    "title": "Teacher",
+    "department": "Mathematics",
+    "joined": 2022,
+    "advisory": "8G2",
+    "room": 421
+  },
+  {
+    "lastName": "Cao",
+    "firstName": "Anna",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/acao.jpg",
+    "title": "Teaching Assistant",
+    "department": "Chinese",
+    "joined": 2022,
+    "advisory": "",
+    "room": "Library"
+  },
+  {
+    "lastName": "Tomochko",
+    "firstName": "Nathan",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/ntomochko.jpg",
+    "title": "Teacher",
+    "department": "Individuals and Societies",
+    "joined": 2021,
+    "advisory": "9Y2",
+    "room": 423
+  },
+  {
+    "lastName": "Naughton",
+    "firstName": "Helen",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/hnaughton.jpg",
+    "title": "Teacher",
+    "department": "French and Spanish",
+    "joined": 2019,
+    "advisory": "9Y1",
+    "room": 424
+  },
+  {
+    "lastName": "Lui",
+    "firstName": "Bonnie",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/blui.jpg",
+    "title": "Assistant to HOD Individuals & Societies CEP Work (PBL Support)",
+    "department": "Individuals and Societies",
+    "joined": 2021,
+    "advisory": "8Y1",
+    "room": 501
+  },
+  {
+    "lastName": "O'Donnell",
+    "firstName": "Jackie",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/jodonnell.jpg",
+    "title": "Assistant to HOD Science (Year 7-10)",
+    "department": "Science",
+    "joined": 2020,
+    "advisory": "8P2",
+    "room": 503
+  },
+  {
+    "lastName": "Sin",
+    "firstName": "Kin Yan",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/kysin.jpg",
+    "title": "Head of Year 7",
+    "department": "Chinese",
+    "joined": 2012,
+    "advisory": "7R1",
+    "room": 505
+  },
+  {
+    "lastName": "Sutton",
+    "firstName": "Jennifer",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/jsutton.jpg",
+    "title": "Head of Year 11",
+    "department": "Science",
+    "joined": 2020,
+    "advisory": "11B2",
+    "room": 507
+  },
+  {
+    "lastName": "Wilson",
+    "firstName": "James",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/jwilson.jpg",
+    "title": "Head of Individuals and Societies",
+    "department": "Individuals and Societies",
+    "joined": 2017,
+    "advisory": "13G1",
+    "room": 513
+  },
+  {
+    "lastName": "Suen",
+    "firstName": "Betty",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/bsun.jpg",
+    "title": "Student Teacher",
+    "department": "Mathematics",
+    "joined": 2022,
+    "advisory": "13G2",
+    "room": 514
+  },
+  {
+    "lastName": "Chan-Lui",
+    "firstName": "Caroline",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/clui.jpg",
+    "title": "Asst to HOD Maths & Flexi Coordinator",
+    "department": "Mathematics",
+    "joined": 2013,
+    "advisory": "8R1",
+    "room": 521
+  },
+  {
+    "lastName": "Fosseprez",
+    "firstName": "Virginie",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/vfosseprez.jpg",
+    "title": "Teacher",
+    "department": "French",
+    "joined": 2021,
+    "advisory": "8Y2",
+    "room": 522
+  },
+  {
+    "lastName": "Jones",
+    "firstName": "Robert (Bobby)",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/ljin.jpg",
+    "title": "Head of Year 8",
+    "department": "Mathematics",
+    "joined": 2013,
+    "advisory": "8G1",
+    "room": 523
+  },
+  {
+    "lastName": "Town",
+    "firstName": "Janice",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/jtown.jpg",
+    "title": "Teacher",
+    "department": "Physical and Health Education",
+    "joined": 2022,
+    "advisory": "8B2",
+    "room": 524
+  },
+  {
+    "lastName": "Huang",
+    "firstName": "Yuwei",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/yuhuang.jpg",
+    "title": "Teacher",
+    "department": "Chinese",
+    "joined": 2020,
+    "advisory": "8B1",
+    "room": 525
+  },
+  {
+    "lastName": "Ma",
+    "firstName": "Irina",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/ima.jpg",
+    "title": "Teacher",
+    "department": "Chinese",
+    "joined": 2021,
+    "advisory": "8P1",
+    "room": 526
+  },
+  {
+    "lastName": "Walsh",
+    "firstName": "Patrick",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/pwalsh.jpg",
+    "title": "Assistant to HOD Science (Year 11-13)",
+    "department": "Science",
+    "joined": 2020,
+    "advisory": "11R1",
+    "room": 601
+  },
+  {
+    "lastName": "Etheridge",
+    "firstName": "Michael",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/metheridge.jpg",
+    "title": "Teacher",
+    "department": "Science",
+    "joined": 1994,
+    "advisory": "11P1",
+    "room": 603
+  },
+  {
+    "lastName": "Chen",
+    "firstName": "Bingmei",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/bchen.jpg",
+    "title": "Teacher",
+    "department": "Chinese",
+    "joined": 2001,
+    "advisory": "9R1",
+    "room": 605
+  },
+  {
+    "lastName": "Codrington",
+    "firstName": "Janelle",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/jcodrington.jpg",
+    "title": "DP Coordinator",
+    "department": "Secondary",
+    "joined": 2019,
+    "advisory": "11B1",
+    "room": 607
+  },
+  {
+    "lastName": "Chugani",
+    "firstName": "Rajee",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/rchugani.jpg",
+    "title": "Teaching Fellow",
+    "department": "Science",
+    "joined": 2022,
+    "advisory": "11P2",
+    "room": 611
+  },
+  {
+    "lastName": "Tu",
+    "firstName": "Teddy",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/ttu.jpg",
+    "title": "Teacher",
+    "department": "English",
+    "joined": 2019,
+    "advisory": "10JM",
+    "room": 622
+  },
+  {
+    "lastName": "Luo",
+    "firstName": "Sha",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/sluo.jpg",
+    "title": "Head of Chinese Program for Year 7-9",
+    "department": "Chinese",
+    "joined": 2011,
+    "advisory": "9P2",
+    "room": 618
+  },
+  {
+    "lastName": "Goldstein",
+    "firstName": "Molly",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/mgoldstein.jpg",
+    "title": "Teacher",
+    "department": "Science",
+    "joined": 2019,
+    "advisory": "9G2",
+    "room": 619
+  },
+  {
+    "lastName": "Goldstein",
+    "firstName": "Andrew",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/agoldstein.jpg",
+    "title": "Coordinator of Project Based Learning",
+    "department": "Individuals and Societies",
+    "joined": 2019,
+    "advisory": "10JSH",
+    "room": 621
+  },
+  {
+    "lastName": "Stevenson",
+    "firstName": "Andrew",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/astevenson.jpg",
+    "title": "Teacher",
+    "department": "Drama",
+    "joined": 2021,
+    "advisory": "10AH",
+    "room": 210
+  },
+  {
+    "lastName": "Monahan",
+    "firstName": "Stephen",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/smonahan.jpg",
+    "title": "Teacher",
+    "department": "Individuals and Societies",
+    "joined": 2018,
+    "advisory": "9B2",
+    "room": 623
+  },
+  {
+    "lastName": "Taubner",
+    "firstName": "Candice",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/ctaubner.jpg",
+    "title": "PBL Year 9 Teacher",
+    "department": "English",
+    "joined": 2022,
+    "advisory": "9B1",
+    "room": 624
+  },
+  {
+    "lastName": "Lee",
+    "firstName": "Se Me",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/smlee.jpg",
+    "title": "Head of Year 9",
+    "department": "English",
+    "joined": 2013,
+    "advisory": "12Y1",
+    "room": 626
+  },
+  {
+    "lastName": "Michaela",
+    "firstName": "Gillespie",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/mgillespie.jpg",
+    "title": "Head of Year 10",
+    "department": "Product Design",
+    "joined": 2013,
+    "advisory": "12Y2",
+    "room": 701
+  },
+  {
+    "lastName": "Schneider",
+    "firstName": "Nadina",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/nschneider.jpg",
+    "title": "Head of Year 12",
+    "department": "Product Design",
+    "joined": 2013,
+    "advisory": "9P1",
+    "room": 703
+  },
+  {
+    "lastName": "Liu",
+    "firstName": "Ellie",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/eliu.jpg",
+    "title": "Teacher",
+    "department": "Chinese",
+    "joined": 2020,
+    "advisory": "7Y1",
+    "room": 712
+  },
+  {
+    "lastName": "Yeung",
+    "firstName": "Mandy",
+    "image": "https://mycis.cis.edu.hk/uploaded/faculty/photos/myeung.jpg",
+    "title": "CEP Chinese Coordinator",
+    "department": "Chinese",
+    "joined": 2010,
+    "advisory": "7B2",
+    "room": 713
+  }
 ]
