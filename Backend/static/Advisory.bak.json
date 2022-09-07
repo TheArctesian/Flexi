@@ -1,0 +1,312 @@
+[
+    {
+        "Advisory": "7P1",
+        "Teacher": "Ms. Qian Huo & Ms.Rita Qum",
+        "Room": 222
+    },
+    {
+        "Advisory": "7P2",
+        "Teacher": "Dr. Sam Lau & Ms. Yuheng Ann Liu",
+        "Room": 411
+    },
+    {
+        "Advisory": "7B1",
+        "Teacher": "Brian Mulcahy & Ms. Angeline Teng",
+        "Room": "Library"
+    },
+    {
+        "Advisory": "7B2",
+        "Teacher": "Ms. Emma Porter & Ms. Mandy Yeung",
+        "Room": 713
+    },
+    {
+        "Advisory": "7G1",
+        "Teacher": "Ms. Elodie Vincendeau & Mr. John Yiu",
+        "Room": 224
+    },
+    {
+        "Advisory": "7G2",
+        "Teacher": "Mr. Eric Hamlin & Ms. Anna Chan",
+        "Room": 223
+    },
+    {
+        "Advisory": "7Y1",
+        "Teacher": "Ms. Lisa Bacon & Ms. Ellie Liu",
+        "Room": 712
+    },
+    {
+        "Advisory": "7Y2",
+        "Teacher": "Ms. Lifan Jin",
+        "Room": 226
+    },
+    {
+        "Advisory": "7R1",
+        "Teacher": "Mr. Maninder Kalsi",
+        "Room": 505
+    },
+    {
+        "Advisory": "7R2",
+        "Teacher": "Ms. Lingzhi Dai & Ms. Celine Dias",
+        "Room": 221
+    },
+    {
+        "Advisory": "8P1",
+        "Teacher": "Ms. Kate Casselman & Mr. Chandler Kurtz",
+        "Room": 526
+    },
+    {
+        "Advisory": "8P2",
+        "Teacher": "Mr. John Lee",
+        "Room": 503
+    },
+    {
+        "Advisory": "8B1",
+        "Teacher": "Mr. David Barnaby & Ms. Yuwei Huang",
+        "Room": 525
+    },
+    {
+        "Advisory": "8B2",
+        "Teacher": "Ms. Eunice Lin & Ms. Janice Town",
+        "Room": 524
+    },
+    {
+        "Advisory": "8G1",
+        "Teacher": "Ms. Catherine Han & Ms. Rebecca Lugg",
+        "Room": 523
+    },
+    {
+        "Advisory": "8G2",
+        "Teacher": "Ms. Janine Ward & & Ms. Amira Alsherif",
+        "Room": 421
+    },
+    {
+        "Advisory": "8Y1",
+        "Teacher": "Mr. Danny Motta & Ms. Bonnie Lui",
+        "Room": 501
+    },
+    {
+        "Advisory": "8Y2",
+        "Teacher": "Mr. Peter Niu & Ms. Virginie Fosseprez",
+        "Room": 522
+    },
+    {
+        "Advisory": "8R1",
+        "Teacher": "Ms. Anne Mar Munoz & Ms. Fiorella Fong",
+        "Room": 521
+    },
+    {
+        "Advisory": "8R2",
+        "Teacher": "Ms. Rebecca Price & Mr. Sean Lynch",
+        "Room": 311
+    },
+    {
+        "Advisory": "9P1",
+        "Teacher": "Mr. Le Shan Kwan",
+        "Room": 703
+    },
+    {
+        "Advisory": "9B1",
+        "Teacher": "Mr. Jake (Paul) Jacobsen",
+        "Room": 624
+    },
+    {
+        "Advisory": "9B2",
+        "Teacher": "Ms. Josie O’ Reilly & Mr. Stephen Monahan",
+        "Room": 623
+    },
+    {
+        "Advisory": "9G1",
+        "Teacher": "Ms Tiffany Hay",
+        "Room": 625
+    },
+    {
+        "Advisory": "9G2",
+        "Teacher": "Mr. Stephen May",
+        "Room": 619
+    },
+    {
+        "Advisory": "9Y1",
+        "Teacher": "Mr. Anthony Coyle",
+        "Room": 424
+    },
+    {
+        "Advisory": "9Y2",
+        "Teacher": "Ms. Jing Zhang & Ms. Li Bin",
+        "Room": 423
+    },
+    {
+        "Advisory": "9R1",
+        "Teacher": "Mr. Peter Carson & Ms. Bingmei Chen",
+        "Room": 605
+    },
+    {
+        "Advisory": "9R2",
+        "Teacher": "Mr. Alex Beattie",
+        "Room": 705
+    },
+    {
+        "Advisory": "10JSH",
+        "Teacher": "Ms. Jennifer Sohn Halliday",
+        "Room": 621
+    },
+    {
+        "Advisory": "10AH",
+        "Teacher": "Ms. Alicia Harrington",
+        "Room": 210
+    },
+    {
+        "Advisory": "10JM",
+        "Teacher": "Mr. Jeff Malone",
+        "Room": 622
+    },
+    {
+        "Advisory": "11P1",
+        "Teacher": "Ms. Helen Bacon & Mr. Michael Etheridge",
+        "Room": 603
+    },
+    {
+        "Advisory": "11P2",
+        "Teacher": "Mr. Ross Clouting",
+        "Room": 611
+    },
+    {
+        "Advisory": "11B1",
+        "Teacher": "Mr. Alan Ng & Ms. Janelle Codrington",
+        "Room": 607
+    },
+    {
+        "Advisory": "11B2",
+        "Teacher": "Mr. Andrew Mumm",
+        "Room": 507
+    },
+    {
+        "Advisory": "11G1",
+        "Teacher": "Ms. Jessica Bullock",
+        "Room": 612
+    },
+    {
+        "Advisory": "11G2",
+        "Teacher": "Mr. Ryan Fenton",
+        "Room": 613
+    },
+    {
+        "Advisory": "11Y1",
+        "Teacher": "Ms. Kitty Keeman",
+        "Room": 614
+    },
+    {
+        "Advisory": "11Y2",
+        "Teacher": "Ms. Stacy Motta",
+        "Room": 616
+    },
+    {
+        "Advisory": "11R1",
+        "Teacher": "Mr. Suvash Dhaki &  Mr. Patrick Walsh",
+        "Room": 601
+    },
+    {
+        "Advisory": "11R2",
+        "Teacher": "Mr. John Psillides",
+        "Room": 615
+    },
+    {
+        "Advisory": "12P1",
+        "Teacher": "Ms. Andrea Adair",
+        "Room": 225
+    },
+    {
+        "Advisory": "12P2",
+        "Teacher": "Ms. Karen Ward",
+        "Room": 707
+    },
+    {
+        "Advisory": "12B1",
+        "Teacher": "Mr. David Varro",
+        "Room": 724
+    },
+    {
+        "Advisory": "12B2",
+        "Teacher": "Mr. Simon Halliday & Mr. Adhiraj Rathore",
+        "Room": 722
+    },
+    {
+        "Advisory": "12G1",
+        "Teacher": "Ms. Lynn Li",
+        "Room": 711
+    },
+    {
+        "Advisory": "12G2",
+        "Teacher": "Mr. Nicholas Osborne",
+        "Room": 422
+    },
+    {
+        "Advisory": "12Y1",
+        "Teacher": "Ms. Bruna Melling",
+        "Room": 626
+    },
+    {
+        "Advisory": "12Y2",
+        "Teacher": "Ms. Faith Cong Zhou",
+        "Room": 701
+    },
+    {
+        "Advisory": "12R1",
+        "Teacher": "Ms. Qian Qian",
+        "Room": 617
+    },
+    {
+        "Advisory": "12R2",
+        "Teacher": "Ms. Aline Vitzikam",
+        "Room": 704
+    },
+    {
+        "Advisory": "13P1",
+        "Teacher": "Mr. Chris Caves & Ms. Alison Wong",
+        "Room": 413
+    },
+    {
+        "Advisory": "13P2",
+        "Teacher": "Mr. Jaime Ignacio",
+        "Room": 412
+    },
+    {
+        "Advisory": "13B1",
+        "Teacher": "Ms. Louise Keeping & Ms. Catherine Yiu",
+        "Room": 511
+    },
+    {
+        "Advisory": "13B2",
+        "Teacher": "Ms. Christine Doleman & Mr. Adam Ewing",
+        "Room": 512
+    },
+    {
+        "Advisory": "13G1",
+        "Teacher": "Mr. Mark Hayes & Mrs. Jenny Chadwick",
+        "Room": 513
+    },
+    {
+        "Advisory": "13G2",
+        "Teacher": "Ms. Kathy Lau & Ms. Betty",
+        "Room": 514
+    },
+    {
+        "Advisory": "13Y1",
+        "Teacher": "Ms. Sooyeon Jang",
+        "Room": 401
+    },
+    {
+        "Advisory": "13Y2",
+        "Teacher": "Mr. John King",
+        "Room": 402
+    },
+    {
+        "Advisory": "13R1",
+        "Teacher": "Ms. Suling Li",
+        "Room": 301
+    },
+    {
+        "Advisory": "13R2",
+        "Teacher": "Ms. Serene Yip & Mr. Simon Tam",
+        "Room": 302
+    }
+]
