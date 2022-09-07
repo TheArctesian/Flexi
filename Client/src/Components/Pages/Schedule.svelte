@@ -23,78 +23,6 @@
 	}
 </script>
 
-<style>
-	.thing {
-		margin: 1rem;
-	}
-	h1 {
-		word-wrap: break-word;
-	}
-
-	.day {
-		text-align: center;
-		background-color: #e6931d;
-		padding: 0.5em;
-		border-radius: 0.5em;
-		margin: auto;
-		margin-top: 5vh;
-		margin-bottom: 2vh;
-		font-weight: 500;
-		width: 15vw;
-		color: white;
-		transition: all ease-in-out 200ms;
-	}
-	:global(body.light) .day {
-		box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
-	}
-
-	.day:hover {
-		background-color: #e6921dab;
-	}
-	.event {
-		background-color: #4e4e4e;
-		padding: 0.5em;
-		border-radius: 0.5em;
-		justify-content: center;
-		align-items: center;
-		margin: auto;
-		height: 50vh;
-		color: white;
-		width: 15vw;
-		will-change: filter;
-		transition: all ease-in-out 500ms;
-	}
-	:global(body.light) .event {
-		background-color: #f0f0f0;
-		color: black;
-		box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
-	}
-
-	.event:hover {
-		transition: all ease-in-out 200ms;
-		filter: drop-shadow(0 0 1em #ffffff);
-	}
-	.content {
-		display: flex;
-		margin: auto;
-		justify-content: center;
-		flex-direction: row;
-	}
-	@media (max-width: 750px) {
-		.thing {
-			width: fit-content;
-			margin-top: 0vh;
-		}
-		.day {
-			margin-top: 0vh;
-			width: 70vw;
-		}
-		.event {
-			width: 70vw;
-		}
-	}
-</style>
-
 <div class="content" bind:clientWidth={w}>
 	{#if w > 750}
 		{#if $userInfo != 'true'}
@@ -219,3 +147,81 @@
 		</div>
 	{/if}
 </div>
+
+<style>
+	.thing {
+		margin: 1rem;
+	}
+	h1 {
+		word-wrap: break-word;
+	}
+
+	.day {
+		text-align: center;
+		background-color: #e6931d;
+		padding: 0.5em;
+		border-radius: 0.5em;
+
+		margin: auto;
+		margin-top: 5vh;
+		margin-bottom: 2vh;
+		font-weight: 500;
+		width: 15vw;
+		color: white;
+		transition: all ease-in-out 200ms;
+	}
+	:global(body.light) .day {
+		box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+	}
+
+	.day:hover {
+		background-color: #e6921dab;
+	}
+	.event {
+		background-color: #4e4e4e;
+		padding: 0.5em;
+		border-radius: 0.5em;
+		justify-content: center;
+		align-items: center;
+		margin: auto;
+		height: 50vh;
+		box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+		color: white;
+		width: 15vw;
+		will-change: filter;
+		transition: all ease-in-out 500ms;
+	}
+	:global(body.light) .event {
+		background-color: #f0f0f0;
+		color: black;
+		box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+	}
+
+	.event:hover {
+		transition: all ease-in-out 200ms;
+		filter: drop-shadow(0 0 1em #ffffff);
+	}
+	:global(body.light) .event:hover {
+		transition: all ease-in-out 200ms;
+		filter: drop-shadow(0 0 1em #777777);
+	}
+	.content {
+		display: flex;
+		margin: auto;
+		justify-content: center;
+		flex-direction: row;
+	}
+	@media (max-width: 750px) {
+		.thing {
+			width: fit-content;
+			margin-top: 0vh;
+		}
+		.day {
+			margin-top: 0vh;
+			width: 70vw;
+		}
+		.event {
+			width: 70vw;
+		}
+	}
+</style>

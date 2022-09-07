@@ -1,16 +1,12 @@
 <script lang="ts">
-	import Nav from '../../Components/Items/Nav.svelte';
+	import Nav from '../../Components/Items/NavAdmin.svelte';
 	import AdminLayout from '../../Components/Admin/adminLayout.svelte';
 	import Github from '../../Components/Items/Github.svelte';
 	import teachers from '../../lib/Data/teachers';
 	import type { teacher } from '$lib/Types/teacher';
 	//	import * as fs from 'fs';
 	let TeacherList: teacher[] = teachers;
-	let TeacherSave: teacher[] = teachers;
 	function revert() {
-		let content = JSON.stringify(TeacherSave);
-		save(content);
-		alert('Please reload to see affect');
 	}
 	function write() {
 		console.log(TeacherList[0].Advisory);

@@ -3,6 +3,39 @@
 	let w;
 </script>
 
+<div class="header" bind:clientWidth={w}>
+	{#if w > 750}
+		<Modetoggle />
+	{/if}
+	<div class="links">
+		<a href="/">
+			<h1>Flexi Schedule</h1>
+		</a>
+		<a href="/rooms">
+			<h1>Teacher Rooms</h1>
+		</a>
+		<a href="/links">
+			<h1>Useful Links</h1>
+		</a>
+	</div>
+
+	<a class="side" target="_blank" href="https://github.com/TheArctesian/Flexi">
+		<img
+			alt="calandar"
+			class="icon"
+			src="https://cdn-icons-png.flaticon.com/512/4926/4926624.png"
+		/>
+	</a>
+
+	<!-- {#if $userInfo}
+                <h1 class="text-center t">{$yeargroup}{$advisory}</h1>
+            {:else}
+		<div class="icon">
+			<img src={act} alt="CIS logo" />
+		</div>
+            {/if} -->
+</div>
+
 <style>
 	.header {
 		display: flex;
@@ -24,7 +57,7 @@
 	}
 
 	:global(body.light) .icon:hover {
-		background-color: #f0f0f085;
+		background-color: #38383885;
 	}
 
 	.icon:hover {
@@ -84,35 +117,3 @@
 		}
 	}
 </style>
-
-<div class="header" bind:clientWidth={w}>
-	{#if w > 750}
-		<Modetoggle />
-	{/if}
-	<div class="links">
-		<a href="/">
-			<h1>Flexi Schedule</h1>
-		</a>
-		<a href="/rooms">
-			<h1>Teacher Rooms</h1>
-		</a>
-		<a href="/links">
-			<h1>Useful Links</h1>
-		</a>
-	</div>
-
-	<a class="side" target="_blank" href="https://github.com/TheArctesian/Flexi">
-		<img
-			alt="calandar"
-			class="icon"
-			src="https://cdn-icons-png.flaticon.com/512/4926/4926624.png" />
-	</a>
-
-	<!-- {#if $userInfo}
-                <h1 class="text-center t">{$yeargroup}{$advisory}</h1>
-            {:else}
-		<div class="icon">
-			<img src={act} alt="CIS logo" />
-		</div>
-            {/if} -->
-</div>

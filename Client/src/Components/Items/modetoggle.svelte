@@ -16,6 +16,10 @@
 	}
 </script>
 
+<button on:click={toggle} class="side">
+	<img class="icon" src={img} alt="CIS logo" />
+</button>
+
 <style>
 	.icon {
 		display: flex;
@@ -30,7 +34,7 @@
 	}
 
 	:global(body.light) .icon:hover {
-		background-color: #f0f0f085;
+		background-color: #38383885;
 	}
 
 	.icon:hover {
@@ -42,7 +46,3 @@
 		transition: all ease-in-out 500ms;
 	}
 </style>
-
-<button on:click={toggle} class="side">
-	<img class="icon" src={img} alt="CIS logo" />
-</button>

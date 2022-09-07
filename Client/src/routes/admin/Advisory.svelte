@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Nav from '../../Components/Items/Nav.svelte';
+	import Nav from '../../Components/Items/NavAdmin.svelte';
 	import AdminLayout from '../../Components/Admin/adminLayout.svelte';
 	import Github from '../../Components/Items/Github.svelte';
 	import Advisory from '$lib/Data/Advisory';

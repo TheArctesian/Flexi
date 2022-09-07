@@ -1,3 +1,5 @@
+// Teacher type
+
 export type teacher = {
 	firstname: string;
 	lastname: string;

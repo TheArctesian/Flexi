@@ -1,3 +1,5 @@
+// List of all school days for this year in week fmt
+
 export const weeks: string[][] = [
 	['05-09-22', '06-09-22', '07-09-22', '08-09-22', '09-09-22'],
 	['12-09-22', '13-09-22', '14-09-22', '15-09-22', '16-09-22'],

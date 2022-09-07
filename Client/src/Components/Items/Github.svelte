@@ -3,6 +3,24 @@
 	let w;
 </script>
 
+<div class="wrapper" bind:clientWidth={w}>
+	{#if w < 750}
+		<div class="flex">
+			<a href="https://github.com/TheArctesian/Flexi" target="_blank">
+				<div class="logo-comp">
+					<img
+						alt="This is the github logo"
+						src="https://cdn-icons-png.flaticon.com/512/4926/4926624.png"
+						class="github"
+					/>
+				</div>
+			</a>
+		</div>
+		<div class="space" />
+		<Modetoggle />
+	{/if}
+</div>
+
 <style>
 	img {
 		padding: 0.4rem;
@@ -14,6 +32,9 @@
 	}
 	:global(body.light) img {
 		background-color: #f0f0f0;
+	}
+	:global(body.light) img:hover {
+		background-color: #38383885;
 	}
 	img:hover {
 		background-color: #c9c9c9;
@@ -27,20 +48,3 @@
 		width: 3rem;
 	}
 </style>
-
-<div class="wrapper" bind:clientWidth={w}>
-	{#if w < 750}
-		<div class="flex">
-			<a href="https://github.com/TheArctesian/Flexi" target="_blank">
-				<div class="logo-comp">
-					<img
-						alt="This is the github logo"
-						src="https://cdn-icons-png.flaticon.com/512/4926/4926624.png"
-						class="github" />
-				</div>
-			</a>
-		</div>
-		<div class="space" />
-		<Modetoggle />
-	{/if}
-</div>

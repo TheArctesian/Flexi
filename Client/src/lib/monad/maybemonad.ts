@@ -1,3 +1,8 @@
+/*
+Maybe monad that I will implement in the future for null checks
+*/
+
+
 var monad = function () {
 	class Maybe {
         map(f: any) {
