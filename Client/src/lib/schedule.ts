@@ -101,6 +101,7 @@ function parseScheduleDay(data: Schedule[], date: string) {
 	}
 }
 function parseSchedule(data: Schedule[], dates: string[]) {
+	//Takes in an array of the weeks dates as well as the JSON file of the entire schedule
 	let Schedule: Schedule[] = [];
 	for (let value in data) {
 		if (dates.includes(data[value].Date)) {

@@ -13,7 +13,7 @@ much easier for devs then LSM or import a lib like redux to do
 import { writable } from 'svelte/store';
 import { browser } from '$app/env';
 import type { advis } from '../advisory';
-import type { teacher } from '..//Types/teacher';
+import type { teacher } from '../Types/teacher';
 import type { Schedule } from '../schedule';
 
 // These initialize the
@@ -23,8 +23,8 @@ let ScheduleListInit: Schedule[] = [];
 
 // Init data stores
 export const advisoryRooms = writable(advisRoomInit);
-export const teacherList = writable();
-export const scheduleList = writable();
+export const teacherList = writable(teacherListInit);
+export const scheduleList = writable(ScheduleListInit);
 
 // User Values stores
 export const yeargroup = writable('');

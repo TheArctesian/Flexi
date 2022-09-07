@@ -1,5 +1,5 @@
 import Advisory from '$lib/Data/Advisory.json';
-
+import { advisoryRooms } from '$lib/Stores/stores';
 // The 'class' for java people or enum or struct for more knowledged people
 export type advis = {
 	Advisory: string;

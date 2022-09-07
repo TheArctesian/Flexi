@@ -43,19 +43,23 @@ export const weeks: string[][] = [
 export function convertDateToString(date: number[]) {
 	let dateString = '';
 	for (let val in date) {
+		// loop through data array
 		if (date[val].toString().length == 1) {
+			// process single digit dates and months to XX- fmt
 			let temp = date[val].toString();
 			temp = [0, temp].join().toString();
 			temp = temp.replaceAll(',', '');
 			temp += '-';
 			dateString += temp;
 		} else if (date[val].toString().length == 4) {
+			// process year to -XX fmt
 			let temp = date[val].toString();
 			temp = temp.replace('20', '');
 			temp += '-';
 			dateString += temp;
 		} else {
 			let temp = date[val].toString();
+			//process 2 digit dates
 			temp += '-';
 			dateString += temp;
 		}
@@ -63,6 +67,7 @@ export function convertDateToString(date: number[]) {
 	let splitter = dateString.split('');
 	if (splitter[splitter.length - 1] == '-') splitter.pop();
 	dateString = splitter.join('');
+	// Final clean
 	return dateString;
 }
 
@@ -72,13 +77,13 @@ export function convertDateToNearestString(date: number[]) {
 	if (checkNull(res)) {
 		return stringDate;
 	}
-	date[0] = date[0] + 1;
+	date[0] = date[0] + 1; //If sunday get the next week
 	stringDate = convertDateToString(date);
 	res = searchForDate(stringDate);
 	if (checkNull(res)) {
 		return stringDate;
 	}
-	date[0] = date[0] - 2;
+	date[0] = date[0] - 2; // If sat get last weeks
 	stringDate = convertDateToString(date);
 	res = searchForDate(stringDate);
 	if (checkNull(res)) {
@@ -87,7 +92,9 @@ export function convertDateToNearestString(date: number[]) {
 }
 function searchForDate(date: string) {
 	for (let i in weeks) {
+		//loop through weeks [][]
 		for (let x = 0; x < 5; x++) {
+			// once week is found return the week's array
 			if (weeks[i][x] == date) {
 				return weeks[i];
 			}
@@ -95,12 +102,15 @@ function searchForDate(date: string) {
 	}
 }
 
+// Some fun non monadic null checking because maybe monads are strange in TS
 function checkNull(res: string[] | undefined) {
 	if (res != undefined) {
 		return true;
 	}
 	return false;
 }
+
+// Final function
 export function getWeek(date: number[]) {
 	let stringDate = convertDateToString(date);
 	let res = searchForDate(stringDate);

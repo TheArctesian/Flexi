@@ -20,6 +20,29 @@
 	}
 </script>
 
+<br />
+<div class="bg">
+	<div class="d">
+		<div class="item">
+			<h1>
+				<strong>Advisory:</strong>
+				&nbsp; {$yeargroup}{$advisory}
+			</h1>
+			<h1>
+				<strong>Teacher:</strong>
+				&nbsp; {adv.Teacher}
+			</h1>
+			<h1>
+				<strong>Room:</strong>
+				&nbsp; {adv.Room}
+			</h1>
+		</div>
+		<div class="butt item">
+			<button on:click={logout}>Log Out</button>
+		</div>
+	</div>
+</div>
+
 <style>
 	.item {
 		flex-direction: row;
@@ -67,26 +90,3 @@
 		display: flex;
 	}
 </style>
-
-<br />
-<div class="bg">
-	<div class="d">
-		<div class="item">
-			<h1>
-				<strong>Advisory:</strong>
-				&nbsp; {$yeargroup}{$advisory}
-			</h1>
-			<h1>
-				<strong>Teacher:</strong>
-				&nbsp; {adv.Teacher}
-			</h1>
-			<h1>
-				<strong>Room:</strong>
-				&nbsp; {adv.Room}
-			</h1>
-		</div>
-		<div class="butt item">
-			<button on:click={logout}>Log Out</button>
-		</div>
-	</div>
-</div>

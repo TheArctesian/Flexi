@@ -13,7 +13,8 @@
 	import { onMount } from 'svelte';
 	import { browser } from '$app/env';
 	import type { advis } from '$lib/advisory';
-
+	import type { Schedule } from '$lib/schedule';
+	import type { teacher } from '$lib/Types/teacher';
 	// API end points
 	const scheduleEndPoint = 'http://127.0.0.1:5000/YearGroups/Y13';
 	const AdvisoryEndPoint = 'http://127.0.0.1:5000/Advisory';
@@ -34,21 +35,29 @@
 			try {
 				const ad = await request(AdvisoryEndPoint); // Now this will wait till it finished
 				let AD: advis[] = ad;
-				console.log(AD);
 				advisoryRooms.set(AD);
-				console.log(advisoryRooms);
+				console.log($advisoryRooms);
+			} catch (e) {
+				console.log(e);
+			}
+			try {
+				const td = await request(TeachersEndPoint); // Now this will wait till it finished
+				let TD: Schedule[] = td;
+				teacherList.set(TD);
+				console.log($teacherList);
+			} catch (e) {
+				console.log(e);
+			}
+
+			try {
+				const sd = await request(scheduleEndPoint); // Now this will wait till it finished
+				let SD: Schedule[] = sd;
+				scheduleList.set(SD);
+				console.log($scheduleList);
 			} catch (e) {
 				console.log(e);
 			}
 		}
-		//	const ScheduleRes = await fetch(scheduleEndPoint, requestMethods);
-		//	const TeachersRes = await fetch(TeachersEndPoint, requestMethods);
-
-		//		const AdvisoryData = await JSON.parse(AdvisoryRes.text());
-		//		const ScheduleData = await ScheduleRes.json();
-		//		const TeachersData = await TeachersRes.json();
-		//		console.log(AdvisoryData);
-		//		advisoryRooms.set(AdvisoryData);
 	);
 </script>
 
