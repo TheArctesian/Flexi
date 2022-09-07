@@ -6,8 +6,7 @@
 	import type { teacher } from '$lib/Types/teacher';
 	//	import * as fs from 'fs';
 	let TeacherList: teacher[] = teachers;
-	function revert() {
-	}
+	function revert() {}
 	function write() {
 		console.log(TeacherList[0].Advisory);
 		let json = JSON.stringify(TeacherList);
@@ -22,50 +21,6 @@
 		//		fs.writeFile('../../lib/Data/teachers.json', content, callback);
 	}
 </script>
-
-<style>
-	.functions {
-		margin: auto;
-		display: flex;
-		width: fit-content;
-	}
-
-	button {
-		padding: 0.5rem;
-		margin-left: 1rem;
-		border-radius: 1rem;
-		background-color: white;
-		margin-bottom: 1rem;
-	}
-	:global(body.light) button {
-		background-color: #f0f0f0;
-	}
-	table,
-	th,
-	td {
-		border: 4px solid black;
-	}
-	input {
-		background-color: #4e4e4e;
-		color: white;
-		width: max-content;
-	}
-	:global(body.light) input {
-		background-color: #f0f0f0;
-		color: black;
-	}
-	table {
-		margin: auto;
-		border-radius: 1rem;
-		box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
-	}
-	tr {
-		color: white;
-	}
-	:global(body.light) tr {
-		color: black;
-	}
-</style>
 
 <Nav />
 <div class="functions">
@@ -115,3 +70,47 @@
 	</table>
 </div>
 <Github />
+
+<style>
+	.functions {
+		margin: auto;
+		display: flex;
+		width: fit-content;
+	}
+
+	button {
+		padding: 0.5rem;
+		margin-left: 1rem;
+		border-radius: 1rem;
+		background-color: white;
+		margin-bottom: 1rem;
+	}
+	:global(body.light) button {
+		background-color: #f0f0f0;
+	}
+	table,
+	th,
+	td {
+		border: 4px solid black;
+	}
+	input {
+		background-color: #4e4e4e;
+		color: white;
+		width: max-content;
+	}
+	:global(body.light) input {
+		background-color: #f0f0f0;
+		color: black;
+	}
+	table {
+		margin: auto;
+		border-radius: 1rem;
+		box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+	}
+	tr {
+		color: white;
+	}
+	:global(body.light) tr {
+		color: black;
+	}
+</style>
