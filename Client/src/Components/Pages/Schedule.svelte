@@ -8,18 +8,25 @@
 	import { xlink_attr } from 'svelte/internal';
 	let w: number; //for repsonsive
 
+	// Parse todays data into a number array
 	const d = new Date();
 	let year = d.getUTCFullYear();
 	let month = d.getUTCMonth() + 1;
 	let day = d.getUTCDate();
 	let date = [day, month, year];
+
+	// Convert that to the nearst week day string ([1,2,22] -> "01-04-22")
 	let today = convertDateToNearestString(date);
+
+	// Init types with built in type error checking
 	let weekdates: string[] | undefined = getWeek(date);
 	let days: Schedule[] | undefined = [];
 	let tod: Schedule | undefined;
+
+	// $: make the function run whenever the var $userInfo changes (meaning that the user is logged in)
 	$: if ($userInfo == 'true') {
-		days = getWeekYearGroupSchedule($yeargroup, weekdates);
-		tod = getDayYearGroupSchedule($yeargroup, today);
+		days = getWeekYearGroupSchedule($yeargroup, weekdates); //gets this whole weeks schedule
+		tod = getDayYearGroupSchedule($yeargroup, today); //gets the days schedle
 	}
 </script>
 

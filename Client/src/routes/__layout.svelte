@@ -15,12 +15,14 @@
 	import type { advis } from '$lib/advisory';
 	import type { Schedule } from '$lib/schedule';
 	import type { teacher } from '$lib/Types/teacher';
+
 	// API end points
 	const scheduleEndPoint = 'http://127.0.0.1:5000/YearGroups/Y13';
 	const AdvisoryEndPoint = 'http://127.0.0.1:5000/Advisory';
 	const TeachersEndPoint = 'http://127.0.0.1:5000/Teacher';
 
 	let requestMethods = {
+		// HTTP CONFIG
 		method: 'GET',
 		redirect: 'follow'
 	};
@@ -30,35 +32,29 @@
 		const json = await res.json();
 		return json;
 	}
-	onMount(
-		async () => {
-			try {
-				const ad = await request(AdvisoryEndPoint); // Now this will wait till it finished
-				let AD: advis[] = ad;
-				advisoryRooms.set(AD);
-				console.log($advisoryRooms);
-			} catch (e) {
-				console.log(e);
-			}
-			try {
-				const td = await request(TeachersEndPoint); // Now this will wait till it finished
-				let TD: Schedule[] = td;
-				teacherList.set(TD);
-				console.log($teacherList);
-			} catch (e) {
-				console.log(e);
-			}
-
-			try {
-				const sd = await request(scheduleEndPoint); // Now this will wait till it finished
-				let SD: Schedule[] = sd;
-				scheduleList.set(SD);
-				console.log($scheduleList);
-			} catch (e) {
-				console.log(e);
-			}
+	onMount(async () => {
+		try {
+			const ad = await request(AdvisoryEndPoint); // Now this will wait till it finished
+			let AD: advis[] = ad; //Parse to obj array
+			advisoryRooms.set(AD); //Set store value to obj array
+		} catch (e) {
+			console.log(e);
 		}
-	);
+		try {
+			const td = await request(TeachersEndPoint); // Now this will wait till it finished
+			let TD: teacher[] = td; //Parse to obj array
+			teacherList.set(TD); //Set store value to obj array
+		} catch (e) {
+			console.log(e);
+		}
+		try {
+			const sd = await request(scheduleEndPoint); // Now this will wait till it finished
+			let SD: Schedule[] = sd;
+			scheduleList.set(SD);
+		} catch (e) {
+			console.log(e);
+		}
+	});
 </script>
 
 {#if $userInfo == 'true'}

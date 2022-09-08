@@ -112,18 +112,20 @@ function checkNull(res: string[] | undefined) {
 
 // Final function
 export function getWeek(date: number[]) {
-	let stringDate = convertDateToString(date);
-	let res = searchForDate(stringDate);
-	if (checkNull(res)) {
+	let stringDate = convertDateToString(date); //converts num[] -> string
+	let res = searchForDate(stringDate); // search in lookup table for week dates
+	if (checkNull(res)) { //error check
 		return res;
+	}else{
+		alert("Error in finding date")
 	}
-	date[0] = date[0] + 1;
+	date[0] = date[0] + 1; // If sunday then get the next week
 	stringDate = convertDateToString(date);
 	res = searchForDate(stringDate);
 	if (checkNull(res)) {
 		return res;
 	}
-	date[0] = date[0] - 2;
+	date[0] = date[0] - 2; // If sat get 2 days ago
 	stringDate = convertDateToString(date);
 	res = searchForDate(stringDate);
 	if (checkNull(res)) {
