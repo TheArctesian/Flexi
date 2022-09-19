@@ -167,7 +167,6 @@
 						<br />
 						{z.Time}
 					</h1>
-
 					<div class="event text-wrap">
 						<h1 class="text-center">
 							<strong>{z.Activity}</strong>

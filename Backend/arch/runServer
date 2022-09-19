@@ -2,3 +2,4 @@
 cd 
 cd Flexi/Backend
 python api.py
+systemctl restart runServer
