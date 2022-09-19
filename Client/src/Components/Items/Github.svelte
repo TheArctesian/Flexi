@@ -3,24 +3,6 @@
 	let w;
 </script>
 
-<div class="wrapper" bind:clientWidth={w}>
-	{#if w < 750}
-		<div class="flex">
-			<a href="https://github.com/TheArctesian/Flexi" target="_blank">
-				<div class="logo-comp">
-					<img
-						alt="This is the github logo"
-						src="https://cdn-icons-png.flaticon.com/512/4926/4926624.png"
-						class="github"
-					/>
-				</div>
-			</a>
-		</div>
-		<div class="space" />
-		<Modetoggle />
-	{/if}
-</div>
-
 <style>
 	img {
 		padding: 0.4rem;
@@ -45,6 +27,23 @@
 		margin: auto;
 	}
 	.space {
-		width: 3rem;
+		width: 4rem;
 	}
 </style>
+
+<div class="wrapper" bind:clientWidth={w}>
+	{#if w < 750}
+		<div class="flex">
+			<a href="https://github.com/TheArctesian/Flexi" target="_blank">
+				<div class="logo-comp">
+					<img
+						alt="This is the github logo"
+						src="https://cdn-icons-png.flaticon.com/512/4926/4926624.png"
+						class="github" />
+				</div>
+			</a>
+		</div>
+		<div class="space" />
+		<Modetoggle />
+	{/if}
+</div>
