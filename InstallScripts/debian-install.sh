@@ -11,9 +11,9 @@ if [ $res = "1" ]
 then
     printf '%*s\n' "${COLUMNS:-$(tput cols)}" '' | tr ' ' -
     sudo apt-get update
-    sudo apt install git python3 go python3-pip nodejs npm
+    sudo apt install git python3 python3-pip nodejs npm
     sudo npm i -g yarn
-    sudo apt-get install
+    pip install flask waitress
 fi
 if [ $res = "2" ] 
 then 
@@ -21,7 +21,7 @@ then
     doas apt-get update
     doas apt install git python3 go python3-pip nodejs npm
     doas npm i -g yarn
-    doas apt-get install
+    pip install flask waitress
 fi 
 if [ $res = "h" ] 
 then 

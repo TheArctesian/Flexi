@@ -5,9 +5,9 @@ then
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" 
     brew install nodejs
     brew install npm
-    brew install go
     brew install python3
     brew install pip3 
+    pip install flask waitress
     npm i -g yarn
 
 fi
@@ -18,7 +18,6 @@ then
     brew install npm
     brew install python3
     brew install pip3 
-    brew install go
     npm i -g yarn
-    sudo pip3 install termcolor
+    pip install flask waitress
 fi 
