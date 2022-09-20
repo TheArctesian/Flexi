@@ -8,7 +8,7 @@ then
     brew install python3
     brew install pip3 
     pip install flask waitress
-    npm i -g yarn
+    sudo npm i -g yarn
 
 fi
 
