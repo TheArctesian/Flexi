@@ -20,42 +20,42 @@ export function getWeekYearGroupSchedule(year: string, dates: string[]) {
 	} else {
 		alert('Years apart from Y13 are not yet supported');
 	}
-	// if (year == '12') {
-	// 	let Schedule: Schedule[] = parseSchedule(Y12, dates);
-	// 	return Schedule;
-	// } else {
-	// 	alert('Years apart from Y12 are not yet supported');
-	// }
-	// if (year == '11') {
-	// 	let Schedule: Schedule[] = parseSchedule(Y11, dates);
-	// 	return Schedule;
-	// } else {
-	// 	alert('Years apart from Y11 are not yet supported');
-	// }
-	// if (year == '10') {
-	// 	let Schedule: Schedule[] = parseSchedule(Y10, dates);
-	// 	return Schedule;
-	// } else {
-	// 	alert('Years apart from Y10 are not yet supported');
-	// }
-	// if (year == '9') {
-	// 	let Schedule: Schedule[] = parseSchedule(Y9, dates);
-	// 	return Schedule;
-	// } else {
-	// 	alert('Years apart from Y9 are not yet supported');
-	// }
-	// if (year == '8') {
-	// 	let Schedule: Schedule[] = parseSchedule(Y8, dates);
-	// 	return Schedule;
-	// } else {
-	// 	alert('Years apart from Y8 are not yet supported');
-	// }
-	// if (year == '7') {
-	// 	let Schedule: Schedule[] = parseSchedule(Y7, dates);
-	// 	return Schedule;
-	// } else {
-	// 	alert('Years apart from Y7 are not yet supported');
-	// }
+	if (year == '12') {
+		let Schedule: Schedule[] = parseSchedule(Y12, dates);
+		return Schedule;
+	} else {
+		alert('Years apart from Y12 are not yet supported');
+	}
+	if (year == '11') {
+		let Schedule: Schedule[] = parseSchedule(Y11, dates);
+		return Schedule;
+	} else {
+		alert('Years apart from Y11 are not yet supported');
+	}
+	if (year == '10') {
+		let Schedule: Schedule[] = parseSchedule(Y10, dates);
+		return Schedule;
+	} else {
+		alert('Years apart from Y10 are not yet supported');
+	}
+	if (year == '9') {
+		let Schedule: Schedule[] = parseSchedule(Y9, dates);
+		return Schedule;
+	} else {
+		alert('Years apart from Y9 are not yet supported');
+	}
+	if (year == '8') {
+		let Schedule: Schedule[] = parseSchedule(Y8, dates);
+		return Schedule;
+	} else {
+		alert('Years apart from Y8 are not yet supported');
+	}
+	if (year == '7') {
+		let Schedule: Schedule[] = parseSchedule(Y7, dates);
+		return Schedule;
+	} else {
+		alert('Years apart from Y7 are not yet supported');
+	}
 }
 
 // For single day phone app
@@ -64,30 +64,36 @@ export function getDayYearGroupSchedule(year: string, date: string) {
 		let today: Schedule | undefined = parseScheduleDay(Y13, date);
 		return today;
 	}
-	// if (year == '12') {
-	// 	let today: Schedule | undefined = parseScheduleDay(Y12, date);
-	// 	return today;
-	// }
-	// if (year == '11') {
-	// 	let today: Schedule | undefined = parseScheduleDay(Y11, date);
-	// 	return today;
-	// }
-	// if (year == '10') {
-	// 	let today: Schedule | undefined = parseScheduleDay(Y10, date);
-	// 	return today;
-	// }
-	// if (year == '9') {
-	// 	let today: Schedule | undefined = parseScheduleDay(Y9, date);
-	// 	return today;
-	// }
-	// if (year == '8') {
-	// 	let today: Schedule | undefined = parseScheduleDay(Y8, date);
-	// 	return today;
-	// }
-	// if (year == '7') {
-	// 	let today: Schedule | undefined = parseScheduleDay(Y7, date);
-	// 	return today;
-	// }
+	if (year == '12') {
+		alert('This year is not implemented yet as I do not have access to your years flexi schedule');
+		//let today: Schedule | undefined = parseScheduleDay(Y12, date);
+		//return today;
+	}
+	if (year == '11') {
+		alert('This year is not implemented yet as I do not have access to your years flexi schedule');
+		//let today: Schedule | undefined = parseScheduleDay(Y11, date);
+		//return today;
+	}
+	if (year == '10') {
+		alert('This year is not implemented yet as I do not have access to your years flexi schedule');
+		//let today: Schedule | undefined = parseScheduleDay(Y10, date);
+		//return today;
+	}
+	if (year == '9') {
+		alert('This year is not implemented yet as I do not have access to your years flexi schedule');
+		//let today: Schedule | undefined = parseScheduleDay(Y9, date);
+		//return today;
+	}
+	if (year == '8') {
+		alert('This year is not implemented yet as I do not have access to your years flexi schedule');
+		//let today: Schedule | undefined = parseScheduleDay(Y8, date);
+		//return today;
+	}
+	if (year == '7') {
+		alert('This year is not implemented yet as I do not have access to your years flexi schedule');
+		//let today: Schedule | undefined = parseScheduleDay(Y7, date);
+		//return today;
+	}
 }
 
 function parseScheduleDay(data: Schedule[], date: string) {
