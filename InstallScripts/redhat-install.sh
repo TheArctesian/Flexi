@@ -1,13 +1,4 @@
-su
-dnf install @nodejs
-rpm --import https://dl.yarnpkg.com/rpm/pubkey.gpg
-dnf install yarn
-dnf install python3
-#!/bin/bash
-
 printf '%*s\n' "${COLUMNS:-$(tput cols)}" '' | tr ' ' -
-
-
 echo "Do you want to use 1.sudo 2.doas (default=1) or type h for help"
 
 read res
@@ -16,7 +7,7 @@ if [ $res = "1" ]
 then
     printf '%*s\n' "${COLUMNS:-$(tput cols)}" '' | tr ' ' -
     sudo dnf update
-    sudo dnf install git python3 go python3-pip nodejs npm
+    sudo dnf install python3 python3-pip nodejs npm
     sudo npm i -g yarn
     sudo dnf update
     
@@ -25,7 +16,7 @@ if [ $res = "2" ]
 then 
     printf '%*s\n' "${COLUMNS:-$(tput cols)}" '' | tr ' ' -
     doas dnf update
-    doas dnf install git python3 go python3-pip nodejs npm
+    doas dnf install python3 python3-pip nodejs npm
     doas npm i -g yarn
     doas dnf update
 fi 
