@@ -24,6 +24,7 @@
 			let department = data[i].department;
 			//get the substring (first couple letters) of a string proportional to the length of the
 			//input string
+            // change this to a compare string method because this is shit
 			if (
 				fname.substring(0, s.length).toLowerCase() == s.toLocaleLowerCase() ||
 				lname.substring(0, s.length).toLowerCase() == s.toLocaleLowerCase() ||
