@@ -24,14 +24,6 @@ So the files are just a couple of json files in the \$lib directory.
 
 For handling the server I have set up a cron task to run `pacman -Syyu` (sys update) every week. The dev server is hosted using a systemd service which runs the `rundev` script in this repository.
 
-For those who want to poke around on the server itself you can ssh into the server with
-
-```
-ssh dev@192.53.115.226
-```
-
-Pass: CliffRoyaltyStart
-
 For running any privileged command (needing super user) use the `sudo` alternative `doas`. This is because sudo is bloated and insecure. Sudo is installed for linode related tasks however it is not set up for the used 'dev'.
 
 Please try and limit the amount of bloat on the server (under 300 pkg please) and most importantly **DO NOT INSTALL NANO OR ANY OTHER TEXT EDITOR!! ONLY VIM**. This is simply a rule that can not be broken. For those who don't know vim please search it up and spend 30 minutes learning it. It will change your life and save a lot of time.
